@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Inicial de mi nombre con asteriscos\bin\Debug\Inicial de mi nombre con asteriscos.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Inicial de mi nombre con asteriscos\bin\Debug\Inicial de mi nombre con asteriscos.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Inicial de mi nombre con asteriscos\bin\Debug\Inicial de mi nombre con asteriscos.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Inicial de mi nombre con asteriscos\obj\Debug\Inicial de mi nombre con asteriscos.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Inicial de mi nombre con asteriscos\obj\Debug\Inicial de mi nombre con asteriscos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Inicial de mi nombre con asteriscos\obj\Debug\Inicial de mi nombre con asteriscos.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Inicial de mi nombre con asteriscos\obj\Debug\Inicial de mi nombre con asteriscos.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Inicial de mi nombre con asteriscos\obj\Debug\Inicial de mi nombre con asteriscos.pdb
