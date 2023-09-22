@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\tipos de variables\obj\Debug\tipos de variables.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\tipos de variables\obj\Debug\tipos de variables.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\tipos de variables\obj\Debug\tipos de variables.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\tipos de variables\bin\Debug\tipos de variables.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\tipos de variables\bin\Debug\tipos de variables.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\tipos de variables\bin\Debug\tipos de variables.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\tipos de variables\obj\Debug\tipos de variables.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\tipos de variables\obj\Debug\tipos de variables.pdb

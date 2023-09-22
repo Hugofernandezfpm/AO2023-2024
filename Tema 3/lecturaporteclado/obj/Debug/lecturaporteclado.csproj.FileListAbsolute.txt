@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\lecturaporteclado\bin\Debug\lecturaporteclado.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\lecturaporteclado\bin\Debug\lecturaporteclado.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\lecturaporteclado\bin\Debug\lecturaporteclado.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\lecturaporteclado\obj\Debug\lecturaporteclado.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\lecturaporteclado\obj\Debug\lecturaporteclado.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\lecturaporteclado\obj\Debug\lecturaporteclado.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\lecturaporteclado\obj\Debug\lecturaporteclado.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\lecturaporteclado\obj\Debug\lecturaporteclado.pdb

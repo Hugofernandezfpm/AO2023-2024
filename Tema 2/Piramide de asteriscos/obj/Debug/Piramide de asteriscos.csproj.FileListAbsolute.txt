@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Piramide de asteriscos\obj\Debug\Piramide de asteriscos.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Piramide de asteriscos\obj\Debug\Piramide de asteriscos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Piramide de asteriscos\obj\Debug\Piramide de asteriscos.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Piramide de asteriscos\bin\Debug\Piramide de asteriscos.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Piramide de asteriscos\bin\Debug\Piramide de asteriscos.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Piramide de asteriscos\bin\Debug\Piramide de asteriscos.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Piramide de asteriscos\obj\Debug\Piramide de asteriscos.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Piramide de asteriscos\obj\Debug\Piramide de asteriscos.pdb
