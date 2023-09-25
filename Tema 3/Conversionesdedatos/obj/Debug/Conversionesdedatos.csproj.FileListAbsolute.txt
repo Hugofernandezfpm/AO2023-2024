@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\Conversionesdedatos\obj\Debug\Conversionesdedatos.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\Conversionesdedatos\obj\Debug\Conversionesdedatos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\Conversionesdedatos\obj\Debug\Conversionesdedatos.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\Conversionesdedatos\bin\Debug\Conversionesdedatos.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\Conversionesdedatos\bin\Debug\Conversionesdedatos.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\Conversionesdedatos\bin\Debug\Conversionesdedatos.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\Conversionesdedatos\obj\Debug\Conversionesdedatos.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 3\Conversionesdedatos\obj\Debug\Conversionesdedatos.pdb
