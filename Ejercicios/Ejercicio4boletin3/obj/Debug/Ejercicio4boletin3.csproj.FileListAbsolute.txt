@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Ejercicio4boletin3\obj\Debug\Ejercicio4boletin3.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Ejercicio4boletin3\obj\Debug\Ejercicio4boletin3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Ejercicio4boletin3\obj\Debug\Ejercicio4boletin3.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Ejercicio4boletin3\bin\Debug\Ejercicio4boletin3.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Ejercicio4boletin3\bin\Debug\Ejercicio4boletin3.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Ejercicio4boletin3\bin\Debug\Ejercicio4boletin3.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Ejercicio4boletin3\obj\Debug\Ejercicio4boletin3.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Ejercicio4boletin3\obj\Debug\Ejercicio4boletin3.pdb
