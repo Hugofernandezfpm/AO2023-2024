@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaifElseif\bin\Debug\sentenciaifElseif.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaifElseif\bin\Debug\sentenciaifElseif.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaifElseif\bin\Debug\sentenciaifElseif.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaifElseif\obj\Debug\sentenciaifElseif.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaifElseif\obj\Debug\sentenciaifElseif.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaifElseif\obj\Debug\sentenciaifElseif.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaifElseif\obj\Debug\sentenciaifElseif.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaifElseif\obj\Debug\sentenciaifElseif.pdb

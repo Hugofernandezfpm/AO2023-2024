@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaswitch\bin\Debug\sentenciaswitch.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaswitch\bin\Debug\sentenciaswitch.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaswitch\bin\Debug\sentenciaswitch.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaswitch\obj\Debug\sentenciaswitch.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaswitch\obj\Debug\sentenciaswitch.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaswitch\obj\Debug\sentenciaswitch.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaswitch\obj\Debug\sentenciaswitch.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\sentenciaswitch\obj\Debug\sentenciaswitch.pdb

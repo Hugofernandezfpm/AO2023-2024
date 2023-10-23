@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\comprobaciones\obj\Debug\comprobaciones.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\comprobaciones\obj\Debug\comprobaciones.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\comprobaciones\obj\Debug\comprobaciones.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\comprobaciones\bin\Debug\comprobaciones.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\comprobaciones\bin\Debug\comprobaciones.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\comprobaciones\bin\Debug\comprobaciones.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\comprobaciones\obj\Debug\comprobaciones.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\comprobaciones\obj\Debug\comprobaciones.pdb

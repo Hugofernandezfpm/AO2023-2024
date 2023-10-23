@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\examenecho\obj\Debug\examenecho.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\examenecho\obj\Debug\examenecho.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\examenecho\obj\Debug\examenecho.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\examenecho\bin\Debug\examenecho.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\examenecho\bin\Debug\examenecho.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\examenecho\bin\Debug\examenecho.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\examenecho\obj\Debug\examenecho.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\examenecho\obj\Debug\examenecho.pdb

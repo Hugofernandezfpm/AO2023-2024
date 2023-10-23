@@ -1,0 +1,3 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernadezrodriguezhugo\obj\Debug\fernadezrodriguezhugo.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernadezrodriguezhugo\obj\Debug\fernadezrodriguezhugo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernadezrodriguezhugo\obj\Debug\fernadezrodriguezhugo.csproj.CoreCompileInputs.cache

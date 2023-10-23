@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernandezrodriguezhugo\obj\Debug\fernandezrodriguezhugo.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernandezrodriguezhugo\obj\Debug\fernandezrodriguezhugo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernandezrodriguezhugo\obj\Debug\fernandezrodriguezhugo.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernandezrodriguezhugo\bin\Debug\fernandezrodriguezhugo.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernandezrodriguezhugo\bin\Debug\fernandezrodriguezhugo.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernandezrodriguezhugo\bin\Debug\fernandezrodriguezhugo.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernandezrodriguezhugo\obj\Debug\fernandezrodriguezhugo.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\fernandezrodriguezhugo\obj\Debug\fernandezrodriguezhugo.pdb
