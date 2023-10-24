@@ -6,3 +6,11 @@ C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Boletin 4\obj\Debug\B
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Boletin 4\obj\Debug\Boletin 4.csproj.CoreCompileInputs.cache
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Boletin 4\obj\Debug\Boletin 4.exe
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Ejercicios\Boletin 4\obj\Debug\Boletin 4.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 4\Boletin 4\bin\Debug\Boletin 4.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 4\Boletin 4\bin\Debug\Boletin 4.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 4\Boletin 4\bin\Debug\Boletin 4.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 4\Boletin 4\obj\Debug\Boletin 4.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 4\Boletin 4\obj\Debug\Boletin 4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 4\Boletin 4\obj\Debug\Boletin 4.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 4\Boletin 4\obj\Debug\Boletin 4.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 4\Boletin 4\obj\Debug\Boletin 4.pdb
