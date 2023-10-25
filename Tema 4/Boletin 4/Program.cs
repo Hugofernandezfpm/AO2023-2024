@@ -39,7 +39,7 @@ namespace Boletin_4
                     Console.WriteLine("alumno suspenso");
                 }
 
-               
+
             }
 
 
@@ -75,7 +75,7 @@ namespace Boletin_4
                 {
                     Console.WriteLine("No se puede calcular la raiz");
                 }
-                
+
             }
             else if (ejercicio == 6)
             {
@@ -122,12 +122,12 @@ namespace Boletin_4
                     resultado = Math.Pow(Primernumero, Segundonumero);
                     Console.WriteLine("El resultado es:" + resultado);
                 }
-                else 
+                else
                 {
                     resultado = Math.Pow(Segundonumero, Primernumero);
 
                     Console.WriteLine("El resultado es:" + resultado);
-                   
+
                 }
             }
             else if (ejercicio == 8)
@@ -163,7 +163,7 @@ namespace Boletin_4
                 else
                 {
                     Console.WriteLine("Este ejercicio no existe");
-                    
+
                 }
             }
             else if (ejercicio == 9)
@@ -177,7 +177,7 @@ namespace Boletin_4
                 Console.WriteLine("Introduzca el numero");
                 double numero = double.Parse(Console.ReadLine());
 
-                if (numero %2 == 0 || numero %3 == 0)
+                if (numero % 2 == 0 || numero % 3 == 0)
                 {
                     Console.WriteLine("Es multiplo de 2 o 3");
                 }
@@ -185,7 +185,7 @@ namespace Boletin_4
                 {
                     Console.WriteLine();
                 }
-               
+
 
             }
             else if (ejercicio == 10)
@@ -201,7 +201,7 @@ namespace Boletin_4
 
                 if (precio < 100)
                 {
-                   double descuento = precio * 0.10;
+                    double descuento = precio * 0.10;
                     descuento = precio - descuento;
                     Console.WriteLine("El precio seria: " + descuento);
                 }
@@ -295,7 +295,7 @@ namespace Boletin_4
                 Console.WriteLine("Introduzca la temperatura");
                 double temperatura = double.Parse(Console.ReadLine());
 
-                if ( temperatura < 0)
+                if (temperatura < 0)
                 {
                     Console.WriteLine("La temperatura esta en estado Solido");
                 }
@@ -318,23 +318,61 @@ namespace Boletin_4
 
                 //Mostrar al usuario un menú con las opciones:
                 //Sumar
-                //Restar//Multiplicar
+                //Restar
+                //Multiplicar
                 //Dividir
                 //Raiz de la suma
                 //Una vez leida la opción , se le solicitan dos números y se realiza la operación indicada.
 
-                /*char opcion 
+                char opcion; //es un menu
 
+                Console.WriteLine("Escoge una opción");
+                Console.WriteLine("a) Sumar");
+                Console.WriteLine("b) Restar ");
+                Console.WriteLine("c) Multiplicar ");
+                Console.WriteLine("d) Dividir ");
+                Console.WriteLine("e) Raiz de la suma ");
+                opcion = char.Parse(Console.ReadLine());
 
-                //Console.WriteLine("Introduzca el primer numero");
+                Console.WriteLine("Escoja el primer numero");
                 double numero = double.Parse(Console.ReadLine());
 
-                Console.WriteLine("Introduzca el segudo numero");
+                Console.WriteLine("Escoja el segundo numero");
                 double numero2 = double.Parse(Console.ReadLine());
 
-                double resultado = 0;
+                switch (opcion)
+                {
+                    case 'a':
 
-                switch (opcion)*/
+                        double resultado = numero + numero2;
+                        Console.WriteLine("El resultado es: " + resultado);
+                        break;
+
+                    case 'b':
+
+                        double resultado2 = numero - numero2;
+                        Console.WriteLine("El resultado es: " + resultado2);
+                        break;
+
+                    case 'c':
+
+                        double resultado3 = numero * numero2;
+                        Console.WriteLine("El resultado es: " + resultado3);
+                        break;
+
+                    case 'd':
+
+                        double resultado4 = numero / numero2;
+                        Console.WriteLine("El resultado es: " + resultado4);
+                        break;
+
+                    case 'e':
+
+                        double resultado5 = Math.Sqrt(numero + numero2);
+                        Console.WriteLine("El resultado es: " + resultado5);
+                        break;
+                }
+
             }
             else if (ejercicio == 15)
             {
@@ -378,46 +416,95 @@ namespace Boletin_4
                     double pagofinal4 = pago;
                     Console.WriteLine("El pago final seria de " + pagofinal4);
                 }
-                     
+
 
 
 
 
             }
-                else if (ejercicio == 16)
+            else if (ejercicio == 16)
             {
-                    //Pico ejercicio 16
+                //Pico ejercicio 16
 
-                    //Desarrollar un programa que lea el precio  de 3 artículos, que muestre la suma total de los precios
-                    //de dichos artículos e imprima la cantidad total a pagar que se debe calcular de acuerdo con la siguiente
-                    //clasificación:
-                    //a) Si la suma de los precios es menor de 500.00 no hay ningún descuento.
-                    //b) Si la suma de los precios está entre 500.00 y 1,000.00 € se le descuenta el 3 % del total.
-                    //c) Si la suma de los precios es mayor de 1,000.00 y menor de 2,000.00 se le descuenta el 5 % del total.
-                    //d) Si la suma de los precios es mayor o igual a 2,000.00 y menor o igual a3,000.00 se le descuenta el 7 % del total.
-                    //e) Si la suma de los precios es mayor de 3,000.00 se le descuenta el 10 % del total
+                //Desarrollar un programa que lea el precio  de 3 artículos, que muestre la suma total de los precios
+                //de dichos artículos e imprima la cantidad total a pagar que se debe calcular de acuerdo con la siguiente
+                //clasificación:
+                //a) Si la suma de los precios es menor de 500.00 no hay ningún descuento.
+                //b) Si la suma de los precios está entre 500.00 y 1,000.00 € se le descuenta el 3 % del total.
+                //c) Si la suma de los precios es mayor de 1,000.00 y menor de 2,000.00 se le descuenta el 5 % del total.
+                //d) Si la suma de los precios es mayor o igual a 2,000.00 y menor o igual a3,000.00 se le descuenta el 7 % del total.
+                //e) Si la suma de los precios es mayor de 3,000.00 se le descuenta el 10 % del total
 
-                    
+                Console.WriteLine("Escriba el precio del primer producto");
+                double producto = double.Parse(Console.ReadLine());
 
-                  
+                Console.WriteLine("Escriba el precio del segundo producto");
+                double producto2 = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Escriba el precio del tercer producto");
+                double producto3 = double.Parse(Console.ReadLine());
+
+                double sumatotal = producto + producto2 + producto3;
+
+                if (sumatotal < 500.00)
+                {
+                    Console.WriteLine("La cantidad total es de; " + sumatotal);
+                }
+                else if (sumatotal >= 500.00 && sumatotal <= 1000.00)
+                {
+                    sumatotal = sumatotal - sumatotal * 0.03;
+                    Console.WriteLine("La cantidad total es de; " + sumatotal);
+                }
+                else if (sumatotal > 1000.00 && sumatotal < 2000.00)
+                {
+                    sumatotal = sumatotal - sumatotal * 0.05;
+                    Console.WriteLine("La cantidad total es de; " + sumatotal);
+                }
+                else if (sumatotal >= 2000.00 && sumatotal <= 3000.00)
+                {
+                    sumatotal = sumatotal - sumatotal * 0.07;
+                    Console.WriteLine("La cantidad total es de; " + sumatotal);
+                }
+                else
+                {
+                    sumatotal = sumatotal - sumatotal * 0.10;
+                    Console.WriteLine("La cantidad total es de; " + sumatotal);
+                }
+
             }
-                else if (ejercicio == 17)
+            else if (ejercicio == 17)
             {
-                    //Pico ejercicio 17
+                //Pico ejercicio 17
 
-                    //Se desea calcular el salario bruto y neto semanal de los trabajadores de una empresa
-                    //de acuerdo a las siguientes normas. 
-                    // Para el salario bruto:
-                    //a.Si las horas semanales trabajadas son <= 38, el salario bruto será igual
-                    //a las horas trabajadas por la tasa a la que se paga la hora.
-                    //b.Horas extras(más de 38), a una tasa 50 por 100 superior a la ordinaria.
+                //Se desea calcular el salario bruto y neto semanal de los trabajadores de una empresa
+                //de acuerdo a las siguientes normas. 
+                // Para el salario bruto:
+                //a.Si las horas semanales trabajadas son <= 38, el salario bruto será igual
+                //a las horas trabajadas por la tasa a la que se paga la hora.
+                //b.Horas extras(más de 38), a una tasa 50 por 100 superior a la ordinaria.
 
-                    //Una vez calculado el salario bruto, el salario neto se calcula de la siguiente forma:
-                    //a.Impuestos 0 por 100, si el salario bruto es menor o igual a 300 euros.
-                    //b.Impuestos del 10 por ciento, si el salario bruto es mayor a 300 euros.
+                //Una vez calculado el salario bruto, el salario neto se calcula de la siguiente forma:
+                //a.Impuestos 0 por 100, si el salario bruto es menor o igual a 300 euros.
+                //b.Impuestos del 10 por ciento, si el salario bruto es mayor a 300 euros.
 
-                    //Realizar un programa que solicite la tasa por hora y las horas trabajadas y calcule el
-                    //salario neto y el bruto.Escribir primero el DFD y luego tratar de implementarlo en código.
+                //Realizar un programa que solicite la tasa por hora y las horas trabajadas y calcule el
+                //salario neto y el bruto.Escribir primero el DFD y luego tratar de implementarlo en código.
+
+                Console.WriteLine("Introduzca la tasa por hora");
+                double tasaporhora = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Introduzca las horas trabajadas");
+                double horastrabajadas = double.Parse(Console.ReadLine());
+
+                double salariobruto = 0;
+                double salarioneto = 0;
+
+                if (horastrabajadas <= 38)
+                {
+                    salariobruto = tasaporhora * horastrabajadas;
+                    Console.WriteLine("El salario bruto seria de: " + salariobruto);
+                }
+                else
 
             }
             else if (ejercicio == 18)
@@ -429,7 +516,7 @@ namespace Boletin_4
                 //TEMPLADO, si tiene valor 2
                 //FRIO, si tiene valor 3
                 //FUERA DE RANGO, si tiene valor 4
-                
+
             }
             else if (ejercicio == 19)
             {
@@ -440,7 +527,7 @@ namespace Boletin_4
                 //VERDE, si vale “v” ó “V”
                 //AZUL, si vale “a” ó “A”
                 //NEGRO, si tiene asignado cualquier otro caracter.
-               
+
 
             }
             else if (ejercicio == 20)
@@ -448,7 +535,7 @@ namespace Boletin_4
                 //Pico ejercicio 20
 
                 //Realizar un programa que indique cuantas cifras tiene un número. Hasta 6 cifras.
-                
+
             }
             else if (ejercicio == 21)
             {
