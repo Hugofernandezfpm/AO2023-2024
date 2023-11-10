@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\buclewhile\bin\Debug\buclewhile.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\buclewhile\bin\Debug\buclewhile.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\buclewhile\bin\Debug\buclewhile.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\buclewhile\obj\Debug\buclewhile.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\buclewhile\obj\Debug\buclewhile.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\buclewhile\obj\Debug\buclewhile.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\buclewhile\obj\Debug\buclewhile.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\buclewhile\obj\Debug\buclewhile.pdb

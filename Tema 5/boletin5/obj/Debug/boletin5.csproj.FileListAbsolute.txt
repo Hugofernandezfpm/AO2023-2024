@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\boletin5\bin\Debug\boletin5.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\boletin5\bin\Debug\boletin5.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\boletin5\bin\Debug\boletin5.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\boletin5\obj\Debug\boletin5.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\boletin5\obj\Debug\boletin5.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\boletin5\obj\Debug\boletin5.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\boletin5\obj\Debug\boletin5.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\boletin5\obj\Debug\boletin5.pdb
