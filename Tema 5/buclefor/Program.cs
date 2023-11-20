@@ -41,6 +41,32 @@ namespace buclefor
             Console.WriteLine("La suma es " + sumaImpares);
 
 
+            //Salir prematuramente de u bucle --> Sentencia break
+            //Encontrar el primer número múltiplo de 3, 7 y 8 a la vez en un rango
+            int limeteInferior = 1200;
+            int limiteSuperior = 35000;
+
+            for (int i = limeteInferior; i <= limiteSuperior; i++)
+            {
+                if (i % 3 == 0 && i % 7 == 0 && i % 8 == 0)
+                {
+                   Console.WriteLine("Primer múltiplo de 3 7 y 8 es " + i);
+                    break;
+                }
+            }
+
+            //Ignorar repetición --> continue //Esto no va a entrar
+            //Sumar todos los números menos los que son multiplos de 3 y 7 a la vez en un
+            int suma2 = 0;
+            for (int i = limeteInferior; i <= limiteSuperior; i++)
+            {
+                if (i % 3 == 0 && i % 7 == 0)
+                {
+                    continue;
+                }
+                suma2 = suma2 + i;
+            }
+
             Console.ReadLine();
         }
     } 
