@@ -34,7 +34,7 @@ namespace ejercicio2boletin5
                     j++;
                 }
                 Console.WriteLine();
-                i++;
+                i--;
             }
             Console.ReadLine();
         }
