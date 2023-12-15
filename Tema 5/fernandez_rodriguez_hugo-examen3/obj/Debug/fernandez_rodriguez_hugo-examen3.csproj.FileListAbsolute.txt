@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\fernandez_rodriguez_hugo-examen3\bin\Debug\fernandez_rodriguez_hugo-examen3.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\fernandez_rodriguez_hugo-examen3\bin\Debug\fernandez_rodriguez_hugo-examen3.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\fernandez_rodriguez_hugo-examen3\bin\Debug\fernandez_rodriguez_hugo-examen3.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\fernandez_rodriguez_hugo-examen3\obj\Debug\fernandez_rodriguez_hugo-examen3.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\fernandez_rodriguez_hugo-examen3\obj\Debug\fernandez_rodriguez_hugo-examen3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\fernandez_rodriguez_hugo-examen3\obj\Debug\fernandez_rodriguez_hugo-examen3.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\fernandez_rodriguez_hugo-examen3\obj\Debug\fernandez_rodriguez_hugo-examen3.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\fernandez_rodriguez_hugo-examen3\obj\Debug\fernandez_rodriguez_hugo-examen3.pdb

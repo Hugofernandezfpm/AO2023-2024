@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\algoritmos-avanzados\bin\Debug\algoritmos-avanzados.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\algoritmos-avanzados\bin\Debug\algoritmos-avanzados.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\algoritmos-avanzados\bin\Debug\algoritmos-avanzados.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\algoritmos-avanzados\obj\Debug\algoritmos-avanzados.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\algoritmos-avanzados\obj\Debug\algoritmos-avanzados.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\algoritmos-avanzados\obj\Debug\algoritmos-avanzados.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\algoritmos-avanzados\obj\Debug\algoritmos-avanzados.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\algoritmos-avanzados\obj\Debug\algoritmos-avanzados.pdb

@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\aputesresumen\bin\Debug\aputesresumen.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\aputesresumen\bin\Debug\aputesresumen.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\aputesresumen\bin\Debug\aputesresumen.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\aputesresumen\obj\Debug\aputesresumen.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\aputesresumen\obj\Debug\aputesresumen.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\aputesresumen\obj\Debug\aputesresumen.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\aputesresumen\obj\Debug\aputesresumen.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\aputesresumen\obj\Debug\aputesresumen.pdb

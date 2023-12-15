@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\asteriscos\bin\Debug\asteriscos.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\asteriscos\bin\Debug\asteriscos.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\asteriscos\bin\Debug\asteriscos.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\asteriscos\obj\Debug\asteriscos.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\asteriscos\obj\Debug\asteriscos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\asteriscos\obj\Debug\asteriscos.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\asteriscos\obj\Debug\asteriscos.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\asteriscos\obj\Debug\asteriscos.pdb

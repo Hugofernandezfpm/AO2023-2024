@@ -95,8 +95,8 @@ namespace boletin5
                     int numero8;
                     Console.WriteLine("Introduce un numero ");
                     numero8 = int.Parse(Console.ReadLine());
-                    int j = numero8;
-                    for (; j < numero8 + 5; j++)
+                    
+                    for (int j = numero8; j < numero8 + 5; j++)
                     {
                         Console.WriteLine(j + " " + Math.Pow(j, 2) + " " + Math.Pow(j, 3));
                     }

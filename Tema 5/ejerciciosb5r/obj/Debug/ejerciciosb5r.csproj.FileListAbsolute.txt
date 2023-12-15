@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\ejerciciosb5r\bin\Debug\ejerciciosb5r.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\ejerciciosb5r\bin\Debug\ejerciciosb5r.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\ejerciciosb5r\bin\Debug\ejerciciosb5r.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\ejerciciosb5r\obj\Debug\ejerciciosb5r.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\ejerciciosb5r\obj\Debug\ejerciciosb5r.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\ejerciciosb5r\obj\Debug\ejerciciosb5r.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\ejerciciosb5r\obj\Debug\ejerciciosb5r.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 5\ejerciciosb5r\obj\Debug\ejerciciosb5r.pdb
