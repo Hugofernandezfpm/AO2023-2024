@@ -169,13 +169,13 @@ namespace boletin2arrays
             Funciones.printEnunciado(31);
 
             Funciones.printEnunciado(32);
-  
+
             Random generador = new Random(); //sirve para generar numeros randoms
             int n1 = 10; //guarda numeros randoms entre los numeros que eliges en este caso etre 0 y 10
             double[] nota = new double[n1];
             double suma23 = 0;
 
-          for(int i = 0; i < nota.Length; i++)
+            for (int i = 0; i < nota.Length; i++)
             {
                 nota[i] = generador.NextDouble();
                 suma23 = suma23 + nota[i];
@@ -187,17 +187,17 @@ namespace boletin2arrays
             {
                 Console.WriteLine("Suspenso");
             }
-               
+
             else if (media < 7)
             {
                 Console.WriteLine("Aprobado");
             }
-                
+
             else if (media < 9)
             {
                 Console.WriteLine("Notable");
             }
-               
+
             else if (media <= 10)
             {
                 Console.WriteLine("Sobresaliente");
@@ -207,7 +207,7 @@ namespace boletin2arrays
             {
                 Console.WriteLine("Error");
             }
-               
+
 
 
             Funciones.printEnunciado(33);
@@ -257,7 +257,7 @@ namespace boletin2arrays
             for (int i = 0; i < array1.Length; i++)
             {
                 Console.Write(array1[i] + " ");
-               
+
             }
             Console.WriteLine();
             Console.WriteLine(" Segundo array: ");
@@ -268,6 +268,27 @@ namespace boletin2arrays
 
 
             Funciones.printEnunciado(35);
+
+            double[] arrayValores = { 3, 4, 5 };
+
+            double sumaCuadrados = 0;
+            for (int i = 0; i < arrayValores.Length; i++)
+            {
+                sumaCuadrados += arrayValores[i] * arrayValores[i];
+            }
+
+            double modulo = Math.Sqrt(sumaCuadrados);
+
+            // Imprimir el resultado
+            Console.Write("El módulo del array {");
+            for (int i = 0; i < arrayValores.Length; i++)
+            {
+                Console.Write(arrayValores[i]);
+                if (i < arrayValores.Length - 1)
+                    Console.Write(", ");
+            }
+            Console.WriteLine($" es: {modulo}");
+        
 
             Funciones.printEnunciado(36);
 
