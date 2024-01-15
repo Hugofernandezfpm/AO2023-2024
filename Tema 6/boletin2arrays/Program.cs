@@ -319,6 +319,100 @@ namespace boletin2arrays
                 Console.WriteLine("No se encontraron números negativos en el array.");
             }
 
+            Funciones.printEnunciado(37);
+
+            // Array de ejemplo
+            int[] miArray = { 1, 3, 5, 3, 7, 8, 3, 9 };
+
+            // Solicitar al usuario que ingrese un número
+            Console.Write("Ingrese un número: ");
+            int numeroUsuario = int.Parse(Console.ReadLine());
+
+            // Variable para verificar si se encontró el número
+            bool encontrado = false;
+
+            // Bucle for para buscar el número en el array
+            for (int i = 0; i < miArray.Length; i++)
+            {
+                if (miArray[i] == numeroUsuario)
+                {
+                    Console.WriteLine($"El número {numeroUsuario} se encuentra en la posición {i}.");
+                    encontrado = true;
+                }
+            }
+
+            // Mostrar mensaje si no se encontró el número
+            if (!encontrado)
+            {
+                Console.WriteLine($"No se encontró el número {numeroUsuario} en el array.");
+            }
+
+            Funciones.printEnunciado(40);
+
+
+
+            Funciones.printEnunciado(43);
+
+            // Generar 25 números aleatorios entre 1 y 10 (puedes ajustar el rango según tus necesidades)
+            Random random = new Random();
+            int[] numerosAleatorios = new int[25];
+
+            // Llenar el array con números aleatorios y mostrarlos
+            Console.Write("Números generados: ");
+            for (int i = 0; i < numerosAleatorios.Length; i++)
+            {
+                numerosAleatorios[i] = random.Next(1, 11);
+                Console.Write($"{numerosAleatorios[i]} ");
+            }
+
+            Console.WriteLine(); // Salto de línea para mejorar la presentación
+
+            // Mostrar la matriz y colocar un '*' delante de los valores repetidos más de una vez
+            Console.Write("Matriz con * para valores repetidos: ");
+            for (int i = 0; i < numerosAleatorios.Length; i++)
+            {
+                int contador = 0;
+                for (int j = 0; j < numerosAleatorios.Length; j++)
+                {
+                    if (numerosAleatorios[i] == numerosAleatorios[j])
+                    {
+                        contador++;
+                    }
+                }
+
+                if (contador > 1)
+                {
+                    Console.Write($"* {numerosAleatorios[i]} ");
+                }
+                else
+                {
+                    Console.Write($"{numerosAleatorios[i]} ");
+                }
+            }
+
+            Funciones.printEnunciado(44);
+
+            int[,] m = new int[3, 3];
+            m[0,0] = 1;
+            m[0,1] = 2;
+            m[1,0] = 3;
+            m[1,1] = 4;
+            m[0,2] = 5;
+            m[1,2] = 6;
+            m[2,2] = 7;
+            m[2,1] = 8;
+            m[2,0] = 9;
+
+            Console.Write("Escoge una fila");
+            int u = int.Parse(Console.ReadLine());
+
+            
+                for (int j = 0; j < m.GetLength(1); j++)
+                {
+                Console.Write(m[u, j]+" ");
+                }
+
+            for(u = 0; u  < m.GetLength(0); u++)
 
 
             Console.ReadLine();
