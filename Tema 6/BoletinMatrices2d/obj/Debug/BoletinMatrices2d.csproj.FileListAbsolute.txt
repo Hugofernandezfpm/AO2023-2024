@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\BoletinMatrices2d\bin\Debug\BoletinMatrices2d.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\BoletinMatrices2d\bin\Debug\BoletinMatrices2d.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\BoletinMatrices2d\bin\Debug\BoletinMatrices2d.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\BoletinMatrices2d\obj\Debug\BoletinMatrices2d.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\BoletinMatrices2d\obj\Debug\BoletinMatrices2d.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\BoletinMatrices2d\obj\Debug\BoletinMatrices2d.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\BoletinMatrices2d\obj\Debug\BoletinMatrices2d.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\BoletinMatrices2d\obj\Debug\BoletinMatrices2d.pdb

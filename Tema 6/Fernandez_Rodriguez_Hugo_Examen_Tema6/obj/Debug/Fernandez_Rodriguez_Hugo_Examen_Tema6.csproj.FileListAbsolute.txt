@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\Fernandez_Rodriguez_Hugo_Examen_Tema6\bin\Debug\Fernandez_Rodriguez_Hugo_Examen_Tema6.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\Fernandez_Rodriguez_Hugo_Examen_Tema6\bin\Debug\Fernandez_Rodriguez_Hugo_Examen_Tema6.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\Fernandez_Rodriguez_Hugo_Examen_Tema6\bin\Debug\Fernandez_Rodriguez_Hugo_Examen_Tema6.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\Fernandez_Rodriguez_Hugo_Examen_Tema6\obj\Debug\Fernandez_Rodriguez_Hugo_Examen_Tema6.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\Fernandez_Rodriguez_Hugo_Examen_Tema6\obj\Debug\Fernandez_Rodriguez_Hugo_Examen_Tema6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\Fernandez_Rodriguez_Hugo_Examen_Tema6\obj\Debug\Fernandez_Rodriguez_Hugo_Examen_Tema6.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\Fernandez_Rodriguez_Hugo_Examen_Tema6\obj\Debug\Fernandez_Rodriguez_Hugo_Examen_Tema6.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\Fernandez_Rodriguez_Hugo_Examen_Tema6\obj\Debug\Fernandez_Rodriguez_Hugo_Examen_Tema6.pdb
