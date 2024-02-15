@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\BoletinStrings\bin\Debug\BoletinStrings.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\BoletinStrings\bin\Debug\BoletinStrings.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\BoletinStrings\bin\Debug\BoletinStrings.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\BoletinStrings\obj\Debug\BoletinStrings.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\BoletinStrings\obj\Debug\BoletinStrings.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\BoletinStrings\obj\Debug\BoletinStrings.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\BoletinStrings\obj\Debug\BoletinStrings.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\BoletinStrings\obj\Debug\BoletinStrings.pdb

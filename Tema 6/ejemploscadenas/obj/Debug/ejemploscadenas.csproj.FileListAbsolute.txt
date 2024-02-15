@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ejemploscadenas\bin\Debug\ejemploscadenas.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ejemploscadenas\bin\Debug\ejemploscadenas.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ejemploscadenas\bin\Debug\ejemploscadenas.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ejemploscadenas\obj\Debug\ejemploscadenas.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ejemploscadenas\obj\Debug\ejemploscadenas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ejemploscadenas\obj\Debug\ejemploscadenas.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ejemploscadenas\obj\Debug\ejemploscadenas.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ejemploscadenas\obj\Debug\ejemploscadenas.pdb
