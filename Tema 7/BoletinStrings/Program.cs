@@ -98,6 +98,9 @@ namespace BoletinStrings
                             writer.WriteLine(matriculas[i]);
                         }
                         Console.WriteLine("\nDatos volcados en el fichero 'matriculas.txt'");
+                    }catch (Exception e)
+                    {
+                        Console.Write("No se ha podido volcar los datos");
                     }
                     finally
                     {
@@ -108,7 +111,7 @@ namespace BoletinStrings
 
                 if (ejercicio == 2)
                 {
-                    string cadena = "Hola";
+                    string cadena = "Hol";
                     char caracter_a_contar = 'a';
                     int resultado = 0;
 
@@ -192,7 +195,7 @@ namespace BoletinStrings
 
                 if (ejercicio == 5)
                 {
-                    string cadenaEjemplo = "ejemplo@clase.com";
+                    string cadenaEjemplo = "alumno@gmail.com";
                     bool contieneArroba = false;
 
                     for (int i = 0; i < cadenaEjemplo.Length; i++)
@@ -210,7 +213,7 @@ namespace BoletinStrings
                 if (ejercicio == 6)
                 {
                     // Ejemplo de uso
-                    string cadenaEjemplo = "abacaba es una palabra que contiene el substring aba. Otra palabra con aba es abacus.";
+                    string cadenaEjemplo = "abacaba es una palabra que contiene aba. Otra palabra con aba es abacus.";
 
                     // Dividir la cadena en palabras
                     string[] palabras = cadenaEjemplo.Split(' ');
@@ -237,7 +240,7 @@ namespace BoletinStrings
 
                 if (ejercicio == 7)
                 {
-                    string correoElectronico = "usuario@example.com";
+                    string correoElectronico = "usuario@gmail.com";
                     int indiceArroba = -1;
 
                     // Buscar la posición de la '@' utilizando un bucle for
@@ -275,7 +278,7 @@ namespace BoletinStrings
                         // Verificar que la longitud del código sea 4
                         if (codigoActual.Length != 4)
                         {
-                            Console.WriteLine($"Código: {codigoActual}, ¿Es válido?: false (Longitud incorrecta)");
+                            Console.WriteLine($"Código: {codigoActual}, ¿Es válido?: False (Longitud incorrecta)");
                             continue;
                         }
 
@@ -297,7 +300,7 @@ namespace BoletinStrings
                 if (ejercicio == 9)
                 {
 
-                    string cadenaOriginal = "Este es un ejemplo de cadena con espacios";
+                    string cadenaOriginal = "Esta es una cadena con espacios";
                     Console.WriteLine("Cadena original: " + cadenaOriginal);
 
                     for (int i = 0; i < cadenaOriginal.Length; i++)
@@ -348,7 +351,7 @@ namespace BoletinStrings
 
                 if (ejercicio == 11)
                 {
-                    string[] palabras = { "csharp", "programacion", "ahorcado", "juego", "codigo", "computadora", "desarrollador" };
+                    string[] palabras = { "clase", "programacion", "ahorcado", "juego", "codigo", "video", "ordenador" };
 
                     Console.WriteLine("¡Bienvenido al Juego del Ahorcado!");
 
@@ -372,7 +375,8 @@ namespace BoletinStrings
                                 {
                                     if (palabraSecreta[i] == letra)
                                     {
-                                        palabraAdivinada = palabraAdivinada.Remove(i, 1).Insert(i, letra.ToString()); //el .insert sirve para insertar el segundo valor en la posición que se indique
+                                        palabraAdivinada = palabraAdivinada.Remove(i, 1).Insert(i, letra.ToString()); //el .insert sirve para insertar el
+                                                                                                                      //segundo valor en la posición que se indique
                                     }
                                 }
                             }
@@ -400,11 +404,6 @@ namespace BoletinStrings
                 {
 
                 }
-
-
-
-
-
 
                 Console.ReadLine();
                 Console.WriteLine("quiere volver al menu : s-> si/ n-> no");
