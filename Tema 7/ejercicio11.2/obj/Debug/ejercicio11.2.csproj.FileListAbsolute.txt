@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ejercicio11.2\bin\Debug\ejercicio11.2.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ejercicio11.2\bin\Debug\ejercicio11.2.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ejercicio11.2\bin\Debug\ejercicio11.2.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ejercicio11.2\obj\Debug\ejercicio11.2.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ejercicio11.2\obj\Debug\ejercicio11.2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ejercicio11.2\obj\Debug\ejercicio11.2.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ejercicio11.2\obj\Debug\ejercicio11.2.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ejercicio11.2\obj\Debug\ejercicio11.2.pdb
