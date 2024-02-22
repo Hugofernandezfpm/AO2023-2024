@@ -33,14 +33,14 @@ namespace Ejercicio11y26
                 {
                     string[] palabras = { "clase", "programacion", "ahorcado", "juego", "codigo", "video", "ordenador" };
 
-                    Console.WriteLine("¡Bienvenido al Juego del Ahorcado!");
+                    Console.WriteLine("Bienvenido al ahorcado");
 
                     do
                     {
                         string palabraSecreta = palabras[new Random().Next(palabras.Length)];
                         char[] palabraAdivinada = new char[palabraSecreta.Length * 2 - 1];
 
-                        // Inicializar la palabra adivinada con guiones bajos y espacios en blanco
+                        // Para que muestre la palabra oculta con guiones y espacios en blanco
                         for (int i = 0; i < palabraAdivinada.Length; i += 2)
                         {
                             palabraAdivinada[i] = '_';
@@ -62,12 +62,12 @@ namespace Ejercicio11y26
 
                             if (entrada.Length == 1)
                             {
-                                // Intento de adivinar una letra
+                                // Para que te deje intentar adivinar la letra
                                 char letra = entrada[0];
 
                                 if (palabraSecreta.Contains(letra))
                                 {
-                                    // La letra está en la palabra secreta
+                                    // Para saber si la letra esta en la palabra oculta
                                     for (int i = 0; i < palabraSecreta.Length; i++)
                                     {
                                         if (palabraSecreta[i] == letra)
@@ -84,15 +84,15 @@ namespace Ejercicio11y26
                                 }
                                 else
                                 {
-                                    // La letra no está en la palabra secreta
+                                    // Te resta una vida si fallas
                                     intentos++;
                                     Console.WriteLine($"Incorrecto. Te quedan {6 - intentos} intentos.");
                                 }
                             }
                             else if (entrada.Length == palabraSecreta.Length && entrada == palabraSecreta)
                             {
-                                // Intento de adivinar la palabra completa
-                                Console.WriteLine("¡Felicidades, has adivinado la palabra!");
+                                // Para mostrar si acertaste la palabra
+                                Console.WriteLine("Has acertado la palabra");
                                 break;
                             }
                             else
@@ -105,7 +105,7 @@ namespace Ejercicio11y26
                                 }
                                 else
                                 {
-                                    Console.WriteLine("¡Felicidades, has adivinado la palabra!");
+                                    Console.WriteLine("Has ganado");
                                     break;
                                 }
                             }
@@ -113,7 +113,7 @@ namespace Ejercicio11y26
 
                         if (intentos == 6)
                         {
-                            Console.WriteLine("\n¡Oh no! Has agotado tus intentos. La palabra era: " + palabraSecreta);
+                            Console.WriteLine("\nHas agotado todas tus vidas la palabra era : " + palabraSecreta);
                         }
 
                         Console.Write("\n¿Quieres jugar de nuevo? (s/n): ");
@@ -167,26 +167,29 @@ namespace Ejercicio11y26
                                 break;
 
                             case "3":
-                               
+                                int RegistroDni = Dni;
+                                foreach (string Registro in RegistroDni().Split())
                                 break;
 
                             case "4":
-                                if (salario < 2500)
+                                if (Salario < 2500)
                                 {
-                                    Console.WriteLine("Los registros cuyos salarios son mayor a 2500 son: " + );
+                                    Console.WriteLine("Los registros cuyos salarios son mayor a 2500 son: " + Salario);
                                 }
                                 break;
 
                             case "5":
-                              
+
                                 break;
 
                             case "6":
-                                
+
                                 break;
 
                             case "7":
-                               
+                                int RegistroSalario = Salario;
+                                if (RegistroSalario )
+
                                 break;
 
                             case "8":
@@ -199,7 +202,7 @@ namespace Ejercicio11y26
                         }
 
 
-                       
+                    }                      
                 }
 
                 Console.ReadLine();
