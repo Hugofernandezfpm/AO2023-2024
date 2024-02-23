@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace Ejercicio11y26
 {
@@ -122,79 +123,121 @@ namespace Ejercicio11y26
 
                 if (ejercicio == 26)
                 {
+
+                    Console.Write("Introduce el DNI: ");
+                    String Dni = Console.ReadLine();
+
+                    Console.Write("Introduce el Nombre y Apellidos: ");
+                    String NombreyApellidos = Console.ReadLine();
+
+                    Console.Write("Introduce la Edad: ");
+                    String Edad = Console.ReadLine();
+
+                    Console.Write("Introduce el Salario: ");
+                    String Salario = Console.ReadLine();
+
                     while (true)
                     {
+                        Console.WriteLine(" ");
                         Console.WriteLine("Menú Principal:");
+                        Console.WriteLine(" ");
                         Console.WriteLine("1. Mostrar registros");
+                        Console.WriteLine(" ");
                         Console.WriteLine("2. Insertar nuevo registro");
+                        Console.WriteLine(" ");
                         Console.WriteLine("3. Consultar por DNI");
+                        Console.WriteLine(" ");
                         Console.WriteLine("4. Mostrar registros con salario superior a 2500€");
+                        Console.WriteLine(" ");
                         Console.WriteLine("5. Eliminar registro por DNI");
+                        Console.WriteLine(" ");
                         Console.WriteLine("6. Mostrar registros ordenados por salario");
+                        Console.WriteLine(" ");
                         Console.WriteLine("7. Gestionar historial con los cambios realizados sobre el fichero.");
+                        Console.WriteLine(" ");
                         Console.WriteLine("8. Salir");
+                        Console.WriteLine(" ");
 
                         Console.Write("Seleccione una opción: ");
                         string opcion = Console.ReadLine();
 
                         switch (opcion)
                         {
+
                             case "1":
                                 string ruta = Directory.GetCurrentDirectory() + "\\fichero.txt";
                                 StreamWriter datos = new StreamWriter(ruta, true);
 
-                                datos.WriteLine("00000000T");
-                                datos.WriteLine("Juan Antonio");
-                                datos.WriteLine("20 años");
-                                datos.WriteLine("3000€");
+                                Console.Write("Dni: " + Dni);
+
+                                Console.WriteLine(" ");
+
+                                Console.Write("Nombre y Apellidos: " + NombreyApellidos);
+
+                                Console.WriteLine(" ");
+
+                                Console.Write("Edad: " + Edad);
+
+                                Console.WriteLine(" ");
+
+                                Console.Write("Salario: " + Salario);
+
+                                Console.WriteLine(" ");
 
                                 datos.Close();
 
                                 break;
 
                             case "2":
-                                Console.Write("Introduce el DNI");
-                                int Dni = int.Parse(Console.ReadLine());
+                                ruta = Directory.GetCurrentDirectory() + "\\fichero.txt";
+                                datos = new StreamWriter(ruta, true);
 
-                                Console.Write("Introduce el Nombre y Apellidos");
-                                int NombreyApellidos = int.Parse(Console.ReadLine());
+                                Console.Write("Introduce el DNI: ");
+                                 Dni = Console.ReadLine();
 
-                                Console.Write("Introduce la Edad");
-                                int Edad = int.Parse(Console.ReadLine());
+                                Console.Write("Introduce el Nombre y Apellidos: ");
+                                NombreyApellidos = Console.ReadLine();
 
-                                Console.Write("Introduce el Salario");
-                                int Salario = int.Parse(Console.ReadLine());
+                                Console.Write("Introduce la Edad: ");
+                                Edad = Console.ReadLine();
+
+                                Console.Write("Introduce el Salario: ");
+                                Salario = Console.ReadLine();
+                                datos.Close();
                                 break;
 
                             case "3":
-                                int RegistroDni = Dni;
-                                foreach (string Registro in RegistroDni().Split())
-                                break;
+                               
+                                int RegistroDni = Dni.Length - 1;
+                                foreach (string Registro in RegistroDni.ToString().Split(','))
+                                    break;
 
                             case "4":
-                                if (Salario < 2500)
+                                int Salariototal = Salario.Length - 1;
+
+                                if (Salariototal < 2500)
                                 {
-                                    Console.WriteLine("Los registros cuyos salarios son mayor a 2500 son: " + Salario);
+                                    Console.WriteLine("Los registros cuyos salarios son mayor a 2500 son: " + Salariototal);
                                 }
                                 break;
 
-                            case "5":
+                            //case "5":
 
-                                break;
+                            //    break;
 
-                            case "6":
+                            //case "6":
 
-                                break;
+                            //    break;
 
-                            case "7":
-                                int RegistroSalario = Salario;
-                                if (RegistroSalario )
+                            //case "7":
+                            //    int RegistroSalario = Salario;
+                            //    if (RegistroSalario )
 
-                                break;
+                            //    break;
 
-                            case "8":
+                            //case "8":
 
-                                break;
+                            //    break;
 
                             default:
                                 Console.WriteLine("Opción no válida. Intente de nuevo.");
