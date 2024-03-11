@@ -126,7 +126,6 @@ namespace Ejercicio11y26
 
                     Console.Write("Introduce el DNI: ");
                     String Dni = Console.ReadLine();
-
                     Console.Write("Introduce el Nombre y Apellidos: ");
                     String NombreyApellidos = Console.ReadLine();
 
@@ -166,7 +165,7 @@ namespace Ejercicio11y26
 
                             case "1":
                                 string ruta = Directory.GetCurrentDirectory() + "\\fichero.txt";
-                                StreamWriter datos = new StreamWriter(ruta, true);
+                                StreamReader datos = new StreamReader(ruta, true);
 
                                 Console.Write("Dni: " + Dni);
 
@@ -190,10 +189,10 @@ namespace Ejercicio11y26
 
                             case "2":
                                 ruta = Directory.GetCurrentDirectory() + "\\fichero.txt";
-                                datos = new StreamWriter(ruta, true);
+                                StreamWriter datos2 = new StreamWriter(ruta, true);
 
                                 Console.Write("Introduce el DNI: ");
-                                 Dni = Console.ReadLine();
+                                Dni = Console.ReadLine();
 
                                 Console.Write("Introduce el Nombre y Apellidos: ");
                                 NombreyApellidos = Console.ReadLine();
@@ -203,23 +202,39 @@ namespace Ejercicio11y26
 
                                 Console.Write("Introduce el Salario: ");
                                 Salario = Console.ReadLine();
-                                datos.Close();
+                                datos2.WriteLine(Dni + "*" + NombreyApellidos + "?" + Edad + "?" + Salario);
+                                datos2.Close();
                                 break;
 
                             case "3":
-                               
-                                int RegistroDni = Dni.Length - 1;
-                                foreach (string Registro in RegistroDni.ToString().Split(','))
-                                    break;
+
+                                Console.Write("Ingrese el DNI a consultar: ");
+                                string buscarDni = Console.ReadLine();
+                                StreamReader lector = new StreamReader("fichero.txt");
+                                string busquedaDeDni;
+                                while ((busquedaDeDni = lector.ReadLine()) != null)
+                                {
+                                    if (busquedaDeDni.Contains(buscarDni))
+                                    {
+                                        Console.WriteLine(busquedaDeDni);
+                                        lector.Close();
+                                        return;
+                                    }
+                                }
+                                lector.Close();
+                                Console.WriteLine("DNI no encontrado");
+
+                                break;
 
                             case "4":
                                 int Salariototal = Salario.Length - 1;
 
-                                if (Salariototal < 2500)
+                                if (Salariototal > 2500)
                                 {
                                     Console.WriteLine("Los registros cuyos salarios son mayor a 2500 son: " + Salariototal);
                                 }
                                 break;
+
 
                             //case "5":
 

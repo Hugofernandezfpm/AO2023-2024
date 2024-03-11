@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\BoletinColecciones\bin\Debug\BoletinColecciones.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\BoletinColecciones\bin\Debug\BoletinColecciones.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\BoletinColecciones\bin\Debug\BoletinColecciones.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\BoletinColecciones\obj\Debug\BoletinColecciones.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\BoletinColecciones\obj\Debug\BoletinColecciones.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\BoletinColecciones\obj\Debug\BoletinColecciones.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\BoletinColecciones\obj\Debug\BoletinColecciones.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\BoletinColecciones\obj\Debug\BoletinColecciones.pdb
