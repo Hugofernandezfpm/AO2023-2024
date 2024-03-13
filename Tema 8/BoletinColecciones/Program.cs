@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace BoletinColecciones
@@ -178,11 +181,191 @@ namespace BoletinColecciones
                 if (ejercicio == 3)
                 {
 
+                   HashSet<string> dni = new HashSet<string>();
+
+                    while (true)
+                    {
+                        Console.WriteLine("");
+                        Console.Write("1. Guardar dni");
+                        Console.WriteLine("");
+                        Console.Write("2. Eliminar dni");
+                        Console.WriteLine("");
+                        Console.Write("3. Mostrar dnis");
+                        Console.WriteLine("");
+                        Console.Write("4. Buscar dni");
+                        Console.WriteLine("");
+                        Console.Write("5. Contar dnis");
+                        Console.WriteLine("");
+                        Console.WriteLine("");
+
+                        Console.Write("Seleccione una opción: ");
+                        string opcion = Console.ReadLine();
+
+                        switch (opcion)
+                        {
+
+                            case "1":
+                                Console.Write("Introduce el DNI ");
+                                Console.WriteLine("");
+                                
+                                string nuevoDni = Console.ReadLine();
+                                dni.Add(nuevoDni);
+                                break;
+
+                            case "2":
+                                Console.Write("Introduce el DNI para eleminar ");
+                                string eleminarDni = Console.ReadLine();
+                                if(dni.Remove(eleminarDni))
+                                {
+                                    Console.WriteLine("El Dni a sido eliminado");  
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El Dni no estaba en la lista");
+                                }
+
+                                break;
+
+                            case "3":
+                                Console.Write("Los DNI son: ");
+
+                                foreach (string mostrarDNI in dni)
+                                {
+                                    Console.WriteLine(mostrarDNI);
+                                }
+                                        break;
+
+                            case "4":
+                                Console.WriteLine("Introduce el DNI para buscar");
+                                string dniABuscar = Console.ReadLine();
+                                if (dni.Contains(dniABuscar))
+                                {
+                                    Console.WriteLine("Se encontro el DNI buscado");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El DNI no esta en la lista");
+                                }
+
+                                break;
+
+                            case "5":
+
+                                Console.WriteLine("El numero de DNI es: " + dni.Count);
+                                
+                                break;
+
+                                   
+
+                            default:
+                                Console.WriteLine("Opción no válida. Intente de nuevo.");
+                                break;
+                        }
+                    }
                 }
 
                 if (ejercicio == 4)
                 {
+                    Dictionary<string, string> estadosYCapitales = new Dictionary<string, string>();
+                   
+                    // Agregar estados y sus capitales al diccionario
+                    estadosYCapitales.Add("Alabama", "Montgomery");
+                    estadosYCapitales.Add("Alaska", "Juneau");
+                    estadosYCapitales.Add("Arizona", "Phoenix");
+                    estadosYCapitales.Add("Arkansas", "Little Rock");
+                    estadosYCapitales.Add("California", "Sacramento");
+                    estadosYCapitales.Add("Colorado", "Denver");
+                    estadosYCapitales.Add("Connecticut", "Hartford");
+                    estadosYCapitales.Add("Delaware", "Dover");
+                    estadosYCapitales.Add("Florida", "Tallahassee");
+                    estadosYCapitales.Add("Georgia", "Atlanta");
+                    foreach(KeyValuePair<string, string> estadosCapitales in estadosYCapitales)
+                    {
+                        Console.WriteLine($"{estadosCapitales.Key}, {estadosCapitales.Value}");
+                    }
+                    while (true)
+                    {
+                        Console.WriteLine("");
+                        Console.Write("1. Buscar la capital de un estado en concreto");
+                        Console.WriteLine("");
+                        Console.Write("2. Mostrar el estado al que pertenece una determinada capital");
+                        Console.WriteLine("");
+                        Console.Write("3. Introducir un nuevo estado con su capital.");
+                        Console.WriteLine("");
+                        Console.Write("4.Mostrar los estados ordenados alfabéticamente");
+                        Console.WriteLine("");
+                        Console.Write("5. Eliminar un determinado estado junto con su capital");
+                        Console.WriteLine("");
+                        Console.WriteLine("");
 
+                        Console.Write("Seleccione una opción: ");
+                        string opcion = Console.ReadLine();
+
+                        switch (opcion)
+                        {
+                            case "1":
+                               
+                                //Buscar la capital de un estado
+                                String estado;
+                                Console.WriteLine("Intro estado para saber su capital: ");
+                                estado = Console.ReadLine();
+                                try
+                                {
+                                    String capitalBuscada = estadosYCapitales[estado];
+                                    Console.WriteLine("La capital es: " + capitalBuscada);
+
+                                }catch (Exception e) { Console.WriteLine("El estado no existe"); }
+
+
+                                break;
+
+                            case "2":
+
+                                String capital;
+                                Console.WriteLine("Intro estado para saber su capital: ");
+                                capital = Console.ReadLine();
+
+                                String estadoBuscado = estadosYCapitales[capital];
+                                Console.WriteLine("La capital es: " + estadoBuscado);
+
+                                break;
+
+                            case "3":
+
+                                Console.WriteLine("Introduce un nuevo estado con su capital");
+                                estadosYCapitales.Add(Console.ReadLine(), Console.ReadLine()) ;
+
+                                break;
+                          
+                            case "4":
+
+                                foreach (KeyValuePair<string, string> estadoCapital in estadosYCapitales.OrderBy(estadoCapital => estadoCapital.Key))
+                                {
+                                    Console.WriteLine($"{estadoCapital.Key}, {estadoCapital.Value}");
+                                }
+
+                                break; 
+                           
+                            case "5":
+
+                                Console.Write("Introduce el estado para eliminar ");
+                                string eleminarEstadoYCapital = Console.ReadLine();
+                                if (estadosYCapitales.Remove(eleminarEstadoYCapital))
+                                {
+                                    Console.WriteLine("El estado y la capital fueron eliminados");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El estado y la capital no estan en la lista");
+                                }
+
+                                break;
+
+                            default:
+                                Console.WriteLine("Opción no válida. Intente de nuevo.");
+                                break;
+                        }
+                    }
                 }
 
                 if (ejercicio == 5)
