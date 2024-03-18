@@ -1,0 +1,12 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\bin\Debug\AplicacionesGraficas.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\bin\Debug\AplicacionesGraficas.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\bin\Debug\AplicacionesGraficas.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.Form1.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.Properties.Resources.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.csproj.GenerateResource.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\AplicacionesGraficas\obj\Debug\AplicacionesGraficas.ejercicio1.resources

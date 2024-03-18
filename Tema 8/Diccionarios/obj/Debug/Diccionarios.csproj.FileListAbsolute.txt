@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\Diccionarios\bin\Debug\Diccionarios.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\Diccionarios\bin\Debug\Diccionarios.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\Diccionarios\bin\Debug\Diccionarios.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\Diccionarios\obj\Debug\Diccionarios.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\Diccionarios\obj\Debug\Diccionarios.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\Diccionarios\obj\Debug\Diccionarios.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\Diccionarios\obj\Debug\Diccionarios.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 8\Diccionarios\obj\Debug\Diccionarios.pdb

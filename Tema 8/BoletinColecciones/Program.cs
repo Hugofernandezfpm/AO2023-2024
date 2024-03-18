@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Runtime.InteropServices;
+using System.Runtime.Remoting;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -370,6 +372,98 @@ namespace BoletinColecciones
 
                 if (ejercicio == 5)
                 {
+                    Dictionary<int, string> cliente = new Dictionary<int, string>();
+
+                    while (true)
+                    {
+                        Console.WriteLine("");
+                        Console.Write("1. Guardar clientes ");
+                        Console.WriteLine("");
+                        Console.Write("2. Mostrar Clientes ");
+                        Console.WriteLine("");
+                        Console.Write("3. Buscar clientes segun su clave ");
+                        Console.WriteLine("");
+                        Console.Write("4. Eleminar a u cliente segun su clave ");
+                        Console.WriteLine("");
+                        Console.WriteLine("");
+
+                        Console.Write("Seleccione una opción: ");
+                        string opcion = Console.ReadLine();
+
+                        switch (opcion)
+                        {
+                            case "1":
+
+                                Console.WriteLine("Introduce la clave para el cliente");
+                                int clave = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Introduce el DNI");
+                                string dni = Console.ReadLine();
+                                Console.WriteLine("Introduce el Nombre");
+                                string nombre = Console.ReadLine();
+                                Console.WriteLine("Introduce la Edad");
+                                int edad = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Introduce el correo");
+                                string correo = Console.ReadLine();
+                                Console.WriteLine("");
+
+                                cliente.Add(clave, $"El Dni es: {dni}, El nombre es: {nombre}, La edad es: {edad}, El correo es:{correo}");
+                                
+
+                                break;
+
+                            case "2":
+
+                                Console.Write("Los clientes son: ");
+                                Console.WriteLine("");
+
+                                foreach (KeyValuePair<int, string> listaDeClientes in cliente)
+                                {
+                                    Console.WriteLine($"{listaDeClientes.Key}, {listaDeClientes.Value}");
+                                }
+
+
+                                break;
+
+                            case "3":
+
+                                Console.WriteLine("Introduce la clave para buscar al cliente");
+
+                                int buscarCliente = int.Parse(Console.ReadLine());
+
+                                if (cliente.ContainsKey(buscarCliente))
+                                {
+                                    Console.WriteLine(buscarCliente + $" {cliente[buscarCliente]}");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El cliente no esta registrado");
+                                }
+
+                                break;
+
+                            case "4":
+
+                                Console.WriteLine("Introduce la clave para eleminar al cliente");
+
+                                int eleminarCliente = int.Parse(Console.ReadLine());
+
+                                if (cliente.Remove(eleminarCliente))
+                                {
+                                    Console.WriteLine("El cliente fue eliminado");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El cliente no esta registrado");
+                                }
+
+                                break;
+
+                            default:
+                                Console.WriteLine("Opción no válida. Intente de nuevo.");
+                                break;
+
+                        }
+                    }
 
                 }
 
