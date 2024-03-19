@@ -469,7 +469,149 @@ namespace BoletinColecciones
 
                 if (ejercicio == 6)
                 {
+                    Dictionary<string, List<string>> comprasClientes = new Dictionary<string, List<string>>();
 
+
+                    // Crear algunos productos
+                    List<string> productos = new List<string>
+                     {
+                         "QW34*Portátil HP*890",
+                         "AB12*Smartphone Samsung*500",
+                         "ZX78*Tablet Lenovo*300"
+                     };
+
+                    // Asociar productos a clientes
+                    List<string> productosCliente1 = new List<string>();
+                    productosCliente1.Add(productos[0]);
+                    productosCliente1.Add(productos[1]);
+                    comprasClientes["12345678A"] = productosCliente1;
+
+                    List<string> productosCliente2 = new List<string>();
+                    productosCliente2.Add(productos[1]);
+                    productosCliente2.Add(productos[2]);
+                    comprasClientes["98765432B"] = productosCliente2;
+
+
+
+                    while (true)
+                    {
+                       
+                        Console.WriteLine("1. Mostrar compra de un cliente");
+                        Console.WriteLine("2. Eliminar un producto de la compra de un cliente");
+                        Console.WriteLine("3. Añadir un producto de la compra de un cliente");
+                        
+
+                        Console.WriteLine("Elija una opcion: ");
+
+                        string opcion = Console.ReadLine();
+
+                        switch (opcion)
+                        {
+                            case "1":
+                                {
+
+                                    Console.Write("Introduzca el DNI del cliente: ");
+                                    string dni = Console.ReadLine();
+                                    if (comprasClientes.ContainsKey(dni))
+                                    {
+                                        Console.WriteLine("Compra del cliente con DNI " + dni + ":");
+                                        foreach (string producto in comprasClientes[dni])
+                                        {
+                                            string[] partesProducto = producto.Split('*');
+                                            if (partesProducto.Length == 3)
+                                            {
+                                                string codigo = partesProducto[0];
+                                                string nombre = partesProducto[1];
+                                                string precio = partesProducto[2];
+
+                                                Console.WriteLine($"Código: {codigo}, Nombre: {nombre}, Precio: {precio}");
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("Formato de producto incorrecto: " + producto);
+                                            }
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("No se encontró ninguna compra asociada al DNI proporcionado.");
+                                    }
+                                    break;
+                                }
+                            case "2":
+                                {
+                                    Console.Write("Introduzca el DNI del cliente: ");
+                                    string dni = Console.ReadLine();
+
+                                    if (comprasClientes.ContainsKey(dni))
+                                    {
+                                        Console.WriteLine("Compra del cliente con DNI " + dni + ":");
+                                        foreach (string producto in comprasClientes[dni])
+                                        {
+                                            string[] partesProducto = producto.Split('*');
+                                            if (partesProducto.Length == 3)
+                                            {
+                                                string codigo = partesProducto[0];
+                                                string nombre = partesProducto[1];
+                                                string precio = partesProducto[2];
+
+                                                Console.WriteLine($"Código: {codigo}, Nombre: {nombre}, Precio: {precio}");
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("Formato de producto incorrecto: " + producto);
+                                            }
+                                        }
+
+                                        Console.Write("Introduzca el código del producto a eliminar: ");
+                                        string codigoEliminar = Console.ReadLine();
+
+                                        if (comprasClientes[dni].RemoveAll(producto => producto.StartsWith(codigoEliminar + "*")) > 0)
+                                        {
+                                            Console.WriteLine("Producto eliminado correctamente.");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("No se encontró ningún producto con ese código en la compra del cliente.");
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("No se encontró ninguna compra asociada al DNI proporcionado.");
+                                    }
+
+                                    break;
+                                }
+                            case "3":
+                                {
+                                    Console.Write("Introduzca el código del producto: ");
+                                    string codigo = Console.ReadLine();
+                                    Console.Write("Introduzca el nombre del producto: ");
+                                    string nombre = Console.ReadLine();
+                                    Console.Write("Introduzca el precio del producto: ");
+                                    string precio = Console.ReadLine();
+
+                                    string nuevoProducto = $"{codigo}*{nombre}*{precio}";
+                                    Console.Write("Introduzca el DNI del cliente: ");
+                                    string dni = Console.ReadLine();
+
+                                    if (comprasClientes.ContainsKey(dni))
+                                    {
+                                        comprasClientes[dni].Add(nuevoProducto);
+                                        Console.WriteLine("Producto añadido correctamente.");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("No se encontró ninguna compra con este DNI.");
+                                    }
+                                    break;
+                                }
+                            
+                            default:
+                                Console.WriteLine("Opción no válida.");
+                                break;
+                        }
+                    }
                 }
 
                 Console.ReadLine();
