@@ -55,16 +55,22 @@
             // 
             // txtNombre
             // 
+            this.txtNombre.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtNombre.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.txtNombre.Location = new System.Drawing.Point(166, 90);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(150, 20);
+            this.txtNombre.Size = new System.Drawing.Size(150, 25);
             this.txtNombre.TabIndex = 2;
             // 
             // txtCorreo
             // 
+            this.txtCorreo.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtCorreo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreo.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.txtCorreo.Location = new System.Drawing.Point(364, 90);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(200, 20);
+            this.txtCorreo.Size = new System.Drawing.Size(200, 25);
             this.txtCorreo.TabIndex = 3;
             // 
             // btnPulsar

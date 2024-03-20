@@ -1,0 +1,8 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\ExamenColeccionesTema8\bin\Debug\ExamenColeccionesTema8.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\ExamenColeccionesTema8\bin\Debug\ExamenColeccionesTema8.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\ExamenColeccionesTema8\bin\Debug\ExamenColeccionesTema8.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\ExamenColeccionesTema8\obj\Debug\ExamenColeccionesTema8.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\ExamenColeccionesTema8\obj\Debug\ExamenColeccionesTema8.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\ExamenColeccionesTema8\obj\Debug\ExamenColeccionesTema8.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\ExamenColeccionesTema8\obj\Debug\ExamenColeccionesTema8.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\ExamenColeccionesTema8\obj\Debug\ExamenColeccionesTema8.pdb
