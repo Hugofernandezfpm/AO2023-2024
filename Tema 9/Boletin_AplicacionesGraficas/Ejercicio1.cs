@@ -16,5 +16,13 @@ namespace Boletin_AplicacionesGraficas
         {
             InitializeComponent();
         }
+
+        private void btnPulsar_Click(object sender, EventArgs e)
+        {
+          string nombre = txtNombre.Text;
+          string correo = txtCorreo.Text;
+
+           MessageBox.Show("Nombre: " + nombre + "\nCorreo: " + correo, "Datos del Formulario");
+        }
     }
 }

@@ -10,3 +10,10 @@ C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGrafi
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.exe
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.pdb
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio1.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio2.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio3.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio4.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio5.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio6.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio7.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio8.resources
