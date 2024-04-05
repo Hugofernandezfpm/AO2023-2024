@@ -32,10 +32,10 @@
             this.btnPulsar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxSegundos = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.textBoxMinutos = new System.Windows.Forms.TextBox();
+            this.textBoxHoras = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -54,6 +54,7 @@
             this.btnPulsar.TabIndex = 13;
             this.btnPulsar.Text = "Covertir";
             this.btnPulsar.UseVisualStyleBackColor = true;
+            this.btnPulsar.Click += new System.EventHandler(this.btnPulsar_Click);
             // 
             // label3
             // 
@@ -73,26 +74,12 @@
             this.label2.TabIndex = 11;
             this.label2.Text = "Minutos";
             // 
-            // textBox3
+            // textBoxSegundos
             // 
-            this.textBox3.Location = new System.Drawing.Point(158, 224);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 10;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(406, 224);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 9;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(224, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 8;
+            this.textBoxSegundos.Location = new System.Drawing.Point(406, 224);
+            this.textBoxSegundos.Name = "textBoxSegundos";
+            this.textBoxSegundos.Size = new System.Drawing.Size(100, 20);
+            this.textBoxSegundos.TabIndex = 9;
             // 
             // label4
             // 
@@ -104,6 +91,20 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Numero de Horas";
             // 
+            // textBoxMinutos
+            // 
+            this.textBoxMinutos.Location = new System.Drawing.Point(158, 224);
+            this.textBoxMinutos.Name = "textBoxMinutos";
+            this.textBoxMinutos.Size = new System.Drawing.Size(100, 20);
+            this.textBoxMinutos.TabIndex = 10;
+            // 
+            // textBoxHoras
+            // 
+            this.textBoxHoras.Location = new System.Drawing.Point(224, 53);
+            this.textBoxHoras.Name = "textBoxHoras";
+            this.textBoxHoras.Size = new System.Drawing.Size(100, 20);
+            this.textBoxHoras.TabIndex = 8;
+            // 
             // Ejercicio4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -112,9 +113,9 @@
             this.Controls.Add(this.btnPulsar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxMinutos);
+            this.Controls.Add(this.textBoxSegundos);
+            this.Controls.Add(this.textBoxHoras);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Name = "Ejercicio4";
@@ -130,9 +131,9 @@
         private System.Windows.Forms.Button btnPulsar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxSegundos;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBoxMinutos;
+        private System.Windows.Forms.TextBox textBoxHoras;
     }
 }

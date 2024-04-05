@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.btnPulsar = new System.Windows.Forms.Button();
-            this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxDia = new System.Windows.Forms.TextBox();
+            this.textBoxResultado = new System.Windows.Forms.TextBox();
+            this.textBoxAño = new System.Windows.Forms.TextBox();
+            this.textBoxMes = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnPulsar
@@ -50,16 +50,7 @@
             this.btnPulsar.TabIndex = 10;
             this.btnPulsar.Text = "Convertir";
             this.btnPulsar.UseVisualStyleBackColor = true;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.txtNombre.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txtNombre.Location = new System.Drawing.Point(156, 69);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(76, 25);
-            this.txtNombre.TabIndex = 8;
+            this.btnPulsar.Click += new System.EventHandler(this.btnPulsar_Click);
             // 
             // lblNombre
             // 
@@ -78,6 +69,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "Salir";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -87,26 +79,7 @@
             this.button2.TabIndex = 12;
             this.button2.Text = "Limpiar";
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox1.Location = new System.Drawing.Point(156, 172);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 25);
-            this.textBox1.TabIndex = 13;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.textBox2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox2.Location = new System.Drawing.Point(156, 123);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(76, 25);
-            this.textBox2.TabIndex = 14;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -138,38 +111,62 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(99, 230);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.Size = new System.Drawing.Size(81, 13);
             this.label4.TabIndex = 18;
-            this.label4.Text = "La fecha es:";
+            this.label4.Text = "La Fecha es:";
             // 
-            // textBox3
+            // textBoxDia
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.textBox3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox3.Location = new System.Drawing.Point(143, 257);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(178, 25);
-            this.textBox3.TabIndex = 19;
+            this.textBoxDia.Location = new System.Drawing.Point(156, 72);
+            this.textBoxDia.Multiline = true;
+            this.textBoxDia.Name = "textBoxDia";
+            this.textBoxDia.Size = new System.Drawing.Size(100, 20);
+            this.textBoxDia.TabIndex = 20;
+            // 
+            // textBoxResultado
+            // 
+            this.textBoxResultado.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBoxResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxResultado.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBoxResultado.Location = new System.Drawing.Point(102, 246);
+            this.textBoxResultado.Multiline = true;
+            this.textBoxResultado.Name = "textBoxResultado";
+            this.textBoxResultado.Size = new System.Drawing.Size(330, 52);
+            this.textBoxResultado.TabIndex = 21;
+            // 
+            // textBoxAño
+            // 
+            this.textBoxAño.Location = new System.Drawing.Point(159, 174);
+            this.textBoxAño.Name = "textBoxAño";
+            this.textBoxAño.Size = new System.Drawing.Size(100, 20);
+            this.textBoxAño.TabIndex = 22;
+            // 
+            // textBoxMes
+            // 
+            this.textBoxMes.Location = new System.Drawing.Point(160, 122);
+            this.textBoxMes.Name = "textBoxMes";
+            this.textBoxMes.Size = new System.Drawing.Size(100, 20);
+            this.textBoxMes.TabIndex = 23;
             // 
             // Ejercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxMes);
+            this.Controls.Add(this.textBoxAño);
+            this.Controls.Add(this.textBoxResultado);
+            this.Controls.Add(this.textBoxDia);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPulsar);
-            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
             this.Name = "Ejercicio2";
             this.Text = "Ejercicio2";
@@ -181,16 +178,16 @@
         #endregion
 
         private System.Windows.Forms.Button btnPulsar;
-        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxDia;
+        private System.Windows.Forms.TextBox textBoxResultado;
+        private System.Windows.Forms.TextBox textBoxAño;
+        private System.Windows.Forms.TextBox textBoxMes;
     }
 }

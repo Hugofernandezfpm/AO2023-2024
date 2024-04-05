@@ -16,5 +16,26 @@ namespace Boletin_AplicacionesGraficas
         {
             InitializeComponent();
         }
+
+        private void btnPulsar_Click(object sender, EventArgs e)
+        {
+            string dia = textBoxDia.Text;
+            string mes = textBoxMes.Text;
+            string año = textBoxAño.Text;
+            string resultado = dia + " de " + mes + " del " + año;
+
+            textBoxResultado.Text = resultado;
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBoxResultado.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
