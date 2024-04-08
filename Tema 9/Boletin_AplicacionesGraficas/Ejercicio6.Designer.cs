@@ -38,10 +38,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(271, 126);
+            this.textBox1.Location = new System.Drawing.Point(271, 84);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 10;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label4
             // 
@@ -54,10 +55,11 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(271, 83);
+            this.textBox2.Location = new System.Drawing.Point(271, 129);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 12;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // label1
             // 
@@ -76,6 +78,7 @@
             this.btnPulsar.TabIndex = 14;
             this.btnPulsar.Text = "Covertir";
             this.btnPulsar.UseVisualStyleBackColor = true;
+            this.btnPulsar.Click += new System.EventHandler(this.btnPulsar_Click);
             // 
             // button1
             // 
@@ -85,6 +88,7 @@
             this.button1.TabIndex = 15;
             this.button1.Text = "Covertir";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Ejercicio6
             // 

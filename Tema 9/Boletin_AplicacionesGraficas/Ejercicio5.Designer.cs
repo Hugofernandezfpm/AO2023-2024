@@ -39,7 +39,7 @@
             this.labelRestar = new System.Windows.Forms.Label();
             this.labelMultiplicar = new System.Windows.Forms.Label();
             this.labelDividir = new System.Windows.Forms.Label();
-            this.labelIgual = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPulsar
@@ -50,7 +50,7 @@
             this.btnPulsar.TabIndex = 4;
             this.btnPulsar.Text = "+";
             this.btnPulsar.UseVisualStyleBackColor = true;
-            this.btnPulsar.Click += new System.EventHandler(this.btnPulsar_Click);
+            this.btnPulsar.Click += new System.EventHandler(this.operador);
             // 
             // labelSumar
             // 
@@ -70,6 +70,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "*";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.operador);
             // 
             // button2
             // 
@@ -79,7 +80,7 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.operador);
             // 
             // button3
             // 
@@ -89,6 +90,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "/";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.operador);
             // 
             // textBoxNumero1
             // 
@@ -144,20 +146,22 @@
             this.labelDividir.Text = "/";
             this.labelDividir.Visible = false;
             // 
-            // labelIgual
+            // button4
             // 
-            this.labelIgual.AutoSize = true;
-            this.labelIgual.Location = new System.Drawing.Point(427, 142);
-            this.labelIgual.Name = "labelIgual";
-            this.labelIgual.Size = new System.Drawing.Size(13, 13);
-            this.labelIgual.TabIndex = 7;
-            this.labelIgual.Text = "=";
+            this.button4.Location = new System.Drawing.Point(422, 137);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(27, 23);
+            this.button4.TabIndex = 33;
+            this.button4.Text = "=";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Ejercicio5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 461);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.labelDividir);
             this.Controls.Add(this.labelMultiplicar);
             this.Controls.Add(this.labelRestar);
@@ -168,7 +172,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPulsar);
-            this.Controls.Add(this.labelIgual);
             this.Controls.Add(this.labelSumar);
             this.Name = "Ejercicio5";
             this.Text = "Ejercicio5";
@@ -190,6 +193,6 @@
         private System.Windows.Forms.Label labelRestar;
         private System.Windows.Forms.Label labelMultiplicar;
         private System.Windows.Forms.Label labelDividir;
-        private System.Windows.Forms.Label labelIgual;
+        private System.Windows.Forms.Button button4;
     }
 }
