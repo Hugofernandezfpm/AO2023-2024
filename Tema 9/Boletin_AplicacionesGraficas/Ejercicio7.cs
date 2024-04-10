@@ -17,7 +17,7 @@ namespace Boletin_AplicacionesGraficas
             InitializeComponent();
         }
 
-        private void btnPulsar_Click(object sender, EventArgs e)
+        private void btnConvertirDolares_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
@@ -25,12 +25,8 @@ namespace Boletin_AplicacionesGraficas
                 double dolares = euros * 1.08;
                 textBox2.Text = dolares.ToString();
             }
-                
-            
-
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void btnConvertirEuros_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox2.Text))
             {
@@ -38,7 +34,6 @@ namespace Boletin_AplicacionesGraficas
                 double euros = dolares / 1.08;
                 textBox1.Text = euros.ToString();
             }
-               
         }
     }
 }

@@ -110,7 +110,7 @@
             // 
             // textBoxNumero2
             // 
-            this.textBoxNumero2.Location = new System.Drawing.Point(301, 136);
+            this.textBoxNumero2.Location = new System.Drawing.Point(296, 136);
             this.textBoxNumero2.Multiline = true;
             this.textBoxNumero2.Name = "textBoxNumero2";
             this.textBoxNumero2.Size = new System.Drawing.Size(120, 26);
