@@ -20,13 +20,9 @@ namespace Boletin_AplicacionesGraficas
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-            //int numeros = buttonNumero0.Text || buttonNumero1.Text || buttonNumero2.Text || buttonNumero3.Text || buttonNumero4.Text || buttonNumero5.Text || buttonNumero6.Text || buttonNumero7.Text || buttonNumero8.Text || buttonNumero9.Text;
-
-
-        
-
             if (!string.IsNullOrEmpty(textBoxResultado.Text)) //esto hace que si la caja de texto esta vacia no de error                                                                                          
             {
+
                 if (operador1 == '+')
                 {
                     double numero1 = double.Parse(textBoxResultado.Text);
