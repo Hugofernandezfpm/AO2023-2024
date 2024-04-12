@@ -80,6 +80,14 @@ namespace Boletin_AplicacionesGraficas
             Ejercicio8 ejercicio8 = new Ejercicio8();
             ejercicio8.Show();
         }
+
+        private void ejercicio9ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //vamos a asignar un evento de click a cada ejercicio 
+
+            Ejercicio9 ejercicio9 = new Ejercicio9();
+            ejercicio9.Show();
+        }
     }
     }
 

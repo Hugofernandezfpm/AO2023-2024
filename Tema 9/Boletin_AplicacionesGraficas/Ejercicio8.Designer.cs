@@ -185,6 +185,7 @@
             this.btnC.TabIndex = 26;
             this.btnC.Text = "C";
             this.btnC.UseVisualStyleBackColor = true;
+            this.btnC.Click += new System.EventHandler(this.btnC_Click);
             // 
             // btnMMas
             // 
@@ -203,6 +204,7 @@
             this.btnCE.TabIndex = 28;
             this.btnCE.Text = "CE";
             this.btnCE.UseVisualStyleBackColor = true;
+            this.btnCE.Click += new System.EventHandler(this.btnCE_Click);
             // 
             // btnDividir
             // 
@@ -212,6 +214,7 @@
             this.btnDividir.TabIndex = 29;
             this.btnDividir.Text = "/";
             this.btnDividir.UseVisualStyleBackColor = true;
+            this.btnDividir.Click += new System.EventHandler(this.operador);
             // 
             // btnRestar
             // 
@@ -221,6 +224,7 @@
             this.btnRestar.TabIndex = 30;
             this.btnRestar.Text = "-";
             this.btnRestar.UseVisualStyleBackColor = true;
+            this.btnRestar.Click += new System.EventHandler(this.operador);
             // 
             // btnPorcentaje
             // 
@@ -230,6 +234,7 @@
             this.btnPorcentaje.TabIndex = 31;
             this.btnPorcentaje.Text = "%";
             this.btnPorcentaje.UseVisualStyleBackColor = true;
+            this.btnPorcentaje.Click += new System.EventHandler(this.operador);
             // 
             // btnMultiplicar
             // 
@@ -239,6 +244,7 @@
             this.btnMultiplicar.TabIndex = 32;
             this.btnMultiplicar.Text = "*";
             this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Click += new System.EventHandler(this.operador);
             // 
             // btnSumar
             // 
@@ -248,6 +254,7 @@
             this.btnSumar.TabIndex = 33;
             this.btnSumar.Text = "+";
             this.btnSumar.UseVisualStyleBackColor = true;
+            this.btnSumar.Click += new System.EventHandler(this.operador);
             // 
             // btnIgual
             // 
@@ -267,6 +274,7 @@
             this.btnBinario.TabIndex = 35;
             this.btnBinario.Text = "Binario";
             this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
             // 
             // btnSen
             // 

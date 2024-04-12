@@ -38,6 +38,7 @@
             this.ejercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejercicio9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +62,8 @@
             this.ejercicio5ToolStripMenuItem,
             this.ejercicio6ToolStripMenuItem,
             this.ejercicio7ToolStripMenuItem,
-            this.ejercicio8ToolStripMenuItem});
+            this.ejercicio8ToolStripMenuItem,
+            this.ejercicio9ToolStripMenuItem});
             this.EjerciciosSelecionados.Name = "EjerciciosSelecionados";
             this.EjerciciosSelecionados.Size = new System.Drawing.Size(68, 20);
             this.EjerciciosSelecionados.Text = "Ejercicios";
@@ -122,6 +124,13 @@
             this.ejercicio8ToolStripMenuItem.Text = "Ejercicio8";
             this.ejercicio8ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio8ToolStripMenuItem_Click);
             // 
+            // ejercicio9ToolStripMenuItem
+            // 
+            this.ejercicio9ToolStripMenuItem.Name = "ejercicio9ToolStripMenuItem";
+            this.ejercicio9ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ejercicio9ToolStripMenuItem.Text = "Ejercicio9";
+            this.ejercicio9ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio9ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -150,6 +159,7 @@
         private System.Windows.Forms.ToolStripMenuItem ejercicio6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejercicio7ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejercicio8ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ejercicio9ToolStripMenuItem;
     }
 }
 
