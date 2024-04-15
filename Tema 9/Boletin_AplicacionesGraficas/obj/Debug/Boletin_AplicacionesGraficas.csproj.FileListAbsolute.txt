@@ -36,3 +36,4 @@ C:\Users\Hugo insti\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraf
 C:\Users\Hugo insti\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.csproj.CoreCompileInputs.cache
 C:\Users\Hugo insti\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.exe
 C:\Users\Hugo insti\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletin_AplicacionesGraficas\obj\Debug\Boletin_AplicacionesGraficas.Ejercicio9.resources

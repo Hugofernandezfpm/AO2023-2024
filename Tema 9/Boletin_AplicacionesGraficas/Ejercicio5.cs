@@ -20,7 +20,7 @@ namespace Boletin_AplicacionesGraficas
 
       
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e) //es el boton de igual
         {
             if (!string.IsNullOrEmpty(textBoxNumero1.Text) && !string.IsNullOrEmpty(textBoxNumero2.Text)) //esto hace que si la caja de texto esta                                                                                            //vacia no de error
             {

@@ -35,7 +35,7 @@
             this.textBoxEmailGuardar = new System.Windows.Forms.TextBox();
             this.textBoxEmailMostrar = new System.Windows.Forms.TextBox();
             this.textBoxEdadMostrar = new System.Windows.Forms.TextBox();
-            this.textBox2ApellidosMostrar = new System.Windows.Forms.TextBox();
+            this.textBoxApellidosMostrar = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -120,12 +120,12 @@
             this.textBoxEdadMostrar.Size = new System.Drawing.Size(100, 20);
             this.textBoxEdadMostrar.TabIndex = 18;
             // 
-            // textBox2ApellidosMostrar
+            // textBoxApellidosMostrar
             // 
-            this.textBox2ApellidosMostrar.Location = new System.Drawing.Point(75, 54);
-            this.textBox2ApellidosMostrar.Name = "textBox2ApellidosMostrar";
-            this.textBox2ApellidosMostrar.Size = new System.Drawing.Size(100, 20);
-            this.textBox2ApellidosMostrar.TabIndex = 19;
+            this.textBoxApellidosMostrar.Location = new System.Drawing.Point(75, 54);
+            this.textBoxApellidosMostrar.Name = "textBoxApellidosMostrar";
+            this.textBoxApellidosMostrar.Size = new System.Drawing.Size(100, 20);
+            this.textBoxApellidosMostrar.TabIndex = 19;
             // 
             // dateTimePicker1
             // 
@@ -195,6 +195,7 @@
             this.btnBuscarUsuario2.TabIndex = 27;
             this.btnBuscarUsuario2.Text = "Buscar usuario";
             this.btnBuscarUsuario2.UseVisualStyleBackColor = false;
+            this.btnBuscarUsuario2.Click += new System.EventHandler(this.btnBuscarUsuario2_Click);
             // 
             // textBoxDNIBuscador2
             // 
@@ -278,6 +279,7 @@
             this.btnBuscarUsuario1.TabIndex = 47;
             this.btnBuscarUsuario1.Text = "Buscar usuario";
             this.btnBuscarUsuario1.UseVisualStyleBackColor = false;
+            this.btnBuscarUsuario1.Click += new System.EventHandler(this.btnBuscarUsuario1_Click);
             // 
             // label2
             // 
@@ -387,7 +389,7 @@
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.button1);
-            this.groupBox3.Controls.Add(this.textBox2ApellidosMostrar);
+            this.groupBox3.Controls.Add(this.textBoxApellidosMostrar);
             this.groupBox3.Controls.Add(this.textBoxEdadMostrar);
             this.groupBox3.Controls.Add(this.textBoxEmailMostrar);
             this.groupBox3.Controls.Add(this.textBoxNombreMostrar);
@@ -435,6 +437,7 @@
             this.Controls.Add(this.btnGuardarUsuario);
             this.Name = "Ejercicio9";
             this.Text = "Ejercicio9";
+            this.Load += new System.EventHandler(this.Ejercicio9_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -455,7 +458,7 @@
         private System.Windows.Forms.TextBox textBoxEmailGuardar;
         private System.Windows.Forms.TextBox textBoxEmailMostrar;
         private System.Windows.Forms.TextBox textBoxEdadMostrar;
-        private System.Windows.Forms.TextBox textBox2ApellidosMostrar;
+        private System.Windows.Forms.TextBox textBoxApellidosMostrar;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
