@@ -1,0 +1,11 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\bin\Debug\Boletín2_Aplicaciones_Graficas.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\bin\Debug\Boletín2_Aplicaciones_Graficas.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\bin\Debug\Boletín2_Aplicaciones_Graficas.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Form1.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Properties.Resources.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.csproj.GenerateResource.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.pdb
