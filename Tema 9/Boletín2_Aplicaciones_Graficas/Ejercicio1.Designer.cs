@@ -41,15 +41,27 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.txtBoxTotal = new System.Windows.Forms.TextBox();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.checkBoxLaserJetX = new System.Windows.Forms.CheckBox();
+            this.checkBoxBigNotebook = new System.Windows.Forms.CheckBox();
+            this.checkBoxSmartDesktop = new System.Windows.Forms.CheckBox();
+            this.checkBoxHDDigicam = new System.Windows.Forms.CheckBox();
+            this.checkBoxHiTechMP4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxADSLModem = new System.Windows.Forms.CheckBox();
+            this.numericUpDownLasertJetX = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownBigNotebook = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownSmartDesktop = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownHDDigicam = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownHiTechMP4 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownADSLModem = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownLasertJetX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownBigNotebook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSmartDesktop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownHDDigicam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownHiTechMP4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownADSLModem)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -168,100 +180,150 @@
             this.label13.TabIndex = 12;
             this.label13.Text = "Total =";
             // 
-            // textBox1
+            // txtBoxTotal
             // 
-            this.textBox1.Location = new System.Drawing.Point(58, 150);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(65, 30);
-            this.textBox1.TabIndex = 13;
+            this.txtBoxTotal.Location = new System.Drawing.Point(58, 150);
+            this.txtBoxTotal.Multiline = true;
+            this.txtBoxTotal.Name = "txtBoxTotal";
+            this.txtBoxTotal.Size = new System.Drawing.Size(65, 30);
+            this.txtBoxTotal.TabIndex = 13;
             // 
-            // button1
+            // btnCalcular
             // 
-            this.button1.Location = new System.Drawing.Point(274, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCalcular.Location = new System.Drawing.Point(274, 150);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcular.TabIndex = 14;
+            this.btnCalcular.Text = "Calculate";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // button2
+            // btnCancelar
             // 
-            this.button2.Location = new System.Drawing.Point(367, 150);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(367, 150);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 15;
+            this.btnCancelar.Text = "Cancel";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // checkBox1
+            // checkBoxLaserJetX
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(161, 9);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxLaserJetX.AutoSize = true;
+            this.checkBoxLaserJetX.Location = new System.Drawing.Point(161, 9);
+            this.checkBoxLaserJetX.Name = "checkBoxLaserJetX";
+            this.checkBoxLaserJetX.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxLaserJetX.TabIndex = 16;
+            this.checkBoxLaserJetX.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBoxBigNotebook
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(161, 41);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 17;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBoxBigNotebook.AutoSize = true;
+            this.checkBoxBigNotebook.Location = new System.Drawing.Point(161, 41);
+            this.checkBoxBigNotebook.Name = "checkBoxBigNotebook";
+            this.checkBoxBigNotebook.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxBigNotebook.TabIndex = 17;
+            this.checkBoxBigNotebook.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBoxSmartDesktop
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(161, 80);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 18;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxSmartDesktop.AutoSize = true;
+            this.checkBoxSmartDesktop.Location = new System.Drawing.Point(161, 80);
+            this.checkBoxSmartDesktop.Name = "checkBoxSmartDesktop";
+            this.checkBoxSmartDesktop.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSmartDesktop.TabIndex = 18;
+            this.checkBoxSmartDesktop.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBoxHDDigicam
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(401, 9);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
-            this.checkBox4.TabIndex = 19;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBoxHDDigicam.AutoSize = true;
+            this.checkBoxHDDigicam.Location = new System.Drawing.Point(401, 9);
+            this.checkBoxHDDigicam.Name = "checkBoxHDDigicam";
+            this.checkBoxHDDigicam.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxHDDigicam.TabIndex = 19;
+            this.checkBoxHDDigicam.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // checkBoxHiTechMP4
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(401, 42);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(15, 14);
-            this.checkBox5.TabIndex = 20;
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBoxHiTechMP4.AutoSize = true;
+            this.checkBoxHiTechMP4.Location = new System.Drawing.Point(401, 42);
+            this.checkBoxHiTechMP4.Name = "checkBoxHiTechMP4";
+            this.checkBoxHiTechMP4.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxHiTechMP4.TabIndex = 20;
+            this.checkBoxHiTechMP4.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // checkBoxADSLModem
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(401, 81);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
-            this.checkBox6.TabIndex = 21;
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBoxADSLModem.AutoSize = true;
+            this.checkBoxADSLModem.Location = new System.Drawing.Point(401, 81);
+            this.checkBoxADSLModem.Name = "checkBoxADSLModem";
+            this.checkBoxADSLModem.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxADSLModem.TabIndex = 21;
+            this.checkBoxADSLModem.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDownLasertJetX
+            // 
+            this.numericUpDownLasertJetX.Location = new System.Drawing.Point(182, 7);
+            this.numericUpDownLasertJetX.Name = "numericUpDownLasertJetX";
+            this.numericUpDownLasertJetX.Size = new System.Drawing.Size(39, 20);
+            this.numericUpDownLasertJetX.TabIndex = 22;
+            // 
+            // numericUpDownBigNotebook
+            // 
+            this.numericUpDownBigNotebook.Location = new System.Drawing.Point(182, 36);
+            this.numericUpDownBigNotebook.Name = "numericUpDownBigNotebook";
+            this.numericUpDownBigNotebook.Size = new System.Drawing.Size(39, 20);
+            this.numericUpDownBigNotebook.TabIndex = 23;
+            // 
+            // numericUpDownSmartDesktop
+            // 
+            this.numericUpDownSmartDesktop.Location = new System.Drawing.Point(182, 75);
+            this.numericUpDownSmartDesktop.Name = "numericUpDownSmartDesktop";
+            this.numericUpDownSmartDesktop.Size = new System.Drawing.Size(39, 20);
+            this.numericUpDownSmartDesktop.TabIndex = 24;
+            // 
+            // numericUpDownHDDigicam
+            // 
+            this.numericUpDownHDDigicam.Location = new System.Drawing.Point(422, 7);
+            this.numericUpDownHDDigicam.Name = "numericUpDownHDDigicam";
+            this.numericUpDownHDDigicam.Size = new System.Drawing.Size(39, 20);
+            this.numericUpDownHDDigicam.TabIndex = 25;
+            // 
+            // numericUpDownHiTechMP4
+            // 
+            this.numericUpDownHiTechMP4.Location = new System.Drawing.Point(422, 39);
+            this.numericUpDownHiTechMP4.Name = "numericUpDownHiTechMP4";
+            this.numericUpDownHiTechMP4.Size = new System.Drawing.Size(39, 20);
+            this.numericUpDownHiTechMP4.TabIndex = 26;
+            // 
+            // numericUpDownADSLModem
+            // 
+            this.numericUpDownADSLModem.Location = new System.Drawing.Point(422, 79);
+            this.numericUpDownADSLModem.Name = "numericUpDownADSLModem";
+            this.numericUpDownADSLModem.Size = new System.Drawing.Size(39, 20);
+            this.numericUpDownADSLModem.TabIndex = 27;
             // 
             // Ejercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.numericUpDownADSLModem);
+            this.Controls.Add(this.numericUpDownHiTechMP4);
+            this.Controls.Add(this.numericUpDownHDDigicam);
+            this.Controls.Add(this.numericUpDownSmartDesktop);
+            this.Controls.Add(this.numericUpDownBigNotebook);
+            this.Controls.Add(this.numericUpDownLasertJetX);
+            this.Controls.Add(this.checkBoxADSLModem);
+            this.Controls.Add(this.checkBoxHiTechMP4);
+            this.Controls.Add(this.checkBoxHDDigicam);
+            this.Controls.Add(this.checkBoxSmartDesktop);
+            this.Controls.Add(this.checkBoxBigNotebook);
+            this.Controls.Add(this.checkBoxLaserJetX);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.txtBoxTotal);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -277,6 +339,12 @@
             this.Controls.Add(this.label1);
             this.Name = "Ejercicio1";
             this.Text = "Ejercicio1";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownLasertJetX)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownBigNotebook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSmartDesktop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownHDDigicam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownHiTechMP4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownADSLModem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -297,14 +365,20 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.TextBox txtBoxTotal;
+        private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.CheckBox checkBoxLaserJetX;
+        private System.Windows.Forms.CheckBox checkBoxBigNotebook;
+        private System.Windows.Forms.CheckBox checkBoxSmartDesktop;
+        private System.Windows.Forms.CheckBox checkBoxHDDigicam;
+        private System.Windows.Forms.CheckBox checkBoxHiTechMP4;
+        private System.Windows.Forms.CheckBox checkBoxADSLModem;
+        private System.Windows.Forms.NumericUpDown numericUpDownLasertJetX;
+        private System.Windows.Forms.NumericUpDown numericUpDownBigNotebook;
+        private System.Windows.Forms.NumericUpDown numericUpDownSmartDesktop;
+        private System.Windows.Forms.NumericUpDown numericUpDownHDDigicam;
+        private System.Windows.Forms.NumericUpDown numericUpDownHiTechMP4;
+        private System.Windows.Forms.NumericUpDown numericUpDownADSLModem;
     }
 }

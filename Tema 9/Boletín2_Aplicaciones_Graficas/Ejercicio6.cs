@@ -16,5 +16,26 @@ namespace Boletín2_Aplicaciones_Graficas
         {
             InitializeComponent();
         }
+
+        private void radioBtnTigre_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBoxTigre.Visible = true;
+            pictureBoxTiburon.Visible = false;
+            pictureBoxJirafa.Visible = false;
+        }
+
+        private void radioBtnTiburon_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBoxTiburon.Visible = true;
+            pictureBoxTigre.Visible = false;
+            pictureBoxJirafa.Visible = false;
+        }
+
+        private void radioBtnJirafa_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBoxJirafa.Visible = true;
+            pictureBoxTigre.Visible = false;
+            pictureBoxTiburon.Visible = false;
+        }
     }
 }

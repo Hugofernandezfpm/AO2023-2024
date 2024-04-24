@@ -9,3 +9,12 @@ C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Gr
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.csproj.CoreCompileInputs.cache
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.exe
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio1.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio2.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio3.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio4.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio5.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio6.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio7.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio8.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio9.resources
