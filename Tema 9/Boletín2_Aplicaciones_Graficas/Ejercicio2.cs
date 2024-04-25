@@ -22,7 +22,7 @@ namespace Boletín2_Aplicaciones_Graficas
         {
            if(radioBtn1ºGMI.Checked)
             {
-                listBoxAsignaturas.Items.Add("Progrmacion en C#");
+                listBoxAsignaturas.Items.Add("Programacion en C#");
                 listBoxAsignaturas.Items.Add("Fol");
                 listBoxAsignaturas.Items.Add("Montaje");
                 listBoxAsignaturas.Items.Add("Ofimatica");
@@ -42,7 +42,7 @@ namespace Boletín2_Aplicaciones_Graficas
         {
             if (radioBtn2ºGMI.Checked)
             {
-                listBoxAsignaturas.Items.Add("Progrmacion en Java");
+                listBoxAsignaturas.Items.Add("Programacion en Java");
                 listBoxAsignaturas.Items.Add("Montaje");
                 listBoxAsignaturas.Items.Add("Ofimatica");
                 listBoxAsignaturas.Items.Add("Sistemas Operativos");
@@ -57,9 +57,9 @@ namespace Boletín2_Aplicaciones_Graficas
 
         private void listBoxAsignaturas_SelectedIndexChanged(object sender, EventArgs e)
         {
-            asignatura = listBoxAsignaturas.SelectedItem.ToString();
+            asignatura = listBoxAsignaturas.Text.ToString();
             Profesores profesores = new Profesores();
-            profesores.ShowDialog();
+            profesores.Show();
         }
     }
 }

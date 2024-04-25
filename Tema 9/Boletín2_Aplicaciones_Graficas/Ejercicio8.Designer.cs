@@ -42,17 +42,17 @@
             this.pictureBoxDadoNumero5Segundo = new System.Windows.Forms.PictureBox();
             this.pictureBoxDadoNumero6Segundo = new System.Windows.Forms.PictureBox();
             this.pictureBoxDadoNumero1Tercero = new System.Windows.Forms.PictureBox();
-            this.pictureBoxNumero2Tercero = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDadoNumero2Tercero = new System.Windows.Forms.PictureBox();
             this.pictureBoxDadoNumero3Tercero = new System.Windows.Forms.PictureBox();
             this.pictureBoxDadoNumero4Tercero = new System.Windows.Forms.PictureBox();
             this.pictureBoxDadoNumero5Tercero = new System.Windows.Forms.PictureBox();
-            this.pictureBoxNumero6Tercero = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDadoNumero6Tercero = new System.Windows.Forms.PictureBox();
             this.pictureBoxDadoNumero1Cuarto = new System.Windows.Forms.PictureBox();
-            this.pictureBoxNumero2Cuarto = new System.Windows.Forms.PictureBox();
-            this.pictureBoxNumero3Cuarto = new System.Windows.Forms.PictureBox();
-            this.pictureBoxNumero4Cuarto = new System.Windows.Forms.PictureBox();
-            this.pictureBoxNumero5Cuarto = new System.Windows.Forms.PictureBox();
-            this.pictureBoxNumero6Cuarto = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDadoNumero2Cuarto = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDadoNumero3Cuarto = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDadoNumero4Cuarto = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDadoNumero5Cuarto = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDadoNumero6Cuarto = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero4)).BeginInit();
@@ -66,17 +66,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero5Segundo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero6Segundo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero1Tercero)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero2Tercero)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero2Tercero)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero3Tercero)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero4Tercero)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero5Tercero)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero6Tercero)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero6Tercero)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero1Cuarto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero2Cuarto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero3Cuarto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero4Cuarto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero5Cuarto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero6Cuarto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero2Cuarto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero3Cuarto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero4Cuarto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero5Cuarto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero6Cuarto)).BeginInit();
             this.SuspendLayout();
             // 
             // btnPull
@@ -232,16 +232,16 @@
             this.pictureBoxDadoNumero1Tercero.TabStop = false;
             this.pictureBoxDadoNumero1Tercero.Visible = false;
             // 
-            // pictureBoxNumero2Tercero
+            // pictureBoxDadoNumero2Tercero
             // 
-            this.pictureBoxNumero2Tercero.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_2;
-            this.pictureBoxNumero2Tercero.Location = new System.Drawing.Point(117, 117);
-            this.pictureBoxNumero2Tercero.Name = "pictureBoxNumero2Tercero";
-            this.pictureBoxNumero2Tercero.Size = new System.Drawing.Size(54, 45);
-            this.pictureBoxNumero2Tercero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxNumero2Tercero.TabIndex = 14;
-            this.pictureBoxNumero2Tercero.TabStop = false;
-            this.pictureBoxNumero2Tercero.Visible = false;
+            this.pictureBoxDadoNumero2Tercero.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_2;
+            this.pictureBoxDadoNumero2Tercero.Location = new System.Drawing.Point(117, 117);
+            this.pictureBoxDadoNumero2Tercero.Name = "pictureBoxDadoNumero2Tercero";
+            this.pictureBoxDadoNumero2Tercero.Size = new System.Drawing.Size(54, 45);
+            this.pictureBoxDadoNumero2Tercero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDadoNumero2Tercero.TabIndex = 14;
+            this.pictureBoxDadoNumero2Tercero.TabStop = false;
+            this.pictureBoxDadoNumero2Tercero.Visible = false;
             // 
             // pictureBoxDadoNumero3Tercero
             // 
@@ -276,16 +276,16 @@
             this.pictureBoxDadoNumero5Tercero.TabStop = false;
             this.pictureBoxDadoNumero5Tercero.Visible = false;
             // 
-            // pictureBoxNumero6Tercero
+            // pictureBoxDadoNumero6Tercero
             // 
-            this.pictureBoxNumero6Tercero.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_6;
-            this.pictureBoxNumero6Tercero.Location = new System.Drawing.Point(117, 117);
-            this.pictureBoxNumero6Tercero.Name = "pictureBoxNumero6Tercero";
-            this.pictureBoxNumero6Tercero.Size = new System.Drawing.Size(54, 45);
-            this.pictureBoxNumero6Tercero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxNumero6Tercero.TabIndex = 18;
-            this.pictureBoxNumero6Tercero.TabStop = false;
-            this.pictureBoxNumero6Tercero.Visible = false;
+            this.pictureBoxDadoNumero6Tercero.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_6;
+            this.pictureBoxDadoNumero6Tercero.Location = new System.Drawing.Point(117, 117);
+            this.pictureBoxDadoNumero6Tercero.Name = "pictureBoxDadoNumero6Tercero";
+            this.pictureBoxDadoNumero6Tercero.Size = new System.Drawing.Size(54, 45);
+            this.pictureBoxDadoNumero6Tercero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDadoNumero6Tercero.TabIndex = 18;
+            this.pictureBoxDadoNumero6Tercero.TabStop = false;
+            this.pictureBoxDadoNumero6Tercero.Visible = false;
             // 
             // pictureBoxDadoNumero1Cuarto
             // 
@@ -298,77 +298,77 @@
             this.pictureBoxDadoNumero1Cuarto.TabStop = false;
             this.pictureBoxDadoNumero1Cuarto.Visible = false;
             // 
-            // pictureBoxNumero2Cuarto
+            // pictureBoxDadoNumero2Cuarto
             // 
-            this.pictureBoxNumero2Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_2;
-            this.pictureBoxNumero2Cuarto.Location = new System.Drawing.Point(193, 117);
-            this.pictureBoxNumero2Cuarto.Name = "pictureBoxNumero2Cuarto";
-            this.pictureBoxNumero2Cuarto.Size = new System.Drawing.Size(54, 45);
-            this.pictureBoxNumero2Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxNumero2Cuarto.TabIndex = 20;
-            this.pictureBoxNumero2Cuarto.TabStop = false;
-            this.pictureBoxNumero2Cuarto.Visible = false;
+            this.pictureBoxDadoNumero2Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_2;
+            this.pictureBoxDadoNumero2Cuarto.Location = new System.Drawing.Point(193, 117);
+            this.pictureBoxDadoNumero2Cuarto.Name = "pictureBoxDadoNumero2Cuarto";
+            this.pictureBoxDadoNumero2Cuarto.Size = new System.Drawing.Size(54, 45);
+            this.pictureBoxDadoNumero2Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDadoNumero2Cuarto.TabIndex = 20;
+            this.pictureBoxDadoNumero2Cuarto.TabStop = false;
+            this.pictureBoxDadoNumero2Cuarto.Visible = false;
             // 
-            // pictureBoxNumero3Cuarto
+            // pictureBoxDadoNumero3Cuarto
             // 
-            this.pictureBoxNumero3Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_3;
-            this.pictureBoxNumero3Cuarto.Location = new System.Drawing.Point(193, 117);
-            this.pictureBoxNumero3Cuarto.Name = "pictureBoxNumero3Cuarto";
-            this.pictureBoxNumero3Cuarto.Size = new System.Drawing.Size(54, 45);
-            this.pictureBoxNumero3Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxNumero3Cuarto.TabIndex = 21;
-            this.pictureBoxNumero3Cuarto.TabStop = false;
-            this.pictureBoxNumero3Cuarto.Visible = false;
+            this.pictureBoxDadoNumero3Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_3;
+            this.pictureBoxDadoNumero3Cuarto.Location = new System.Drawing.Point(193, 117);
+            this.pictureBoxDadoNumero3Cuarto.Name = "pictureBoxDadoNumero3Cuarto";
+            this.pictureBoxDadoNumero3Cuarto.Size = new System.Drawing.Size(54, 45);
+            this.pictureBoxDadoNumero3Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDadoNumero3Cuarto.TabIndex = 21;
+            this.pictureBoxDadoNumero3Cuarto.TabStop = false;
+            this.pictureBoxDadoNumero3Cuarto.Visible = false;
             // 
-            // pictureBoxNumero4Cuarto
+            // pictureBoxDadoNumero4Cuarto
             // 
-            this.pictureBoxNumero4Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_4;
-            this.pictureBoxNumero4Cuarto.Location = new System.Drawing.Point(193, 117);
-            this.pictureBoxNumero4Cuarto.Name = "pictureBoxNumero4Cuarto";
-            this.pictureBoxNumero4Cuarto.Size = new System.Drawing.Size(54, 45);
-            this.pictureBoxNumero4Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxNumero4Cuarto.TabIndex = 22;
-            this.pictureBoxNumero4Cuarto.TabStop = false;
-            this.pictureBoxNumero4Cuarto.Visible = false;
+            this.pictureBoxDadoNumero4Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_4;
+            this.pictureBoxDadoNumero4Cuarto.Location = new System.Drawing.Point(193, 117);
+            this.pictureBoxDadoNumero4Cuarto.Name = "pictureBoxDadoNumero4Cuarto";
+            this.pictureBoxDadoNumero4Cuarto.Size = new System.Drawing.Size(54, 45);
+            this.pictureBoxDadoNumero4Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDadoNumero4Cuarto.TabIndex = 22;
+            this.pictureBoxDadoNumero4Cuarto.TabStop = false;
+            this.pictureBoxDadoNumero4Cuarto.Visible = false;
             // 
-            // pictureBoxNumero5Cuarto
+            // pictureBoxDadoNumero5Cuarto
             // 
-            this.pictureBoxNumero5Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_5;
-            this.pictureBoxNumero5Cuarto.Location = new System.Drawing.Point(193, 117);
-            this.pictureBoxNumero5Cuarto.Name = "pictureBoxNumero5Cuarto";
-            this.pictureBoxNumero5Cuarto.Size = new System.Drawing.Size(54, 45);
-            this.pictureBoxNumero5Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxNumero5Cuarto.TabIndex = 23;
-            this.pictureBoxNumero5Cuarto.TabStop = false;
-            this.pictureBoxNumero5Cuarto.Visible = false;
+            this.pictureBoxDadoNumero5Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_5;
+            this.pictureBoxDadoNumero5Cuarto.Location = new System.Drawing.Point(193, 117);
+            this.pictureBoxDadoNumero5Cuarto.Name = "pictureBoxDadoNumero5Cuarto";
+            this.pictureBoxDadoNumero5Cuarto.Size = new System.Drawing.Size(54, 45);
+            this.pictureBoxDadoNumero5Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDadoNumero5Cuarto.TabIndex = 23;
+            this.pictureBoxDadoNumero5Cuarto.TabStop = false;
+            this.pictureBoxDadoNumero5Cuarto.Visible = false;
             // 
-            // pictureBoxNumero6Cuarto
+            // pictureBoxDadoNumero6Cuarto
             // 
-            this.pictureBoxNumero6Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_6;
-            this.pictureBoxNumero6Cuarto.Location = new System.Drawing.Point(193, 117);
-            this.pictureBoxNumero6Cuarto.Name = "pictureBoxNumero6Cuarto";
-            this.pictureBoxNumero6Cuarto.Size = new System.Drawing.Size(54, 45);
-            this.pictureBoxNumero6Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxNumero6Cuarto.TabIndex = 24;
-            this.pictureBoxNumero6Cuarto.TabStop = false;
-            this.pictureBoxNumero6Cuarto.Visible = false;
+            this.pictureBoxDadoNumero6Cuarto.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.dado_numero_6;
+            this.pictureBoxDadoNumero6Cuarto.Location = new System.Drawing.Point(193, 117);
+            this.pictureBoxDadoNumero6Cuarto.Name = "pictureBoxDadoNumero6Cuarto";
+            this.pictureBoxDadoNumero6Cuarto.Size = new System.Drawing.Size(54, 45);
+            this.pictureBoxDadoNumero6Cuarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDadoNumero6Cuarto.TabIndex = 24;
+            this.pictureBoxDadoNumero6Cuarto.TabStop = false;
+            this.pictureBoxDadoNumero6Cuarto.Visible = false;
             // 
             // Ejercicio8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBoxNumero6Cuarto);
-            this.Controls.Add(this.pictureBoxNumero5Cuarto);
-            this.Controls.Add(this.pictureBoxNumero4Cuarto);
-            this.Controls.Add(this.pictureBoxNumero3Cuarto);
-            this.Controls.Add(this.pictureBoxNumero2Cuarto);
+            this.Controls.Add(this.pictureBoxDadoNumero6Cuarto);
+            this.Controls.Add(this.pictureBoxDadoNumero5Cuarto);
+            this.Controls.Add(this.pictureBoxDadoNumero4Cuarto);
+            this.Controls.Add(this.pictureBoxDadoNumero3Cuarto);
+            this.Controls.Add(this.pictureBoxDadoNumero2Cuarto);
             this.Controls.Add(this.pictureBoxDadoNumero1Cuarto);
-            this.Controls.Add(this.pictureBoxNumero6Tercero);
+            this.Controls.Add(this.pictureBoxDadoNumero6Tercero);
             this.Controls.Add(this.pictureBoxDadoNumero5Tercero);
             this.Controls.Add(this.pictureBoxDadoNumero4Tercero);
             this.Controls.Add(this.pictureBoxDadoNumero3Tercero);
-            this.Controls.Add(this.pictureBoxNumero2Tercero);
+            this.Controls.Add(this.pictureBoxDadoNumero2Tercero);
             this.Controls.Add(this.pictureBoxDadoNumero1Tercero);
             this.Controls.Add(this.pictureBoxDadoNumero6Segundo);
             this.Controls.Add(this.pictureBoxDadoNumero5Segundo);
@@ -398,17 +398,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero5Segundo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero6Segundo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero1Tercero)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero2Tercero)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero2Tercero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero3Tercero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero4Tercero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero5Tercero)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero6Tercero)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero6Tercero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero1Cuarto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero2Cuarto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero3Cuarto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero4Cuarto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero5Cuarto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumero6Cuarto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero2Cuarto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero3Cuarto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero4Cuarto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero5Cuarto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDadoNumero6Cuarto)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -429,16 +429,16 @@
         private System.Windows.Forms.PictureBox pictureBoxDadoNumero5Segundo;
         private System.Windows.Forms.PictureBox pictureBoxDadoNumero6Segundo;
         private System.Windows.Forms.PictureBox pictureBoxDadoNumero1Tercero;
-        private System.Windows.Forms.PictureBox pictureBoxNumero2Tercero;
+        private System.Windows.Forms.PictureBox pictureBoxDadoNumero2Tercero;
         private System.Windows.Forms.PictureBox pictureBoxDadoNumero3Tercero;
         private System.Windows.Forms.PictureBox pictureBoxDadoNumero4Tercero;
         private System.Windows.Forms.PictureBox pictureBoxDadoNumero5Tercero;
-        private System.Windows.Forms.PictureBox pictureBoxNumero6Tercero;
+        private System.Windows.Forms.PictureBox pictureBoxDadoNumero6Tercero;
         private System.Windows.Forms.PictureBox pictureBoxDadoNumero1Cuarto;
-        private System.Windows.Forms.PictureBox pictureBoxNumero2Cuarto;
-        private System.Windows.Forms.PictureBox pictureBoxNumero3Cuarto;
-        private System.Windows.Forms.PictureBox pictureBoxNumero4Cuarto;
-        private System.Windows.Forms.PictureBox pictureBoxNumero5Cuarto;
-        private System.Windows.Forms.PictureBox pictureBoxNumero6Cuarto;
+        private System.Windows.Forms.PictureBox pictureBoxDadoNumero2Cuarto;
+        private System.Windows.Forms.PictureBox pictureBoxDadoNumero3Cuarto;
+        private System.Windows.Forms.PictureBox pictureBoxDadoNumero4Cuarto;
+        private System.Windows.Forms.PictureBox pictureBoxDadoNumero5Cuarto;
+        private System.Windows.Forms.PictureBox pictureBoxDadoNumero6Cuarto;
     }
 }

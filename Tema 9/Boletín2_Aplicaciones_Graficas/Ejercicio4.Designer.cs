@@ -64,6 +64,7 @@
             this.btnCargar.TabIndex = 2;
             this.btnCargar.Text = "Cargar";
             this.btnCargar.UseVisualStyleBackColor = true;
+            this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
             // 
             // radioBtnCargarenComboBox
             // 
@@ -120,6 +121,7 @@
             this.btnVolcar.TabIndex = 8;
             this.btnVolcar.Text = "Volcar";
             this.btnVolcar.UseVisualStyleBackColor = true;
+            this.btnVolcar.Click += new System.EventHandler(this.btnVolcar_Click);
             // 
             // Ejercicio4
             // 

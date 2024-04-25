@@ -18,3 +18,4 @@ C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Gr
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio7.resources
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio8.resources
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Ejercicio9.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Boletín2_Aplicaciones_Graficas\obj\Debug\Boletín2_Aplicaciones_Graficas.Profesores.resources

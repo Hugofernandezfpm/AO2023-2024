@@ -16,5 +16,40 @@ namespace Boletín2_Aplicaciones_Graficas
         {
             InitializeComponent();
         }
+        double metros;
+        private void btnConvertir_Click(object sender, EventArgs e)
+        {
+            if (radioBtnMilimetros.Checked)
+            {
+                 metros = double.Parse(txtBoxCantidadDeMetros.Text) * 1000;
+                 txtBoxResultado.Text = metros.ToString();
+            }
+            else if (radioBtnCentimetros.Checked)
+            {
+                metros = double.Parse(txtBoxCantidadDeMetros.Text) * 100;
+                txtBoxResultado.Text = metros.ToString();
+            }
+            else if (radioBtnDecimetros.Checked)
+            {
+                metros = double.Parse(txtBoxCantidadDeMetros.Text) * 10;
+                txtBoxResultado.Text = metros.ToString();
+            }
+            else if (radioBtnKilometros.Checked)
+            {
+                metros = double.Parse(txtBoxCantidadDeMetros.Text) / 1000;
+                txtBoxResultado.Text = metros.ToString();
+            }
+        }
+
+        private void btnNuevoCalculo_Click(object sender, EventArgs e)
+        {
+            txtBoxCantidadDeMetros.Clear();
+            txtBoxResultado.Clear();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

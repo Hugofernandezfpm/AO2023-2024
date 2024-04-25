@@ -124,6 +124,7 @@
             this.btnConvertir.TabIndex = 7;
             this.btnConvertir.Text = "Convertir";
             this.btnConvertir.UseVisualStyleBackColor = true;
+            this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
             // btnSalir
             // 
@@ -133,6 +134,7 @@
             this.btnSalir.TabIndex = 8;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnNuevoCalculo
             // 
@@ -142,6 +144,7 @@
             this.btnNuevoCalculo.TabIndex = 9;
             this.btnNuevoCalculo.Text = "Nuevo Cáculo";
             this.btnNuevoCalculo.UseVisualStyleBackColor = true;
+            this.btnNuevoCalculo.Click += new System.EventHandler(this.btnNuevoCalculo_Click);
             // 
             // txtBoxResultado
             // 
