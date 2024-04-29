@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -20,14 +21,32 @@ namespace Boletín2_Aplicaciones_Graficas
 
         private void btnCargar_Click(object sender, EventArgs e)
         {
-            if (radioBtnCargarenComboBox.Checked)
+            if(txtNombreDelCampo.Text != "")
             {
-                comboBoxRegistro.Items.Add(txtNombreDelCampo.Text);
+                if (radioBtnCargarenComboBox.Checked)
+                {
+                    comboBoxRegistro.Items.Add(txtNombreDelCampo.Text);
+                }
+                else if (radioBtnCargarEnLisBox.Checked)
+                {
+                    listBoxRegistro.Items.Add(txtNombreDelCampo.Text);
+                }
+                if (radioBtnCargarenComboBox.Checked || radioBtnCargarEnLisBox.Checked)
+                {
+                    txtNombreDelCampo.Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Desbes selccionar una opción");
+                }
             }
-            else if (radioBtnCargarEnLisBox.Checked)
+            else
             {
-                listBoxRegistro.Items.Add(txtNombreDelCampo.Text);
+                MessageBox.Show("Debes escribir un nombre");
             }
+           
+          
+            
         }
         
         private void btnVolcar_Click(object sender, EventArgs e)

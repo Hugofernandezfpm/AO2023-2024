@@ -74,10 +74,14 @@
             // comboBoxEligeElTurno
             // 
             this.comboBoxEligeElTurno.FormattingEnabled = true;
+            this.comboBoxEligeElTurno.Items.AddRange(new object[] {
+            "Turno de mañana",
+            "Turno de noche"});
             this.comboBoxEligeElTurno.Location = new System.Drawing.Point(141, 53);
             this.comboBoxEligeElTurno.Name = "comboBoxEligeElTurno";
             this.comboBoxEligeElTurno.Size = new System.Drawing.Size(207, 21);
             this.comboBoxEligeElTurno.TabIndex = 4;
+            this.comboBoxEligeElTurno.SelectedIndexChanged += new System.EventHandler(this.comboBoxEligeElTurno_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -122,6 +126,7 @@
             this.listBoxTurnoDeMañana.Name = "listBoxTurnoDeMañana";
             this.listBoxTurnoDeMañana.Size = new System.Drawing.Size(120, 121);
             this.listBoxTurnoDeMañana.TabIndex = 9;
+            this.listBoxTurnoDeMañana.SelectedIndexChanged += new System.EventHandler(this.listBoxTurnoDeMañana_SelectedIndexChanged);
             // 
             // listBoxTurnoDeNoche
             // 
@@ -153,6 +158,7 @@
             this.btnUnoALaDerecha.TabIndex = 13;
             this.btnUnoALaDerecha.Text = ">";
             this.btnUnoALaDerecha.UseVisualStyleBackColor = true;
+            this.btnUnoALaDerecha.Click += new System.EventHandler(this.btnUnoALaDerecha_Click);
             // 
             // btnTodoALaDerecha
             // 
@@ -162,6 +168,7 @@
             this.btnTodoALaDerecha.TabIndex = 14;
             this.btnTodoALaDerecha.Text = ">>";
             this.btnTodoALaDerecha.UseVisualStyleBackColor = true;
+            this.btnTodoALaDerecha.Click += new System.EventHandler(this.btnTodoALaDerecha_Click);
             // 
             // btnUnoALaIzquierda
             // 
@@ -171,6 +178,7 @@
             this.btnUnoALaIzquierda.TabIndex = 15;
             this.btnUnoALaIzquierda.Text = "<";
             this.btnUnoALaIzquierda.UseVisualStyleBackColor = true;
+            this.btnUnoALaIzquierda.Click += new System.EventHandler(this.btnUnoALaIzquierda_Click);
             // 
             // btnTodoALaIzquierda
             // 
@@ -180,6 +188,7 @@
             this.btnTodoALaIzquierda.TabIndex = 16;
             this.btnTodoALaIzquierda.Text = "<<";
             this.btnTodoALaIzquierda.UseVisualStyleBackColor = true;
+            this.btnTodoALaIzquierda.Click += new System.EventHandler(this.btnTodoALaIzquierda_Click);
             // 
             // Ejercicio5
             // 
