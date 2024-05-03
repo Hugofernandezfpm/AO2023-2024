@@ -16,5 +16,27 @@ namespace Boletín2_Aplicaciones_Graficas
         {
             InitializeComponent();
         }
+        int contador = 20;
+
+
+
+        private void Ejercicio7_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            contador--;
+            if (contador >= 10)
+            {
+                pictureBox1.Left += 10;
+            }
+            else if (contador < 10 ) { }
+            {
+                pictureBox1.Left -= 10;
+            }
+
+        }
     }
 }
