@@ -22,21 +22,46 @@ namespace Boletín2_Aplicaciones_Graficas
 
         private void Ejercicio7_Load(object sender, EventArgs e)
         {
-
+            timer1.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             contador--;
+            
             if (contador >= 10)
             {
-                pictureBox1.Left += 10;
+                pictureBox1.Left += 5;
             }
-            else if (contador < 10 ) { }
+            else if (contador <= 10 || contador <= 1) 
             {
-                pictureBox1.Left -= 10;
+                pictureBox1.Left -= 5;
             }
+            
+         
 
+        }
+
+        private void btnDetener_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+        }
+
+        private void btnReiniciar_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+            contador = 20;
+            contador--;
+            pictureBox1.Left = 0;
+
+            if (contador >= 10)
+            {
+                pictureBox1.Left += 5;
+            }
+            else if (contador <= 10 || contador <= 1)
+            {
+                pictureBox1.Left -= 5;
+            }
         }
     }
 }

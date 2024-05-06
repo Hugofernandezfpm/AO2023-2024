@@ -6,3 +6,11 @@ C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ConexionFicheros2\obj\Deb
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ConexionFicheros2\obj\Debug\ConexionFicheros2.csproj.CoreCompileInputs.cache
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ConexionFicheros2\obj\Debug\ConexionFicheros2.exe
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 6\ConexionFicheros2\obj\Debug\ConexionFicheros2.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ConexionFicheros2\bin\Debug\ConexionFicheros2.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ConexionFicheros2\bin\Debug\ConexionFicheros2.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ConexionFicheros2\bin\Debug\ConexionFicheros2.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ConexionFicheros2\obj\Debug\ConexionFicheros2.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ConexionFicheros2\obj\Debug\ConexionFicheros2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ConexionFicheros2\obj\Debug\ConexionFicheros2.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ConexionFicheros2\obj\Debug\ConexionFicheros2.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 7\ConexionFicheros2\obj\Debug\ConexionFicheros2.pdb

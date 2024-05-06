@@ -46,16 +46,16 @@
             this.comboBoxPostre = new System.Windows.Forms.ComboBox();
             this.comboBoxCafe = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtBoxPrecioPrimerPlato = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtBoxPrecioSegundoPlato = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtBoxPrecioBebida = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtBoxPrecioBebida = new System.Windows.Forms.TextBox();
-            this.txtBoxPrecioSegundoPlato = new System.Windows.Forms.TextBox();
-            this.txtBoxPrecioPrimerPlato = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -82,6 +82,7 @@
             this.radioBtnCrema.TabStop = true;
             this.radioBtnCrema.Text = "Crema";
             this.radioBtnCrema.UseVisualStyleBackColor = true;
+            this.radioBtnCrema.CheckedChanged += new System.EventHandler(this.radioBtnCrema_CheckedChanged);
             // 
             // radioBtnEnsalada
             // 
@@ -93,6 +94,7 @@
             this.radioBtnEnsalada.TabStop = true;
             this.radioBtnEnsalada.Text = "Ensalada";
             this.radioBtnEnsalada.UseVisualStyleBackColor = true;
+            this.radioBtnEnsalada.CheckedChanged += new System.EventHandler(this.radioBtnEnsalada_CheckedChanged);
             // 
             // radioBtnEmpanada
             // 
@@ -104,6 +106,7 @@
             this.radioBtnEmpanada.TabStop = true;
             this.radioBtnEmpanada.Text = "Empanada";
             this.radioBtnEmpanada.UseVisualStyleBackColor = true;
+            this.radioBtnEmpanada.CheckedChanged += new System.EventHandler(this.radioBtnEmpanada_CheckedChanged);
             // 
             // radioBtnPescado
             // 
@@ -208,6 +211,7 @@
             this.comboBoxPrimerPlato.Name = "comboBoxPrimerPlato";
             this.comboBoxPrimerPlato.Size = new System.Drawing.Size(104, 21);
             this.comboBoxPrimerPlato.TabIndex = 14;
+            this.comboBoxPrimerPlato.SelectedIndexChanged += new System.EventHandler(this.comboBoxPrimerPlato_SelectedIndexChanged);
             // 
             // comboBoxSegundoPlato
             // 
@@ -249,6 +253,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Primer Plato";
             // 
+            // txtBoxPrecioPrimerPlato
+            // 
+            this.txtBoxPrecioPrimerPlato.Location = new System.Drawing.Point(110, 174);
+            this.txtBoxPrecioPrimerPlato.Name = "txtBoxPrecioPrimerPlato";
+            this.txtBoxPrecioPrimerPlato.Size = new System.Drawing.Size(47, 20);
+            this.txtBoxPrecioPrimerPlato.TabIndex = 19;
+            this.txtBoxPrecioPrimerPlato.TextChanged += new System.EventHandler(this.txtBoxPrecioPrimerPlato_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 177);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(97, 13);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Precio primer plato:";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtBoxPrecioSegundoPlato);
@@ -264,6 +285,22 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Segundo Plato";
             // 
+            // txtBoxPrecioSegundoPlato
+            // 
+            this.txtBoxPrecioSegundoPlato.Location = new System.Drawing.Point(9, 193);
+            this.txtBoxPrecioSegundoPlato.Name = "txtBoxPrecioSegundoPlato";
+            this.txtBoxPrecioSegundoPlato.Size = new System.Drawing.Size(67, 20);
+            this.txtBoxPrecioSegundoPlato.TabIndex = 18;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 177);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Precio 2º plato:";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtBoxPrecioBebida);
@@ -277,6 +314,22 @@
             this.groupBox3.TabIndex = 20;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Bebida";
+            // 
+            // txtBoxPrecioBebida
+            // 
+            this.txtBoxPrecioBebida.Location = new System.Drawing.Point(89, 42);
+            this.txtBoxPrecioBebida.Name = "txtBoxPrecioBebida";
+            this.txtBoxPrecioBebida.Size = new System.Drawing.Size(39, 20);
+            this.txtBoxPrecioBebida.TabIndex = 18;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(87, 21);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 13);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Precio bebida:";
             // 
             // groupBox4
             // 
@@ -300,54 +353,6 @@
             this.button1.TabIndex = 22;
             this.button1.Text = "Calcular cuenta";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 177);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 13);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "Precio primer plato:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 177);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Precio 2º plato:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(87, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 13);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Precio bebida:";
-            // 
-            // txtBoxPrecioBebida
-            // 
-            this.txtBoxPrecioBebida.Location = new System.Drawing.Point(89, 42);
-            this.txtBoxPrecioBebida.Name = "txtBoxPrecioBebida";
-            this.txtBoxPrecioBebida.Size = new System.Drawing.Size(39, 20);
-            this.txtBoxPrecioBebida.TabIndex = 18;
-            // 
-            // txtBoxPrecioSegundoPlato
-            // 
-            this.txtBoxPrecioSegundoPlato.Location = new System.Drawing.Point(9, 193);
-            this.txtBoxPrecioSegundoPlato.Name = "txtBoxPrecioSegundoPlato";
-            this.txtBoxPrecioSegundoPlato.Size = new System.Drawing.Size(67, 20);
-            this.txtBoxPrecioSegundoPlato.TabIndex = 18;
-            // 
-            // txtBoxPrecioPrimerPlato
-            // 
-            this.txtBoxPrecioPrimerPlato.Location = new System.Drawing.Point(110, 174);
-            this.txtBoxPrecioPrimerPlato.Name = "txtBoxPrecioPrimerPlato";
-            this.txtBoxPrecioPrimerPlato.Size = new System.Drawing.Size(47, 20);
-            this.txtBoxPrecioPrimerPlato.TabIndex = 19;
             // 
             // Ejercicio9
             // 

@@ -44,6 +44,7 @@
             this.btnDetener.TabIndex = 1;
             this.btnDetener.Text = "Detener";
             this.btnDetener.UseVisualStyleBackColor = true;
+            this.btnDetener.Click += new System.EventHandler(this.btnDetener_Click);
             // 
             // btnReiniciar
             // 
@@ -53,6 +54,7 @@
             this.btnReiniciar.TabIndex = 2;
             this.btnReiniciar.Text = "Reiniciar";
             this.btnReiniciar.UseVisualStyleBackColor = true;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
             // 
             // pictureBox1
             // 

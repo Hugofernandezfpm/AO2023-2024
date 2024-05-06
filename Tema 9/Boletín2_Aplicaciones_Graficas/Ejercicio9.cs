@@ -16,5 +16,40 @@ namespace Boletín2_Aplicaciones_Graficas
         {
             InitializeComponent();
         }
+
+        private void comboBoxPrimerPlato_SelectedIndexChanged(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void radioBtnCrema_CheckedChanged(object sender, EventArgs e)
+        {
+            comboBoxPrimerPlato.Items.Clear();
+            comboBoxPrimerPlato.Items.Add("Champiñones");
+            comboBoxPrimerPlato.Items.Add("Puerros");
+            comboBoxPrimerPlato.Items.Add("Zanahoria");    
+        }
+        private void radioBtnEnsalada_CheckedChanged(object sender, EventArgs e)
+        {
+            comboBoxPrimerPlato.Items.Clear();
+            comboBoxPrimerPlato.Items.Add("Champiñones");
+            comboBoxPrimerPlato.Items.Add("Puerros");
+            comboBoxPrimerPlato.Items.Add("Zanahoria");
+        }
+        private void radioBtnEmpanada_CheckedChanged(object sender, EventArgs e)
+        {
+            comboBoxPrimerPlato.Items.Clear();
+            comboBoxPrimerPlato.Items.Add("Champiñones");
+            comboBoxPrimerPlato.Items.Add("Puerros");
+            comboBoxPrimerPlato.Items.Add("Zanahoria");
+        }
+
+        private void txtBoxPrecioPrimerPlato_TextChanged(object sender, EventArgs e)
+        {
+            if (comboBoxPrimerPlato.)
+            {
+
+            }
+        }
     }
 }
