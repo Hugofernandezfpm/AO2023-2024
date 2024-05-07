@@ -55,7 +55,19 @@
             this.txtBoxPrecioBebida = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtBoxPrecioPostreOCafe = new System.Windows.Forms.TextBox();
+            this.btnCalcularCuenta = new System.Windows.Forms.Button();
+            this.txtBoxPrecioSinIva = new System.Windows.Forms.TextBox();
+            this.txtBoxPrecioConIva = new System.Windows.Forms.TextBox();
+            this.txtBoxCantidadDada = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtBoxTotalADevolver = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -118,6 +130,7 @@
             this.radioBtnPescado.TabStop = true;
             this.radioBtnPescado.Text = "Pescado";
             this.radioBtnPescado.UseVisualStyleBackColor = true;
+            this.radioBtnPescado.CheckedChanged += new System.EventHandler(this.radioBtnPescado_CheckedChanged);
             // 
             // radioBtnCarne
             // 
@@ -129,6 +142,7 @@
             this.radioBtnCarne.TabStop = true;
             this.radioBtnCarne.Text = "Carne";
             this.radioBtnCarne.UseVisualStyleBackColor = true;
+            this.radioBtnCarne.CheckedChanged += new System.EventHandler(this.radioBtnCarne_CheckedChanged);
             // 
             // radioBtnPasta
             // 
@@ -140,6 +154,7 @@
             this.radioBtnPasta.TabStop = true;
             this.radioBtnPasta.Text = "Pasta";
             this.radioBtnPasta.UseVisualStyleBackColor = true;
+            this.radioBtnPasta.CheckedChanged += new System.EventHandler(this.radioBtnPasta_CheckedChanged);
             // 
             // radioBtnAgua
             // 
@@ -151,6 +166,7 @@
             this.radioBtnAgua.TabStop = true;
             this.radioBtnAgua.Text = "Agua";
             this.radioBtnAgua.UseVisualStyleBackColor = true;
+            this.radioBtnAgua.CheckedChanged += new System.EventHandler(this.radioBtnAgua_CheckedChanged);
             // 
             // radioBtnRefresco
             // 
@@ -162,6 +178,7 @@
             this.radioBtnRefresco.TabStop = true;
             this.radioBtnRefresco.Text = "Refresco";
             this.radioBtnRefresco.UseVisualStyleBackColor = true;
+            this.radioBtnRefresco.CheckedChanged += new System.EventHandler(this.radioBtnRefresco_CheckedChanged);
             // 
             // radioBtnVino
             // 
@@ -173,6 +190,7 @@
             this.radioBtnVino.TabStop = true;
             this.radioBtnVino.Text = "Vino";
             this.radioBtnVino.UseVisualStyleBackColor = true;
+            this.radioBtnVino.CheckedChanged += new System.EventHandler(this.radioBtnVino_CheckedChanged);
             // 
             // radioBtnPostre
             // 
@@ -184,6 +202,7 @@
             this.radioBtnPostre.TabStop = true;
             this.radioBtnPostre.Text = "Postre";
             this.radioBtnPostre.UseVisualStyleBackColor = true;
+            this.radioBtnPostre.CheckedChanged += new System.EventHandler(this.radioBtnPostre_CheckedChanged);
             // 
             // radioBtnCafe
             // 
@@ -195,6 +214,7 @@
             this.radioBtnCafe.TabStop = true;
             this.radioBtnCafe.Text = "Café";
             this.radioBtnCafe.UseVisualStyleBackColor = true;
+            this.radioBtnCafe.CheckedChanged += new System.EventHandler(this.radioBtnCafe_CheckedChanged);
             // 
             // pictureBox2
             // 
@@ -220,6 +240,7 @@
             this.comboBoxSegundoPlato.Name = "comboBoxSegundoPlato";
             this.comboBoxSegundoPlato.Size = new System.Drawing.Size(99, 21);
             this.comboBoxSegundoPlato.TabIndex = 15;
+            this.comboBoxSegundoPlato.SelectedIndexChanged += new System.EventHandler(this.comboBoxSegundoPlato_SelectedIndexChanged);
             // 
             // comboBoxPostre
             // 
@@ -228,6 +249,7 @@
             this.comboBoxPostre.Name = "comboBoxPostre";
             this.comboBoxPostre.Size = new System.Drawing.Size(91, 21);
             this.comboBoxPostre.TabIndex = 16;
+            this.comboBoxPostre.SelectedIndexChanged += new System.EventHandler(this.comboBoxPostre_SelectedIndexChanged);
             // 
             // comboBoxCafe
             // 
@@ -236,6 +258,7 @@
             this.comboBoxCafe.Name = "comboBoxCafe";
             this.comboBoxCafe.Size = new System.Drawing.Size(91, 21);
             this.comboBoxCafe.TabIndex = 17;
+            this.comboBoxCafe.SelectedIndexChanged += new System.EventHandler(this.comboBoxCafe_SelectedIndexChanged);
             // 
             // groupBox1
             // 
@@ -259,7 +282,6 @@
             this.txtBoxPrecioPrimerPlato.Name = "txtBoxPrecioPrimerPlato";
             this.txtBoxPrecioPrimerPlato.Size = new System.Drawing.Size(47, 20);
             this.txtBoxPrecioPrimerPlato.TabIndex = 19;
-            this.txtBoxPrecioPrimerPlato.TextChanged += new System.EventHandler(this.txtBoxPrecioPrimerPlato_TextChanged);
             // 
             // label1
             // 
@@ -333,6 +355,9 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.txtBoxPrecioPostreOCafe);
             this.groupBox4.Controls.Add(this.comboBoxPostre);
             this.groupBox4.Controls.Add(this.pictureBox2);
             this.groupBox4.Controls.Add(this.radioBtnCafe);
@@ -345,21 +370,128 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Postre / Cafe";
             // 
-            // button1
+            // label5
             // 
-            this.button1.Location = new System.Drawing.Point(12, 249);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 43);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Calcular cuenta";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(109, 82);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 21;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(104, 63);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(98, 13);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Precio postre/cafe:";
+            // 
+            // txtBoxPrecioPostreOCafe
+            // 
+            this.txtBoxPrecioPostreOCafe.Location = new System.Drawing.Point(107, 79);
+            this.txtBoxPrecioPostreOCafe.Name = "txtBoxPrecioPostreOCafe";
+            this.txtBoxPrecioPostreOCafe.Size = new System.Drawing.Size(40, 20);
+            this.txtBoxPrecioPostreOCafe.TabIndex = 18;
+            // 
+            // btnCalcularCuenta
+            // 
+            this.btnCalcularCuenta.Location = new System.Drawing.Point(12, 239);
+            this.btnCalcularCuenta.Name = "btnCalcularCuenta";
+            this.btnCalcularCuenta.Size = new System.Drawing.Size(75, 43);
+            this.btnCalcularCuenta.TabIndex = 22;
+            this.btnCalcularCuenta.Text = "Calcular cuenta";
+            this.btnCalcularCuenta.UseVisualStyleBackColor = true;
+            this.btnCalcularCuenta.Click += new System.EventHandler(this.btnCalcularCuenta_Click);
+            // 
+            // txtBoxPrecioSinIva
+            // 
+            this.txtBoxPrecioSinIva.Location = new System.Drawing.Point(133, 262);
+            this.txtBoxPrecioSinIva.Name = "txtBoxPrecioSinIva";
+            this.txtBoxPrecioSinIva.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxPrecioSinIva.TabIndex = 23;
+            // 
+            // txtBoxPrecioConIva
+            // 
+            this.txtBoxPrecioConIva.Location = new System.Drawing.Point(246, 262);
+            this.txtBoxPrecioConIva.Name = "txtBoxPrecioConIva";
+            this.txtBoxPrecioConIva.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxPrecioConIva.TabIndex = 24;
+            // 
+            // txtBoxCantidadDada
+            // 
+            this.txtBoxCantidadDada.Location = new System.Drawing.Point(352, 262);
+            this.txtBoxCantidadDada.Name = "txtBoxCantidadDada";
+            this.txtBoxCantidadDada.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxCantidadDada.TabIndex = 25;
+            this.txtBoxCantidadDada.TextChanged += new System.EventHandler(this.txtBoxCantidadDada_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(139, 239);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 13);
+            this.label6.TabIndex = 26;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(130, 239);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(73, 13);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "Precio sin IVA";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(243, 239);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(78, 13);
+            this.label8.TabIndex = 28;
+            this.label8.Text = "Precio con IVA";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(349, 239);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(76, 13);
+            this.label9.TabIndex = 29;
+            this.label9.Text = "Cantidad dada";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(455, 239);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(84, 13);
+            this.label10.TabIndex = 30;
+            this.label10.Text = "Total a devolver";
+            // 
+            // txtBoxTotalADevolver
+            // 
+            this.txtBoxTotalADevolver.Location = new System.Drawing.Point(458, 262);
+            this.txtBoxTotalADevolver.Name = "txtBoxTotalADevolver";
+            this.txtBoxTotalADevolver.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxTotalADevolver.TabIndex = 31;
             // 
             // Ejercicio9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtBoxTotalADevolver);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtBoxCantidadDada);
+            this.Controls.Add(this.txtBoxPrecioConIva);
+            this.Controls.Add(this.txtBoxPrecioSinIva);
+            this.Controls.Add(this.btnCalcularCuenta);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -377,6 +509,7 @@
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -403,12 +536,24 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCalcularCuenta;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtBoxPrecioPrimerPlato;
         private System.Windows.Forms.TextBox txtBoxPrecioSegundoPlato;
         private System.Windows.Forms.TextBox txtBoxPrecioBebida;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtBoxPrecioPostreOCafe;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtBoxPrecioSinIva;
+        private System.Windows.Forms.TextBox txtBoxPrecioConIva;
+        private System.Windows.Forms.TextBox txtBoxCantidadDada;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtBoxTotalADevolver;
     }
 }

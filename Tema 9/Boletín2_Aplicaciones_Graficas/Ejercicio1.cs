@@ -22,7 +22,7 @@ namespace Boletín2_Aplicaciones_Graficas
         double hdDigicam;
         double hiTechMP4;
         double adslModem;
-        double cantidad;
+        
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
