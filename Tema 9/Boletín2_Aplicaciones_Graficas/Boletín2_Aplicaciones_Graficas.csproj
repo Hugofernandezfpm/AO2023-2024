@@ -206,5 +206,38 @@
   <ItemGroup>
     <None Include="Resources\dado numero 6.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarta de chocolate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cremas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ensaladas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empanada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pescados.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carnes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coca cola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vino.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

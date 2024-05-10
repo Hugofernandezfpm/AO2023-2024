@@ -20,35 +20,35 @@ namespace Boletín2_Aplicaciones_Graficas
             if (asignaturaSeleccionada == "Fol")
             {
 
-                txtBoxProfesores.Text = "Dani";
+                txtBoxProfesores.Text = "Dani, Derechos del trabajador";
             }
             else if (asignaturaSeleccionada == "Programacion en C#")
             {
-                txtBoxProfesores.Text = "Ramon";
+                txtBoxProfesores.Text = "Ramon, Formularios";
             }
             else if (asignaturaSeleccionada == "Montaje")
             {
-                txtBoxProfesores.Text = "Alberto";
+                txtBoxProfesores.Text = "Alberto, Impresora 3D";
             }
             else if (asignaturaSeleccionada == "Ofimatica")
             {
-                txtBoxProfesores.Text = "Martin";
+                txtBoxProfesores.Text = "Martin, Tablas";
             }
             else if (asignaturaSeleccionada == "Sistemas Operativos")
             {
-                txtBoxProfesores.Text = "Enrique";
+                txtBoxProfesores.Text = "Enrique, Gestion de Paquetes";
             }
             else if (asignaturaSeleccionada == "Redes")
             {
-                txtBoxProfesores.Text = "Fran";
+                txtBoxProfesores.Text = "Fran, Subredes";
             }
             else if (asignaturaSeleccionada == "Programacion en Java")
             {
-                txtBoxProfesores.Text = "Ramon";
+                txtBoxProfesores.Text = "Ramon, Colecciones";
             }
             else if (asignaturaSeleccionada == "Cyber Seguridad")
             {
-                txtBoxProfesores.Text = "Fran";
+                txtBoxProfesores.Text = "Fran, Protocolos de Seguridad";
             }
         }
     }

@@ -54,22 +54,28 @@ namespace Boletín2_Aplicaciones_Graficas
             StreamWriter registroDeNombres = new StreamWriter(Directory.GetCurrentDirectory() + "\\registroDeNombres.txt",true);
             List<string> nombres = new List<string>();
 
-
-            foreach (var item in comboBoxRegistro.Items)
+            if (txtNombreDelCampo.Text != "")
             {
-                nombres.Add(item.ToString());
-            }
+                foreach (var item in comboBoxRegistro.Items)
+                {
+                    nombres.Add(item.ToString());
+                }
 
-            foreach (var item in listBoxRegistro.Items)
-            {
-                nombres.Add(item.ToString());
-            }
+                foreach (var item in listBoxRegistro.Items)
+                {
+                    nombres.Add(item.ToString());
+                }
 
-            for (int i = 0;  i < nombres.Count; i++)
-            {
-                registroDeNombres.WriteLine(nombres[i]);
+                for (int i = 0; i < nombres.Count; i++)
+                {
+                    registroDeNombres.WriteLine(nombres[i]);
+                }
+                registroDeNombres.Close();
             }
-            registroDeNombres.Close();
+            else
+            {
+                MessageBox.Show("El campo no puede estar vacio");
+            }
         }
     }
 }

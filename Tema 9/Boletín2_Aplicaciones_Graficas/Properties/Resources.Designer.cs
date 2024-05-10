@@ -63,6 +63,56 @@ namespace Boletín2_Aplicaciones_Graficas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agua {
+            get {
+                object obj = ResourceManager.GetObject("agua", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cafe {
+            get {
+                object obj = ResourceManager.GetObject("cafe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carnes {
+            get {
+                object obj = ResourceManager.GetObject("carnes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coca_cola {
+            get {
+                object obj = ResourceManager.GetObject("coca cola", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cremas {
+            get {
+                object obj = ResourceManager.GetObject("cremas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dado_numero_1 {
             get {
                 object obj = ResourceManager.GetObject("dado numero 1", resourceCulture);
@@ -123,6 +173,26 @@ namespace Boletín2_Aplicaciones_Graficas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap empanada {
+            get {
+                object obj = ResourceManager.GetObject("empanada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ensaladas {
+            get {
+                object obj = ResourceManager.GetObject("ensaladas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Jirafa {
             get {
                 object obj = ResourceManager.GetObject("Jirafa", resourceCulture);
@@ -133,9 +203,39 @@ namespace Boletín2_Aplicaciones_Graficas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pastas {
+            get {
+                object obj = ResourceManager.GetObject("pastas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pescados {
+            get {
+                object obj = ResourceManager.GetObject("pescados", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap solo_leveling {
             get {
                 object obj = ResourceManager.GetObject("solo leveling", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tarta_de_chocolate {
+            get {
+                object obj = ResourceManager.GetObject("tarta de chocolate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +256,16 @@ namespace Boletín2_Aplicaciones_Graficas.Properties {
         internal static System.Drawing.Bitmap tigre {
             get {
                 object obj = ResourceManager.GetObject("tigre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vino {
+            get {
+                object obj = ResourceManager.GetObject("vino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

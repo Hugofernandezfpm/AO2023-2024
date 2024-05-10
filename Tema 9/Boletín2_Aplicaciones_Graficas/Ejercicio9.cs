@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Boletín2_Aplicaciones_Graficas
 {
@@ -34,6 +36,9 @@ namespace Boletín2_Aplicaciones_Graficas
             comboBoxPrimerPlato.Items.Add("Champiñones");
             comboBoxPrimerPlato.Items.Add("Puerros");
             comboBoxPrimerPlato.Items.Add("Zanahoria");
+            pictureBoxCremas.Visible = true;
+            pictureBoxEnsaladas.Visible = false;
+            pictureBoxEmpanadas.Visible = false;
 
    
         }
@@ -45,6 +50,9 @@ namespace Boletín2_Aplicaciones_Graficas
             comboBoxPrimerPlato.Items.Add("Primavera");
             comboBoxPrimerPlato.Items.Add("Romana");
             comboBoxPrimerPlato.Items.Add("Cesar");
+            pictureBoxEnsaladas.Visible = true;
+            pictureBoxCremas.Visible = false;
+            pictureBoxEmpanadas.Visible = false;
         }
         private void radioBtnEmpanada_CheckedChanged(object sender, EventArgs e)
         {
@@ -55,6 +63,10 @@ namespace Boletín2_Aplicaciones_Graficas
             comboBoxPrimerPlato.Items.Add("Zamburiñas");
             comboBoxPrimerPlato.Items.Add("Carne");
             comboBoxPrimerPlato.Items.Add("Choco");
+            pictureBoxEmpanadas.Visible = true;
+            pictureBoxEnsaladas.Visible = false;
+            pictureBoxCremas.Visible = false;
+           
         }
 
         private void comboBoxPrimerPlato_SelectedIndexChanged(object sender, EventArgs e)
@@ -120,6 +132,9 @@ namespace Boletín2_Aplicaciones_Graficas
             comboBoxSegundoPlato.Items.Add("Lenguado");
             comboBoxSegundoPlato.Items.Add("Besugo");
             comboBoxSegundoPlato.Items.Add("Bacalao al horno");
+            pictureBoxPescado.Visible = true;
+            pictureBoxCarnes.Visible = false;
+            pictureBoxPastas.Visible = false;
         }
 
         private void radioBtnCarne_CheckedChanged(object sender, EventArgs e)
@@ -131,6 +146,9 @@ namespace Boletín2_Aplicaciones_Graficas
             comboBoxSegundoPlato.Items.Add("Chuleta");
             comboBoxSegundoPlato.Items.Add("San Jacobo");
             comboBoxSegundoPlato.Items.Add("Solomillo");
+            pictureBoxCarnes.Visible = true;
+            pictureBoxPescado.Visible = false;
+            pictureBoxPastas.Visible = false;
         }
 
         private void radioBtnPasta_CheckedChanged(object sender, EventArgs e)
@@ -141,6 +159,9 @@ namespace Boletín2_Aplicaciones_Graficas
             comboBoxSegundoPlato.Items.Add("Spaguetti Bolognesa");
             comboBoxSegundoPlato.Items.Add("Macarrones carbonara");
             comboBoxSegundoPlato.Items.Add("Trofie al pesto");
+            pictureBoxPastas.Visible = true;
+            pictureBoxCarnes.Visible = false;
+            pictureBoxPescado.Visible = false;
         }
 
         private void comboBoxSegundoPlato_SelectedIndexChanged(object sender, EventArgs e)
@@ -210,6 +231,9 @@ namespace Boletín2_Aplicaciones_Graficas
             txtBoxPrecioBebida.Text = "";
             precioBebida = 1;
             txtBoxPrecioBebida.Text = precioBebida.ToString();
+            pictureBoxAgua.Visible = true;
+            pictureBoxRefresco.Visible = false;
+            pictureBoxVino.Visible = false;
         }
 
         private void radioBtnRefresco_CheckedChanged(object sender, EventArgs e)
@@ -217,6 +241,9 @@ namespace Boletín2_Aplicaciones_Graficas
             txtBoxPrecioBebida.Text = "";
             precioBebida = 2.5;
             txtBoxPrecioBebida.Text = precioBebida.ToString();
+            pictureBoxRefresco.Visible = true;
+            pictureBoxAgua.Visible = false;
+            pictureBoxVino.Visible = false;
         }
 
         private void radioBtnVino_CheckedChanged(object sender, EventArgs e)
@@ -224,6 +251,9 @@ namespace Boletín2_Aplicaciones_Graficas
             txtBoxPrecioBebida.Text = "";
             precioBebida = 3.5;
             txtBoxPrecioBebida.Text = precioBebida.ToString();
+            pictureBoxVino.Visible = true;
+            pictureBoxRefresco.Visible = false;
+            pictureBoxAgua.Visible = false;
         }
 
         private void radioBtnPostre_CheckedChanged(object sender, EventArgs e)
@@ -300,28 +330,37 @@ namespace Boletín2_Aplicaciones_Graficas
 
         private void btnCalcularCuenta_Click(object sender, EventArgs e)
         {
-            
-
-            
-            totalCuenta = double.Parse(txtBoxPrecioPrimerPlato.Text) + double.Parse(txtBoxPrecioSegundoPlato.Text) + double.Parse(txtBoxPrecioBebida.Text) + double.Parse(txtBoxPrecioPostreOCafe.Text);
-            totalCuentaConIva = totalCuenta + (totalCuenta * 0.11);
-            txtBoxPrecioSinIva.Text = totalCuenta.ToString();
-            txtBoxPrecioConIva.Text = totalCuentaConIva.ToString();
-            
+            if (txtBoxPrecioPrimerPlato.Text != "" || txtBoxPrecioSegundoPlato.Text != ""|| txtBoxPrecioBebida.Text != ""  || txtBoxPrecioPostreOCafe.Text != "")
+            {
+                totalCuenta = double.Parse(txtBoxPrecioPrimerPlato.Text) + double.Parse(txtBoxPrecioSegundoPlato.Text) + double.Parse(txtBoxPrecioBebida.Text) + double.Parse(txtBoxPrecioPostreOCafe.Text);
+                totalCuentaConIva = totalCuenta + (totalCuenta * 0.11);
+                txtBoxPrecioSinIva.Text = totalCuenta.ToString();
+                txtBoxPrecioConIva.Text = totalCuentaConIva.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Debes selecionar una opcion en todos los campos");
+            }
         }
 
         private void txtBoxCantidadDada_TextChanged(object sender, EventArgs e)
         {
-            if (double.Parse(txtBoxCantidadDada.Text) > 0)
+            if(txtBoxCantidadDada.Text != "")
             {
-                totalADevolver = double.Parse(txtBoxCantidadDada.Text) - double.Parse(txtBoxPrecioConIva.Text);
-                txtBoxTotalADevolver.Text = totalADevolver.ToString();
+                if (double.Parse(txtBoxCantidadDada.Text) > 0)
+                {
+                    totalADevolver = double.Parse(txtBoxCantidadDada.Text) - double.Parse(txtBoxPrecioConIva.Text);
+                    txtBoxTotalADevolver.Text = totalADevolver.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("La cantidad no puede ser 0 o menor");
+                }
             }
             else
             {
-                MessageBox.Show("La cantidad no puede ser 0 o menor");
+                MessageBox.Show("Debes dar una cantidad para pagar, No puedes irte sin pagar");
             }
-           
         }
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.radioBtnCrema = new System.Windows.Forms.RadioButton();
             this.radioBtnEnsalada = new System.Windows.Forms.RadioButton();
             this.radioBtnEmpanada = new System.Windows.Forms.RadioButton();
@@ -40,7 +39,6 @@
             this.radioBtnVino = new System.Windows.Forms.RadioButton();
             this.radioBtnPostre = new System.Windows.Forms.RadioButton();
             this.radioBtnCafe = new System.Windows.Forms.RadioButton();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.comboBoxPrimerPlato = new System.Windows.Forms.ComboBox();
             this.comboBoxSegundoPlato = new System.Windows.Forms.ComboBox();
             this.comboBoxPostre = new System.Windows.Forms.ComboBox();
@@ -68,21 +66,33 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.txtBoxTotalADevolver = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBoxPostre = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCafe = new System.Windows.Forms.PictureBox();
+            this.pictureBoxVino = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRefresco = new System.Windows.Forms.PictureBox();
+            this.pictureBoxAgua = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPastas = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCarnes = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPescado = new System.Windows.Forms.PictureBox();
+            this.pictureBoxEmpanadas = new System.Windows.Forms.PictureBox();
+            this.pictureBoxEnsaladas = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCremas = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPostre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCafe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVino)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRefresco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAgua)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPastas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCarnes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPescado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEmpanadas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEnsaladas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCremas)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(7, 45);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(87, 75);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // radioBtnCrema
             // 
@@ -216,14 +226,6 @@
             this.radioBtnCafe.UseVisualStyleBackColor = true;
             this.radioBtnCafe.CheckedChanged += new System.EventHandler(this.radioBtnCafe_CheckedChanged);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(65, 67);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(38, 28);
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
-            // 
             // comboBoxPrimerPlato
             // 
             this.comboBoxPrimerPlato.FormattingEnabled = true;
@@ -262,13 +264,15 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.pictureBoxEmpanadas);
+            this.groupBox1.Controls.Add(this.pictureBoxEnsaladas);
             this.groupBox1.Controls.Add(this.txtBoxPrecioPrimerPlato);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.comboBoxPrimerPlato);
             this.groupBox1.Controls.Add(this.radioBtnEmpanada);
             this.groupBox1.Controls.Add(this.radioBtnEnsalada);
             this.groupBox1.Controls.Add(this.radioBtnCrema);
-            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Controls.Add(this.pictureBoxCremas);
             this.groupBox1.Location = new System.Drawing.Point(5, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(213, 219);
@@ -294,6 +298,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.pictureBoxPastas);
+            this.groupBox2.Controls.Add(this.pictureBoxCarnes);
+            this.groupBox2.Controls.Add(this.pictureBoxPescado);
             this.groupBox2.Controls.Add(this.txtBoxPrecioSegundoPlato);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.comboBoxSegundoPlato);
@@ -302,7 +309,7 @@
             this.groupBox2.Controls.Add(this.radioBtnPescado);
             this.groupBox2.Location = new System.Drawing.Point(233, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(140, 219);
+            this.groupBox2.Size = new System.Drawing.Size(186, 219);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Segundo Plato";
@@ -325,6 +332,9 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.pictureBoxVino);
+            this.groupBox3.Controls.Add(this.pictureBoxRefresco);
+            this.groupBox3.Controls.Add(this.pictureBoxAgua);
             this.groupBox3.Controls.Add(this.txtBoxPrecioBebida);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.radioBtnVino);
@@ -332,7 +342,7 @@
             this.groupBox3.Controls.Add(this.radioBtnAgua);
             this.groupBox3.Location = new System.Drawing.Point(422, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(205, 84);
+            this.groupBox3.Size = new System.Drawing.Size(275, 84);
             this.groupBox3.TabIndex = 20;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Bebida";
@@ -355,11 +365,12 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.pictureBoxPostre);
             this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.Controls.Add(this.txtBoxPrecioPostreOCafe);
             this.groupBox4.Controls.Add(this.comboBoxPostre);
-            this.groupBox4.Controls.Add(this.pictureBox2);
+            this.groupBox4.Controls.Add(this.pictureBoxCafe);
             this.groupBox4.Controls.Add(this.radioBtnCafe);
             this.groupBox4.Controls.Add(this.radioBtnPostre);
             this.groupBox4.Controls.Add(this.comboBoxCafe);
@@ -477,6 +488,125 @@
             this.txtBoxTotalADevolver.Size = new System.Drawing.Size(100, 20);
             this.txtBoxTotalADevolver.TabIndex = 31;
             // 
+            // pictureBoxPostre
+            // 
+            this.pictureBoxPostre.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.tarta_de_chocolate;
+            this.pictureBoxPostre.Location = new System.Drawing.Point(107, 10);
+            this.pictureBoxPostre.Name = "pictureBoxPostre";
+            this.pictureBoxPostre.Size = new System.Drawing.Size(59, 40);
+            this.pictureBoxPostre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxPostre.TabIndex = 22;
+            this.pictureBoxPostre.TabStop = false;
+            // 
+            // pictureBoxCafe
+            // 
+            this.pictureBoxCafe.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.cafe;
+            this.pictureBoxCafe.Location = new System.Drawing.Point(65, 67);
+            this.pictureBoxCafe.Name = "pictureBoxCafe";
+            this.pictureBoxCafe.Size = new System.Drawing.Size(38, 28);
+            this.pictureBoxCafe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCafe.TabIndex = 13;
+            this.pictureBoxCafe.TabStop = false;
+            // 
+            // pictureBoxVino
+            // 
+            this.pictureBoxVino.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.vino;
+            this.pictureBoxVino.Location = new System.Drawing.Point(168, 19);
+            this.pictureBoxVino.Name = "pictureBoxVino";
+            this.pictureBoxVino.Size = new System.Drawing.Size(74, 59);
+            this.pictureBoxVino.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxVino.TabIndex = 34;
+            this.pictureBoxVino.TabStop = false;
+            this.pictureBoxVino.Visible = false;
+            // 
+            // pictureBoxRefresco
+            // 
+            this.pictureBoxRefresco.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.coca_cola;
+            this.pictureBoxRefresco.Location = new System.Drawing.Point(168, 19);
+            this.pictureBoxRefresco.Name = "pictureBoxRefresco";
+            this.pictureBoxRefresco.Size = new System.Drawing.Size(74, 59);
+            this.pictureBoxRefresco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxRefresco.TabIndex = 33;
+            this.pictureBoxRefresco.TabStop = false;
+            this.pictureBoxRefresco.Visible = false;
+            // 
+            // pictureBoxAgua
+            // 
+            this.pictureBoxAgua.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.agua;
+            this.pictureBoxAgua.Location = new System.Drawing.Point(168, 19);
+            this.pictureBoxAgua.Name = "pictureBoxAgua";
+            this.pictureBoxAgua.Size = new System.Drawing.Size(74, 59);
+            this.pictureBoxAgua.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxAgua.TabIndex = 20;
+            this.pictureBoxAgua.TabStop = false;
+            this.pictureBoxAgua.Visible = false;
+            // 
+            // pictureBoxPastas
+            // 
+            this.pictureBoxPastas.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.pastas;
+            this.pictureBoxPastas.Location = new System.Drawing.Point(82, 51);
+            this.pictureBoxPastas.Name = "pictureBoxPastas";
+            this.pictureBoxPastas.Size = new System.Drawing.Size(98, 78);
+            this.pictureBoxPastas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxPastas.TabIndex = 21;
+            this.pictureBoxPastas.TabStop = false;
+            this.pictureBoxPastas.Visible = false;
+            // 
+            // pictureBoxCarnes
+            // 
+            this.pictureBoxCarnes.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.carnes;
+            this.pictureBoxCarnes.Location = new System.Drawing.Point(82, 49);
+            this.pictureBoxCarnes.Name = "pictureBoxCarnes";
+            this.pictureBoxCarnes.Size = new System.Drawing.Size(98, 78);
+            this.pictureBoxCarnes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCarnes.TabIndex = 20;
+            this.pictureBoxCarnes.TabStop = false;
+            this.pictureBoxCarnes.Visible = false;
+            // 
+            // pictureBoxPescado
+            // 
+            this.pictureBoxPescado.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.pescados;
+            this.pictureBoxPescado.Location = new System.Drawing.Point(82, 49);
+            this.pictureBoxPescado.Name = "pictureBoxPescado";
+            this.pictureBoxPescado.Size = new System.Drawing.Size(98, 78);
+            this.pictureBoxPescado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxPescado.TabIndex = 19;
+            this.pictureBoxPescado.TabStop = false;
+            this.pictureBoxPescado.Visible = false;
+            // 
+            // pictureBoxEmpanadas
+            // 
+            this.pictureBoxEmpanadas.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.empanada;
+            this.pictureBoxEmpanadas.Location = new System.Drawing.Point(6, 45);
+            this.pictureBoxEmpanadas.Name = "pictureBoxEmpanadas";
+            this.pictureBoxEmpanadas.Size = new System.Drawing.Size(87, 75);
+            this.pictureBoxEmpanadas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEmpanadas.TabIndex = 21;
+            this.pictureBoxEmpanadas.TabStop = false;
+            this.pictureBoxEmpanadas.Visible = false;
+            // 
+            // pictureBoxEnsaladas
+            // 
+            this.pictureBoxEnsaladas.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.ensaladas;
+            this.pictureBoxEnsaladas.Location = new System.Drawing.Point(6, 45);
+            this.pictureBoxEnsaladas.Name = "pictureBoxEnsaladas";
+            this.pictureBoxEnsaladas.Size = new System.Drawing.Size(87, 75);
+            this.pictureBoxEnsaladas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEnsaladas.TabIndex = 20;
+            this.pictureBoxEnsaladas.TabStop = false;
+            this.pictureBoxEnsaladas.Visible = false;
+            // 
+            // pictureBoxCremas
+            // 
+            this.pictureBoxCremas.Image = global::Boletín2_Aplicaciones_Graficas.Properties.Resources.cremas;
+            this.pictureBoxCremas.Location = new System.Drawing.Point(7, 45);
+            this.pictureBoxCremas.Name = "pictureBoxCremas";
+            this.pictureBoxCremas.Size = new System.Drawing.Size(87, 75);
+            this.pictureBoxCremas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCremas.TabIndex = 1;
+            this.pictureBoxCremas.TabStop = false;
+            this.pictureBoxCremas.Visible = false;
+            // 
             // Ejercicio9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -498,8 +628,6 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Ejercicio9";
             this.Text = "Ejercicio9";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -508,6 +636,17 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPostre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCafe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVino)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRefresco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAgua)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPastas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCarnes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPescado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEmpanadas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEnsaladas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCremas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -515,7 +654,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxCremas;
         private System.Windows.Forms.RadioButton radioBtnCrema;
         private System.Windows.Forms.RadioButton radioBtnEnsalada;
         private System.Windows.Forms.RadioButton radioBtnEmpanada;
@@ -527,7 +666,7 @@
         private System.Windows.Forms.RadioButton radioBtnVino;
         private System.Windows.Forms.RadioButton radioBtnPostre;
         private System.Windows.Forms.RadioButton radioBtnCafe;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBoxCafe;
         private System.Windows.Forms.ComboBox comboBoxPrimerPlato;
         private System.Windows.Forms.ComboBox comboBoxSegundoPlato;
         private System.Windows.Forms.ComboBox comboBoxPostre;
@@ -555,5 +694,14 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtBoxTotalADevolver;
+        private System.Windows.Forms.PictureBox pictureBoxPostre;
+        private System.Windows.Forms.PictureBox pictureBoxEnsaladas;
+        private System.Windows.Forms.PictureBox pictureBoxEmpanadas;
+        private System.Windows.Forms.PictureBox pictureBoxPescado;
+        private System.Windows.Forms.PictureBox pictureBoxCarnes;
+        private System.Windows.Forms.PictureBox pictureBoxPastas;
+        private System.Windows.Forms.PictureBox pictureBoxAgua;
+        private System.Windows.Forms.PictureBox pictureBoxRefresco;
+        private System.Windows.Forms.PictureBox pictureBoxVino;
     }
 }

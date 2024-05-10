@@ -24,19 +24,28 @@ namespace Boletín2_Aplicaciones_Graficas
         int numero;
         private void comboBoxEligeElTurno_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBoxEligeElTurno.Text == "Turno de mañana")
+            if (txtBoxNombreDelEmpleado.Text != "")
             {
-                listBoxTurnoDeMañana.Items.Add(txtBoxNombreDelEmpleado.Text);
-                numero = listBoxTurnoDeMañana.Items.Count;
-                txtBoxTotalMañana.Text = numero.ToString();
+                if (comboBoxEligeElTurno.Text == "Turno de mañana")
+                {
+                    listBoxTurnoDeMañana.Items.Add(txtBoxNombreDelEmpleado.Text);
+                    numero = listBoxTurnoDeMañana.Items.Count;
+                    txtBoxTotalMañana.Text = numero.ToString();
+                }
+                else if (comboBoxEligeElTurno.Text == "Turno de noche")
+                {
+                    listBoxTurnoDeNoche.Items.Add(txtBoxNombreDelEmpleado.Text);
+                    numero = listBoxTurnoDeNoche.Items.Count;
+                    txtBoxTotalNoche.Text = numero.ToString();
+                }
             }
-            else if (comboBoxEligeElTurno.Text == "Turno de noche")
+            else
             {
-                listBoxTurnoDeNoche.Items.Add(txtBoxNombreDelEmpleado.Text);
-                numero = listBoxTurnoDeNoche.Items.Count;
-                txtBoxTotalNoche.Text = numero.ToString();
+                MessageBox.Show("Debes escribir un nombre");
             }
         }
+                   
+
 
         private void btnUnoALaDerecha_Click(object sender, EventArgs e)
         {

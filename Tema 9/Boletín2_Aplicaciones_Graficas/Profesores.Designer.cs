@@ -33,9 +33,10 @@
             // 
             // txtBoxProfesores
             // 
-            this.txtBoxProfesores.Location = new System.Drawing.Point(250, 107);
+            this.txtBoxProfesores.Location = new System.Drawing.Point(259, 99);
+            this.txtBoxProfesores.Multiline = true;
             this.txtBoxProfesores.Name = "txtBoxProfesores";
-            this.txtBoxProfesores.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxProfesores.Size = new System.Drawing.Size(179, 55);
             this.txtBoxProfesores.TabIndex = 0;
             // 
             // Profesores

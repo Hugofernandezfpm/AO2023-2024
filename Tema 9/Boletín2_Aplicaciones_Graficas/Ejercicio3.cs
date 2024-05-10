@@ -19,25 +19,32 @@ namespace Boletín2_Aplicaciones_Graficas
         double metros;
         private void btnConvertir_Click(object sender, EventArgs e)
         {
-            if (radioBtnMilimetros.Checked)
+            if (txtBoxCantidadDeMetros.Text != "")
             {
-                 metros = double.Parse(txtBoxCantidadDeMetros.Text) * 1000;
-                 txtBoxResultado.Text = metros.ToString();
+                if (radioBtnMilimetros.Checked)
+                {
+                    metros = double.Parse(txtBoxCantidadDeMetros.Text) * 1000;
+                    txtBoxResultado.Text = metros.ToString();
+                }
+                else if (radioBtnCentimetros.Checked)
+                {
+                    metros = double.Parse(txtBoxCantidadDeMetros.Text) * 100;
+                    txtBoxResultado.Text = metros.ToString();
+                }
+                else if (radioBtnDecimetros.Checked)
+                {
+                    metros = double.Parse(txtBoxCantidadDeMetros.Text) * 10;
+                    txtBoxResultado.Text = metros.ToString();
+                }
+                else if (radioBtnKilometros.Checked)
+                {
+                    metros = double.Parse(txtBoxCantidadDeMetros.Text) / 1000;
+                    txtBoxResultado.Text = metros.ToString();
+                }
             }
-            else if (radioBtnCentimetros.Checked)
+            else
             {
-                metros = double.Parse(txtBoxCantidadDeMetros.Text) * 100;
-                txtBoxResultado.Text = metros.ToString();
-            }
-            else if (radioBtnDecimetros.Checked)
-            {
-                metros = double.Parse(txtBoxCantidadDeMetros.Text) * 10;
-                txtBoxResultado.Text = metros.ToString();
-            }
-            else if (radioBtnKilometros.Checked)
-            {
-                metros = double.Parse(txtBoxCantidadDeMetros.Text) / 1000;
-                txtBoxResultado.Text = metros.ToString();
+                MessageBox.Show("Debes dar una cantidad de metros");
             }
         }
 
