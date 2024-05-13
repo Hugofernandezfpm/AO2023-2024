@@ -1,0 +1,11 @@
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\bin\Debug\Proyecto_final.exe.config
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\bin\Debug\Proyecto_final.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\bin\Debug\Proyecto_final.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.csproj.AssemblyReference.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Form1.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Properties.Resources.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.csproj.GenerateResource.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.csproj.CoreCompileInputs.cache
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.exe
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.pdb
