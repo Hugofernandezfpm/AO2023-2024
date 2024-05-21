@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Proyecto_final
 {
-    public partial class Form1 : Form
+    public partial class Ordenadores : Form
     {
-        public Form1()
+        public Ordenadores()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Ordenadores ordenadores = new Ordenadores();
-            ordenadores.Show();
+            Info_Producto producto = new Info_Producto();
+            producto.Show();
         }
     }
 }

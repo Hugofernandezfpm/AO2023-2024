@@ -9,3 +9,6 @@ C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.csproj.CoreCompileInputs.cache
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.exe
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.pdb
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Cesta.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Ordenadores.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Info_Producto.resources

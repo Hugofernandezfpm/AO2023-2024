@@ -30,7 +30,6 @@
         {
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -39,7 +38,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtBoxPrecioMovil = new System.Windows.Forms.TextBox();
             this.txtBoxProcesador = new System.Windows.Forms.TextBox();
-            this.txtBoxHDDMovil = new System.Windows.Forms.TextBox();
             this.txtBoxSSDMovil = new System.Windows.Forms.TextBox();
             this.txtBoxRAMMovil = new System.Windows.Forms.TextBox();
             this.txtBoxModeloMovil = new System.Windows.Forms.TextBox();
@@ -71,7 +69,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(410, 285);
+            this.label6.Location = new System.Drawing.Point(410, 254);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(37, 13);
             this.label6.TabIndex = 79;
@@ -80,29 +78,20 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(410, 254);
+            this.label10.Location = new System.Drawing.Point(410, 223);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(61, 13);
             this.label10.TabIndex = 78;
             this.label10.Text = "Procesador";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(410, 228);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 13);
-            this.label11.TabIndex = 77;
-            this.label11.Text = "HDD";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(410, 197);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(29, 13);
+            this.label12.Size = new System.Drawing.Size(43, 13);
             this.label12.TabIndex = 76;
-            this.label12.Text = "SSD";
+            this.label12.Text = "Camara";
             // 
             // label13
             // 
@@ -150,24 +139,17 @@
             // 
             // txtBoxPrecioMovil
             // 
-            this.txtBoxPrecioMovil.Location = new System.Drawing.Point(481, 282);
+            this.txtBoxPrecioMovil.Location = new System.Drawing.Point(481, 251);
             this.txtBoxPrecioMovil.Name = "txtBoxPrecioMovil";
             this.txtBoxPrecioMovil.Size = new System.Drawing.Size(100, 20);
             this.txtBoxPrecioMovil.TabIndex = 70;
             // 
             // txtBoxProcesador
             // 
-            this.txtBoxProcesador.Location = new System.Drawing.Point(481, 251);
+            this.txtBoxProcesador.Location = new System.Drawing.Point(481, 220);
             this.txtBoxProcesador.Name = "txtBoxProcesador";
             this.txtBoxProcesador.Size = new System.Drawing.Size(100, 20);
             this.txtBoxProcesador.TabIndex = 69;
-            // 
-            // txtBoxHDDMovil
-            // 
-            this.txtBoxHDDMovil.Location = new System.Drawing.Point(481, 225);
-            this.txtBoxHDDMovil.Name = "txtBoxHDDMovil";
-            this.txtBoxHDDMovil.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxHDDMovil.TabIndex = 68;
             // 
             // txtBoxSSDMovil
             // 
@@ -365,7 +347,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
@@ -374,7 +355,6 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.txtBoxPrecioMovil);
             this.Controls.Add(this.txtBoxProcesador);
-            this.Controls.Add(this.txtBoxHDDMovil);
             this.Controls.Add(this.txtBoxSSDMovil);
             this.Controls.Add(this.txtBoxRAMMovil);
             this.Controls.Add(this.txtBoxModeloMovil);
@@ -412,7 +392,6 @@
 
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
@@ -421,7 +400,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtBoxPrecioMovil;
         private System.Windows.Forms.TextBox txtBoxProcesador;
-        private System.Windows.Forms.TextBox txtBoxHDDMovil;
         private System.Windows.Forms.TextBox txtBoxSSDMovil;
         private System.Windows.Forms.TextBox txtBoxRAMMovil;
         private System.Windows.Forms.TextBox txtBoxModeloMovil;
