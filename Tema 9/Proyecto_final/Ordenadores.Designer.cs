@@ -29,80 +29,46 @@
         private void InitializeComponent()
         {
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox_1000_2000_Ordenador = new System.Windows.Forms.CheckBox();
+            this.checkBox_500_1000_Ordenador = new System.Windows.Forms.CheckBox();
+            this.checkBox_200_500_Ordenador = new System.Windows.Forms.CheckBox();
+            this.checkBox_0_200_Ordenador = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.radioBtn_HDD_ordenador = new System.Windows.Forms.RadioButton();
+            this.radioBtn_SDD_ordenador = new System.Windows.Forms.RadioButton();
+            this.checkBox_Intel_Ordenador = new System.Windows.Forms.CheckBox();
+            this.checkBox_ADM_Ordenador = new System.Windows.Forms.CheckBox();
+            this.pictureBox_PC_4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_PC_2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_PC_3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_PC_1 = new System.Windows.Forms.PictureBox();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PC_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PC_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PC_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PC_1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.comboBox2);
-            this.groupBox3.Controls.Add(this.checkBox7);
-            this.groupBox3.Controls.Add(this.comboBox1);
-            this.groupBox3.Controls.Add(this.checkBox8);
+            this.groupBox3.Controls.Add(this.checkBox_ADM_Ordenador);
+            this.groupBox3.Controls.Add(this.checkBox_Intel_Ordenador);
             this.groupBox3.Location = new System.Drawing.Point(16, 229);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(168, 173);
+            this.groupBox3.Size = new System.Drawing.Size(123, 86);
             this.groupBox3.TabIndex = 27;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Procesadores";
             // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(3, 136);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(157, 21);
-            this.comboBox2.TabIndex = 11;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(3, 33);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(50, 17);
-            this.checkBox7.TabIndex = 7;
-            this.checkBox7.Text = "ADM";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(3, 56);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 21);
-            this.comboBox1.TabIndex = 10;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(3, 113);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(48, 17);
-            this.checkBox8.TabIndex = 8;
-            this.checkBox8.Text = "Intiel";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.checkBox6);
-            this.groupBox2.Controls.Add(this.checkBox5);
-            this.groupBox2.Controls.Add(this.checkBox4);
-            this.groupBox2.Controls.Add(this.checkBox3);
+            this.groupBox2.Controls.Add(this.checkBox_1000_2000_Ordenador);
+            this.groupBox2.Controls.Add(this.checkBox_500_1000_Ordenador);
+            this.groupBox2.Controls.Add(this.checkBox_200_500_Ordenador);
+            this.groupBox2.Controls.Add(this.checkBox_0_200_Ordenador);
             this.groupBox2.Location = new System.Drawing.Point(16, 101);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(123, 122);
@@ -110,50 +76,50 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Rangos de precios:";
             // 
-            // checkBox6
+            // checkBox_1000_2000_Ordenador
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(3, 93);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(77, 17);
-            this.checkBox6.TabIndex = 7;
-            this.checkBox6.Text = "1000-2000";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox_1000_2000_Ordenador.AutoSize = true;
+            this.checkBox_1000_2000_Ordenador.Location = new System.Drawing.Point(3, 93);
+            this.checkBox_1000_2000_Ordenador.Name = "checkBox_1000_2000_Ordenador";
+            this.checkBox_1000_2000_Ordenador.Size = new System.Drawing.Size(77, 17);
+            this.checkBox_1000_2000_Ordenador.TabIndex = 7;
+            this.checkBox_1000_2000_Ordenador.Text = "1000-2000";
+            this.checkBox_1000_2000_Ordenador.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // checkBox_500_1000_Ordenador
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(3, 70);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(71, 17);
-            this.checkBox5.TabIndex = 5;
-            this.checkBox5.Text = "500-1000";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox_500_1000_Ordenador.AutoSize = true;
+            this.checkBox_500_1000_Ordenador.Location = new System.Drawing.Point(3, 70);
+            this.checkBox_500_1000_Ordenador.Name = "checkBox_500_1000_Ordenador";
+            this.checkBox_500_1000_Ordenador.Size = new System.Drawing.Size(71, 17);
+            this.checkBox_500_1000_Ordenador.TabIndex = 5;
+            this.checkBox_500_1000_Ordenador.Text = "500-1000";
+            this.checkBox_500_1000_Ordenador.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBox_200_500_Ordenador
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(3, 47);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(65, 17);
-            this.checkBox4.TabIndex = 4;
-            this.checkBox4.Text = "200-500";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox_200_500_Ordenador.AutoSize = true;
+            this.checkBox_200_500_Ordenador.Location = new System.Drawing.Point(3, 47);
+            this.checkBox_200_500_Ordenador.Name = "checkBox_200_500_Ordenador";
+            this.checkBox_200_500_Ordenador.Size = new System.Drawing.Size(65, 17);
+            this.checkBox_200_500_Ordenador.TabIndex = 4;
+            this.checkBox_200_500_Ordenador.Text = "200-500";
+            this.checkBox_200_500_Ordenador.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBox_0_200_Ordenador
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(3, 24);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(53, 17);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "0-200";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox_0_200_Ordenador.AutoSize = true;
+            this.checkBox_0_200_Ordenador.Location = new System.Drawing.Point(3, 24);
+            this.checkBox_0_200_Ordenador.Name = "checkBox_0_200_Ordenador";
+            this.checkBox_0_200_Ordenador.Size = new System.Drawing.Size(53, 17);
+            this.checkBox_0_200_Ordenador.TabIndex = 3;
+            this.checkBox_0_200_Ordenador.Text = "0-200";
+            this.checkBox_0_200_Ordenador.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioBtn_HDD_ordenador);
+            this.groupBox1.Controls.Add(this.radioBtn_SDD_ordenador);
             this.groupBox1.Location = new System.Drawing.Point(12, 14);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(105, 81);
@@ -161,45 +127,98 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "SDD o HDD:";
             // 
-            // radioButton2
+            // radioBtn_HDD_ordenador
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(4, 42);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(49, 17);
-            this.radioButton2.TabIndex = 10;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "HDD";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioBtn_HDD_ordenador.AutoSize = true;
+            this.radioBtn_HDD_ordenador.Location = new System.Drawing.Point(4, 42);
+            this.radioBtn_HDD_ordenador.Name = "radioBtn_HDD_ordenador";
+            this.radioBtn_HDD_ordenador.Size = new System.Drawing.Size(49, 17);
+            this.radioBtn_HDD_ordenador.TabIndex = 10;
+            this.radioBtn_HDD_ordenador.TabStop = true;
+            this.radioBtn_HDD_ordenador.Text = "HDD";
+            this.radioBtn_HDD_ordenador.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // radioBtn_SDD_ordenador
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(4, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(47, 17);
-            this.radioButton1.TabIndex = 10;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "SSD";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioBtn_SDD_ordenador.AutoSize = true;
+            this.radioBtn_SDD_ordenador.Location = new System.Drawing.Point(4, 19);
+            this.radioBtn_SDD_ordenador.Name = "radioBtn_SDD_ordenador";
+            this.radioBtn_SDD_ordenador.Size = new System.Drawing.Size(47, 17);
+            this.radioBtn_SDD_ordenador.TabIndex = 10;
+            this.radioBtn_SDD_ordenador.TabStop = true;
+            this.radioBtn_SDD_ordenador.Text = "SSD";
+            this.radioBtn_SDD_ordenador.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // checkBox_Intel_Ordenador
             // 
-            this.pictureBox1.Image = global::Proyecto_final.Properties.Resources.volttier;
-            this.pictureBox1.Location = new System.Drawing.Point(271, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(112, 95);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.checkBox_Intel_Ordenador.AutoSize = true;
+            this.checkBox_Intel_Ordenador.Location = new System.Drawing.Point(3, 56);
+            this.checkBox_Intel_Ordenador.Name = "checkBox_Intel_Ordenador";
+            this.checkBox_Intel_Ordenador.Size = new System.Drawing.Size(46, 17);
+            this.checkBox_Intel_Ordenador.TabIndex = 8;
+            this.checkBox_Intel_Ordenador.Text = "Intel";
+            this.checkBox_Intel_Ordenador.UseVisualStyleBackColor = true;
+            // 
+            // checkBox_ADM_Ordenador
+            // 
+            this.checkBox_ADM_Ordenador.AutoSize = true;
+            this.checkBox_ADM_Ordenador.Location = new System.Drawing.Point(3, 33);
+            this.checkBox_ADM_Ordenador.Name = "checkBox_ADM_Ordenador";
+            this.checkBox_ADM_Ordenador.Size = new System.Drawing.Size(50, 17);
+            this.checkBox_ADM_Ordenador.TabIndex = 7;
+            this.checkBox_ADM_Ordenador.Text = "ADM";
+            this.checkBox_ADM_Ordenador.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox_PC_4
+            // 
+            this.pictureBox_PC_4.Image = global::Proyecto_final.Properties.Resources.DELL_7010_3;
+            this.pictureBox_PC_4.Location = new System.Drawing.Point(493, 171);
+            this.pictureBox_PC_4.Name = "pictureBox_PC_4";
+            this.pictureBox_PC_4.Size = new System.Drawing.Size(112, 95);
+            this.pictureBox_PC_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_PC_4.TabIndex = 32;
+            this.pictureBox_PC_4.TabStop = false;
+            // 
+            // pictureBox_PC_2
+            // 
+            this.pictureBox_PC_2.Image = global::Proyecto_final.Properties.Resources.PcCom_Custom_Ryzen_9;
+            this.pictureBox_PC_2.Location = new System.Drawing.Point(271, 171);
+            this.pictureBox_PC_2.Name = "pictureBox_PC_2";
+            this.pictureBox_PC_2.Size = new System.Drawing.Size(112, 95);
+            this.pictureBox_PC_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_PC_2.TabIndex = 31;
+            this.pictureBox_PC_2.TabStop = false;
+            // 
+            // pictureBox_PC_3
+            // 
+            this.pictureBox_PC_3.Image = global::Proyecto_final.Properties.Resources.HP_Desktop_M01_F2052ns;
+            this.pictureBox_PC_3.Location = new System.Drawing.Point(482, 14);
+            this.pictureBox_PC_3.Name = "pictureBox_PC_3";
+            this.pictureBox_PC_3.Size = new System.Drawing.Size(123, 99);
+            this.pictureBox_PC_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_PC_3.TabIndex = 30;
+            this.pictureBox_PC_3.TabStop = false;
+            // 
+            // pictureBox_PC_1
+            // 
+            this.pictureBox_PC_1.Image = global::Proyecto_final.Properties.Resources.volttier;
+            this.pictureBox_PC_1.Location = new System.Drawing.Point(271, 12);
+            this.pictureBox_PC_1.Name = "pictureBox_PC_1";
+            this.pictureBox_PC_1.Size = new System.Drawing.Size(112, 95);
+            this.pictureBox_PC_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_PC_1.TabIndex = 29;
+            this.pictureBox_PC_1.TabStop = false;
+            this.pictureBox_PC_1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Ordenadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(826, 498);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox_PC_4);
+            this.Controls.Add(this.pictureBox_PC_2);
+            this.Controls.Add(this.pictureBox_PC_3);
+            this.Controls.Add(this.pictureBox_PC_1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -211,25 +230,29 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PC_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PC_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PC_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PC_1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox_1000_2000_Ordenador;
+        private System.Windows.Forms.CheckBox checkBox_500_1000_Ordenador;
+        private System.Windows.Forms.CheckBox checkBox_200_500_Ordenador;
+        private System.Windows.Forms.CheckBox checkBox_0_200_Ordenador;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RadioButton radioBtn_HDD_ordenador;
+        private System.Windows.Forms.RadioButton radioBtn_SDD_ordenador;
+        private System.Windows.Forms.PictureBox pictureBox_PC_1;
+        private System.Windows.Forms.CheckBox checkBox_ADM_Ordenador;
+        private System.Windows.Forms.CheckBox checkBox_Intel_Ordenador;
+        private System.Windows.Forms.PictureBox pictureBox_PC_3;
+        private System.Windows.Forms.PictureBox pictureBox_PC_2;
+        private System.Windows.Forms.PictureBox pictureBox_PC_4;
     }
 }

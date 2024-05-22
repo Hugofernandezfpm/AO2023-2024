@@ -63,6 +63,36 @@ namespace Proyecto_final.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DELL_7010_3 {
+            get {
+                object obj = ResourceManager.GetObject("DELL-7010-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HP_Desktop_M01_F2052ns {
+            get {
+                object obj = ResourceManager.GetObject("HP Desktop M01-F2052ns", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PcCom_Custom_Ryzen_9 {
+            get {
+                object obj = ResourceManager.GetObject("PcCom Custom Ryzen 9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap volttier {
             get {
                 object obj = ResourceManager.GetObject("volttier", resourceCulture);

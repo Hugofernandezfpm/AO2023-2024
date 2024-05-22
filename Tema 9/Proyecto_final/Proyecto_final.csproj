@@ -61,8 +61,27 @@
     <Compile Include="Info_Producto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Info_Producto.Designer.cs">
+    <Compile Include=".Designer.cs">
       <DependentUpon>Info_Producto.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Producto2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Producto2.Designer.cs">
+      <DependentUpon>Info_Producto2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Producto3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Producto3.Designer.cs">
+      <DependentUpon>Info_Producto3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Producto4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Producto4.Designer.cs">
+      <DependentUpon>Info_Producto4.cs</DependentUpon>
     </Compile>
     <Compile Include="Moviles.cs">
       <SubType>Form</SubType>
@@ -86,6 +105,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Info_Producto.resx">
       <DependentUpon>Info_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Producto2.resx">
+      <DependentUpon>Info_Producto2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Producto3.resx">
+      <DependentUpon>Info_Producto3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Producto4.resx">
+      <DependentUpon>Info_Producto4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ordenadores.resx">
       <DependentUpon>Ordenadores.cs</DependentUpon>
@@ -115,6 +143,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\volttier.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP Desktop M01-F2052ns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PcCom Custom Ryzen 9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DELL-7010-3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

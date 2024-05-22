@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Proyecto_final
 {
-    public partial class Ordenadores : Form
+    public partial class Info_Producto2 : Form
     {
-        public Ordenadores()
+        public Info_Producto2()
         {
             InitializeComponent();
-        }
-        
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            Info_Producto producto = new Info_Producto();
-            producto.Show();
         }
     }
 }

@@ -16,5 +16,10 @@ namespace Proyecto_final
         {
             InitializeComponent();
         }
+
+        private void codigo_ordenador_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -17,10 +17,16 @@ namespace Proyecto_final
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnOrdenadores_Click(object sender, EventArgs e)
         {
             Ordenadores ordenadores = new Ordenadores();
             ordenadores.Show();
+        }
+
+        private void btnMoviles_Click(object sender, EventArgs e)
+        {
+            Moviles movies = new Moviles();
+            movies.Show();
         }
     }
 }
