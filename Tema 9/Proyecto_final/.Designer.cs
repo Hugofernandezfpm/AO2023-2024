@@ -58,6 +58,7 @@
             this.btnAñadir.TabIndex = 51;
             this.btnAñadir.Text = "Añadir";
             this.btnAñadir.UseVisualStyleBackColor = true;
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
             // label11
             // 

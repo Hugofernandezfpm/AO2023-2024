@@ -22,5 +22,23 @@ namespace Proyecto_final
             Info_Producto producto = new Info_Producto();
             producto.Show();
         }
+
+        private void pictureBox_PC_2_Click(object sender, EventArgs e)
+        {
+            Info_Producto2 producto2 = new Info_Producto2();
+            producto2.Show();
+        }
+
+        private void pictureBox_PC_3_Click(object sender, EventArgs e)
+        {
+            Info_Producto3 producto3 = new Info_Producto3();
+            producto3.Show();
+        }
+
+        private void pictureBox_PC_4_Click(object sender, EventArgs e)
+        {
+            Info_Producto4 producto4 = new Info_Producto4();
+            producto4.Show();
+        }
     }
 }

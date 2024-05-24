@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.checkBox_ADM_Ordenador = new System.Windows.Forms.CheckBox();
+            this.checkBox_Intel_Ordenador = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.checkBox_1000_2000_Ordenador = new System.Windows.Forms.CheckBox();
             this.checkBox_500_1000_Ordenador = new System.Windows.Forms.CheckBox();
@@ -37,8 +39,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioBtn_HDD_ordenador = new System.Windows.Forms.RadioButton();
             this.radioBtn_SDD_ordenador = new System.Windows.Forms.RadioButton();
-            this.checkBox_Intel_Ordenador = new System.Windows.Forms.CheckBox();
-            this.checkBox_ADM_Ordenador = new System.Windows.Forms.CheckBox();
             this.pictureBox_PC_4 = new System.Windows.Forms.PictureBox();
             this.pictureBox_PC_2 = new System.Windows.Forms.PictureBox();
             this.pictureBox_PC_3 = new System.Windows.Forms.PictureBox();
@@ -62,6 +62,26 @@
             this.groupBox3.TabIndex = 27;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Procesadores";
+            // 
+            // checkBox_ADM_Ordenador
+            // 
+            this.checkBox_ADM_Ordenador.AutoSize = true;
+            this.checkBox_ADM_Ordenador.Location = new System.Drawing.Point(3, 33);
+            this.checkBox_ADM_Ordenador.Name = "checkBox_ADM_Ordenador";
+            this.checkBox_ADM_Ordenador.Size = new System.Drawing.Size(50, 17);
+            this.checkBox_ADM_Ordenador.TabIndex = 7;
+            this.checkBox_ADM_Ordenador.Text = "ADM";
+            this.checkBox_ADM_Ordenador.UseVisualStyleBackColor = true;
+            // 
+            // checkBox_Intel_Ordenador
+            // 
+            this.checkBox_Intel_Ordenador.AutoSize = true;
+            this.checkBox_Intel_Ordenador.Location = new System.Drawing.Point(3, 56);
+            this.checkBox_Intel_Ordenador.Name = "checkBox_Intel_Ordenador";
+            this.checkBox_Intel_Ordenador.Size = new System.Drawing.Size(46, 17);
+            this.checkBox_Intel_Ordenador.TabIndex = 8;
+            this.checkBox_Intel_Ordenador.Text = "Intel";
+            this.checkBox_Intel_Ordenador.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -149,38 +169,23 @@
             this.radioBtn_SDD_ordenador.Text = "SSD";
             this.radioBtn_SDD_ordenador.UseVisualStyleBackColor = true;
             // 
-            // checkBox_Intel_Ordenador
-            // 
-            this.checkBox_Intel_Ordenador.AutoSize = true;
-            this.checkBox_Intel_Ordenador.Location = new System.Drawing.Point(3, 56);
-            this.checkBox_Intel_Ordenador.Name = "checkBox_Intel_Ordenador";
-            this.checkBox_Intel_Ordenador.Size = new System.Drawing.Size(46, 17);
-            this.checkBox_Intel_Ordenador.TabIndex = 8;
-            this.checkBox_Intel_Ordenador.Text = "Intel";
-            this.checkBox_Intel_Ordenador.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_ADM_Ordenador
-            // 
-            this.checkBox_ADM_Ordenador.AutoSize = true;
-            this.checkBox_ADM_Ordenador.Location = new System.Drawing.Point(3, 33);
-            this.checkBox_ADM_Ordenador.Name = "checkBox_ADM_Ordenador";
-            this.checkBox_ADM_Ordenador.Size = new System.Drawing.Size(50, 17);
-            this.checkBox_ADM_Ordenador.TabIndex = 7;
-            this.checkBox_ADM_Ordenador.Text = "ADM";
-            this.checkBox_ADM_Ordenador.UseVisualStyleBackColor = true;
-            // 
             // pictureBox_PC_4
             // 
+            this.pictureBox_PC_4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox_PC_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox_PC_4.Image = global::Proyecto_final.Properties.Resources.DELL_7010_3;
-            this.pictureBox_PC_4.Location = new System.Drawing.Point(493, 171);
+            this.pictureBox_PC_4.Location = new System.Drawing.Point(511, 171);
             this.pictureBox_PC_4.Name = "pictureBox_PC_4";
             this.pictureBox_PC_4.Size = new System.Drawing.Size(112, 95);
             this.pictureBox_PC_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_PC_4.TabIndex = 32;
             this.pictureBox_PC_4.TabStop = false;
+            this.pictureBox_PC_4.Click += new System.EventHandler(this.pictureBox_PC_4_Click);
             // 
             // pictureBox_PC_2
             // 
+            this.pictureBox_PC_2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox_PC_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox_PC_2.Image = global::Proyecto_final.Properties.Resources.PcCom_Custom_Ryzen_9;
             this.pictureBox_PC_2.Location = new System.Drawing.Point(271, 171);
             this.pictureBox_PC_2.Name = "pictureBox_PC_2";
@@ -188,9 +193,12 @@
             this.pictureBox_PC_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_PC_2.TabIndex = 31;
             this.pictureBox_PC_2.TabStop = false;
+            this.pictureBox_PC_2.Click += new System.EventHandler(this.pictureBox_PC_2_Click);
             // 
             // pictureBox_PC_3
             // 
+            this.pictureBox_PC_3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox_PC_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox_PC_3.Image = global::Proyecto_final.Properties.Resources.HP_Desktop_M01_F2052ns;
             this.pictureBox_PC_3.Location = new System.Drawing.Point(482, 14);
             this.pictureBox_PC_3.Name = "pictureBox_PC_3";
@@ -198,9 +206,11 @@
             this.pictureBox_PC_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_PC_3.TabIndex = 30;
             this.pictureBox_PC_3.TabStop = false;
+            this.pictureBox_PC_3.Click += new System.EventHandler(this.pictureBox_PC_3_Click);
             // 
             // pictureBox_PC_1
             // 
+            this.pictureBox_PC_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox_PC_1.Image = global::Proyecto_final.Properties.Resources.volttier;
             this.pictureBox_PC_1.Location = new System.Drawing.Point(271, 12);
             this.pictureBox_PC_1.Name = "pictureBox_PC_1";

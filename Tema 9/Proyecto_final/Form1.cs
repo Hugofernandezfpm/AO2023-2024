@@ -28,5 +28,11 @@ namespace Proyecto_final
             Moviles movies = new Moviles();
             movies.Show();
         }
+
+        private void btnCesta_Click(object sender, EventArgs e)
+        {
+            Cesta cesta = new Cesta();
+            cesta.Show();
+        }
     }
 }

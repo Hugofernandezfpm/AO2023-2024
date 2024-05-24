@@ -49,10 +49,8 @@
             this.txtBoxPrecioOrdenador = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtBoxProcesadorOrdenador = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtBoxHDDOrdenador = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtBoxSSDOrdenador = new System.Windows.Forms.TextBox();
+            this.txtBoxSSDoHDDOrdenador = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtBoxRAMOrdenador = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -206,7 +204,7 @@
             // Precio
             // 
             this.Precio.AutoSize = true;
-            this.Precio.Location = new System.Drawing.Point(10, 285);
+            this.Precio.Location = new System.Drawing.Point(10, 259);
             this.Precio.Name = "Precio";
             this.Precio.Size = new System.Drawing.Size(37, 13);
             this.Precio.TabIndex = 60;
@@ -214,7 +212,7 @@
             // 
             // txtBoxPrecioOrdenador
             // 
-            this.txtBoxPrecioOrdenador.Location = new System.Drawing.Point(75, 280);
+            this.txtBoxPrecioOrdenador.Location = new System.Drawing.Point(75, 254);
             this.txtBoxPrecioOrdenador.Name = "txtBoxPrecioOrdenador";
             this.txtBoxPrecioOrdenador.Size = new System.Drawing.Size(100, 20);
             this.txtBoxPrecioOrdenador.TabIndex = 59;
@@ -222,7 +220,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(10, 252);
+            this.label7.Location = new System.Drawing.Point(10, 226);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 13);
             this.label7.TabIndex = 58;
@@ -230,42 +228,26 @@
             // 
             // txtBoxProcesadorOrdenador
             // 
-            this.txtBoxProcesadorOrdenador.Location = new System.Drawing.Point(75, 249);
+            this.txtBoxProcesadorOrdenador.Location = new System.Drawing.Point(75, 223);
             this.txtBoxProcesadorOrdenador.Name = "txtBoxProcesadorOrdenador";
             this.txtBoxProcesadorOrdenador.Size = new System.Drawing.Size(100, 20);
             this.txtBoxProcesadorOrdenador.TabIndex = 57;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(10, 226);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(31, 13);
-            this.label8.TabIndex = 56;
-            this.label8.Text = "HDD";
-            // 
-            // txtBoxHDDOrdenador
-            // 
-            this.txtBoxHDDOrdenador.Location = new System.Drawing.Point(75, 223);
-            this.txtBoxHDDOrdenador.Name = "txtBoxHDDOrdenador";
-            this.txtBoxHDDOrdenador.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxHDDOrdenador.TabIndex = 55;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(10, 195);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 13);
+            this.label9.Size = new System.Drawing.Size(65, 13);
             this.label9.TabIndex = 54;
-            this.label9.Text = "SSD";
+            this.label9.Text = "SSD o HDD";
             // 
-            // txtBoxSSDOrdenador
+            // txtBoxSSDoHDDOrdenador
             // 
-            this.txtBoxSSDOrdenador.Location = new System.Drawing.Point(75, 192);
-            this.txtBoxSSDOrdenador.Name = "txtBoxSSDOrdenador";
-            this.txtBoxSSDOrdenador.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxSSDOrdenador.TabIndex = 53;
+            this.txtBoxSSDoHDDOrdenador.Location = new System.Drawing.Point(75, 192);
+            this.txtBoxSSDoHDDOrdenador.Name = "txtBoxSSDoHDDOrdenador";
+            this.txtBoxSSDoHDDOrdenador.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxSSDoHDDOrdenador.TabIndex = 53;
             // 
             // label4
             // 
@@ -366,10 +348,8 @@
             this.Controls.Add(this.txtBoxPrecioOrdenador);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtBoxProcesadorOrdenador);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtBoxHDDOrdenador);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtBoxSSDOrdenador);
+            this.Controls.Add(this.txtBoxSSDoHDDOrdenador);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtBoxRAMOrdenador);
             this.Controls.Add(this.label5);
@@ -381,6 +361,7 @@
             this.Controls.Add(this.txtBoxCodigoOrdenador);
             this.Name = "Cesta";
             this.Text = "Cesta";
+            this.Load += new System.EventHandler(this.Cesta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -411,10 +392,8 @@
         private System.Windows.Forms.TextBox txtBoxPrecioOrdenador;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtBoxProcesadorOrdenador;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtBoxHDDOrdenador;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtBoxSSDOrdenador;
+        private System.Windows.Forms.TextBox txtBoxSSDoHDDOrdenador;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtBoxRAMOrdenador;
         private System.Windows.Forms.Label label5;

@@ -12,3 +12,6 @@ C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Cesta.resources
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Ordenadores.resources
 C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Info_Producto.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Info_Producto2.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Info_Producto3.resources
+C:\Users\Alumnodaw\Documents\GitHub\AO2023-2024\Tema 9\Proyecto_final\obj\Debug\Proyecto_final.Info_Producto4.resources
