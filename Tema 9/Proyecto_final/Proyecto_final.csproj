@@ -83,6 +83,30 @@
     <Compile Include="Info_Producto4.Designer.cs">
       <DependentUpon>Info_Producto4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Info_Producto5_Movil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Producto5_Movil.Designer.cs">
+      <DependentUpon>Info_Producto5_Movil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Producto6_Movil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Producto6_Movil.Designer.cs">
+      <DependentUpon>Info_Producto6_Movil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Producto7_Movil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Producto7_Movil.Designer.cs">
+      <DependentUpon>Info_Producto7_Movil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Producto8_Movil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Producto8_Movil.Designer.cs">
+      <DependentUpon>Info_Producto8_Movil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Moviles.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +138,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Info_Producto4.resx">
       <DependentUpon>Info_Producto4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Producto5_Movil.resx">
+      <DependentUpon>Info_Producto5_Movil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Producto6_Movil.resx">
+      <DependentUpon>Info_Producto6_Movil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Producto7_Movil.resx">
+      <DependentUpon>Info_Producto7_Movil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Producto8_Movil.resx">
+      <DependentUpon>Info_Producto8_Movil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moviles.resx">
+      <DependentUpon>Moviles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ordenadores.resx">
       <DependentUpon>Ordenadores.cs</DependentUpon>
@@ -152,6 +191,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DELL-7010-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\realme C67.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pocco x6 pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\realme 6i.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocco x6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
