@@ -64,6 +64,10 @@
             this.btn_Anterior_Ordenadores = new System.Windows.Forms.Button();
             this.btn_Anterior_Moviles = new System.Windows.Forms.Button();
             this.btn_Siguiente_Moviles = new System.Windows.Forms.Button();
+            this.txtBox_Total_Ordenadores = new System.Windows.Forms.TextBox();
+            this.txtBox_Total_Moviles = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -348,7 +352,7 @@
             // 
             // btn_Anterior_Moviles
             // 
-            this.btn_Anterior_Moviles.Location = new System.Drawing.Point(445, 277);
+            this.btn_Anterior_Moviles.Location = new System.Drawing.Point(435, 277);
             this.btn_Anterior_Moviles.Name = "btn_Anterior_Moviles";
             this.btn_Anterior_Moviles.Size = new System.Drawing.Size(79, 40);
             this.btn_Anterior_Moviles.TabIndex = 82;
@@ -358,7 +362,7 @@
             // 
             // btn_Siguiente_Moviles
             // 
-            this.btn_Siguiente_Moviles.Location = new System.Drawing.Point(539, 277);
+            this.btn_Siguiente_Moviles.Location = new System.Drawing.Point(520, 277);
             this.btn_Siguiente_Moviles.Name = "btn_Siguiente_Moviles";
             this.btn_Siguiente_Moviles.Size = new System.Drawing.Size(75, 40);
             this.btn_Siguiente_Moviles.TabIndex = 83;
@@ -366,11 +370,47 @@
             this.btn_Siguiente_Moviles.UseVisualStyleBackColor = true;
             this.btn_Siguiente_Moviles.Click += new System.EventHandler(this.btn_Siguiente_Moviles_Click);
             // 
+            // txtBox_Total_Ordenadores
+            // 
+            this.txtBox_Total_Ordenadores.Location = new System.Drawing.Point(302, 291);
+            this.txtBox_Total_Ordenadores.Name = "txtBox_Total_Ordenadores";
+            this.txtBox_Total_Ordenadores.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Total_Ordenadores.TabIndex = 84;
+            // 
+            // txtBox_Total_Moviles
+            // 
+            this.txtBox_Total_Moviles.Location = new System.Drawing.Point(698, 288);
+            this.txtBox_Total_Moviles.Name = "txtBox_Total_Moviles";
+            this.txtBox_Total_Moviles.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Total_Moviles.TabIndex = 85;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(205, 295);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(95, 13);
+            this.label8.TabIndex = 86;
+            this.label8.Text = "Total Ordenadores";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(622, 291);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(70, 13);
+            this.label11.TabIndex = 87;
+            this.label11.Text = "Total Moviles";
+            // 
             // Cesta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(958, 450);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtBox_Total_Moviles);
+            this.Controls.Add(this.txtBox_Total_Ordenadores);
             this.Controls.Add(this.btn_Siguiente_Moviles);
             this.Controls.Add(this.btn_Anterior_Moviles);
             this.Controls.Add(this.btn_Anterior_Ordenadores);
@@ -455,5 +495,9 @@
         private System.Windows.Forms.Button btn_Anterior_Ordenadores;
         private System.Windows.Forms.Button btn_Anterior_Moviles;
         private System.Windows.Forms.Button btn_Siguiente_Moviles;
+        private System.Windows.Forms.TextBox txtBox_Total_Ordenadores;
+        private System.Windows.Forms.TextBox txtBox_Total_Moviles;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label11;
     }
 }

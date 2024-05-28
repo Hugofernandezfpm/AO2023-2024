@@ -491,6 +491,29 @@ namespace Proyecto_final
                 pictureBox_PC_2.Visible = true;
                 pictureBox_PC_3.Visible = false;
                 pictureBox_PC_4.Visible = false;
+
+                if (comboBox_Procesadores_Ordenador.Text == "Todos")
+                {
+                    pictureBox_PC_1.Visible = false;
+                    pictureBox_PC_2.Visible = true;
+                    pictureBox_PC_3.Visible = false;
+                    pictureBox_PC_4.Visible = false;
+                }
+                else if (comboBox_Procesadores_Ordenador.Text == "ADM")
+                {
+                    pictureBox_PC_1.Visible = false;
+                    pictureBox_PC_2.Visible = true;
+                    pictureBox_PC_3.Visible = false;
+                    pictureBox_PC_4.Visible = false;
+                }
+                else if (comboBox_Procesadores_Ordenador.Text == "Intel")
+                {
+                    pictureBox_PC_1.Visible = false;
+                    pictureBox_PC_2.Visible = false;
+                    pictureBox_PC_3.Visible = false;
+                    pictureBox_PC_4.Visible = false;
+                }
+
             }
             else if (comboBoxRango_De_Precios_Ordenador.Text == "Todos")
             {
@@ -498,6 +521,28 @@ namespace Proyecto_final
                 pictureBox_PC_2.Visible = true;
                 pictureBox_PC_3.Visible = true;
                 pictureBox_PC_4.Visible = true;
+
+                if (comboBox_Procesadores_Ordenador.Text == "Todos")
+                {
+                    pictureBox_PC_1.Visible = true;
+                    pictureBox_PC_2.Visible = true;
+                    pictureBox_PC_3.Visible = true;
+                    pictureBox_PC_4.Visible = true;
+                }
+                else if (comboBox_Procesadores_Ordenador.Text == "ADM")
+                {
+                    pictureBox_PC_1.Visible = true;
+                    pictureBox_PC_2.Visible = true;
+                    pictureBox_PC_3.Visible = false;
+                    pictureBox_PC_4.Visible = false;
+                }
+                else if (comboBox_Procesadores_Ordenador.Text == "Intel")
+                {
+                    pictureBox_PC_1.Visible = false;
+                    pictureBox_PC_2.Visible = false;
+                    pictureBox_PC_3.Visible = true;
+                    pictureBox_PC_4.Visible = true;
+                }
             }
 
 
@@ -1068,7 +1113,7 @@ namespace Proyecto_final
                 }
                 else
                 {
-                    MessageBox.Show("El codigo no existe");
+                    MessageBox.Show("El codigo no existe o no es valido");
                 }
             }
 

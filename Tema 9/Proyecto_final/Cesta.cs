@@ -47,6 +47,46 @@ namespace Proyecto_final
             txtBoxProcesadorMovil.Text = listaProductos2[5];
             txtBoxPrecioMovil.Text = listaProductos2[6];
 
+            string producto1 = listaProductos2[6];
+            string producto2 = listaProductos2[13];
+            //string producto3 = listaProductos2[20];
+            //string producto4 = listaProductos2[27];
+            //string producto5 = listaProductos[6];
+            //string producto6 = listaProductos[13];
+            //string producto7 = listaProductos[20];
+            //string producto8 = listaProductos[27];
+
+            //int producto9 = Convert.ToInt32(producto1);
+            //int producto10 = Convert.ToInt32(producto2);
+            //int producto11 = Convert.ToInt32(producto3);
+            //int producto12 = Convert.ToInt32(producto4);
+            //int producto13 = Convert.ToInt32(producto5);
+            //int producto14 = Convert.ToInt32(producto6);
+            //int producto15 = Convert.ToInt32(producto7);
+            //int producto16 = Convert.ToInt32(producto8);
+
+
+
+            if (producto1 != "")
+            {
+                producto1 = listaProductos2[6];
+            }
+            else
+            {
+                producto1 += 0;
+            }
+
+            if (producto2 != "")
+            {
+                producto2 = listaProductos2[13];
+            }
+            else
+            {
+                producto2 += 0;
+            }
+
+            txtBox_Total_Ordenadores.Text = producto1 + producto2;
+
         }
 
         private void btn_Siguiente_Ordenadores_Click(object sender, EventArgs e)

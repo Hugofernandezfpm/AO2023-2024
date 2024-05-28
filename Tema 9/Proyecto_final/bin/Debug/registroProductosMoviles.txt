@@ -1,1 +1,1 @@
-897654321 ,Realme,Realme C67,8GB,108 MP,Snapdragon 685,220, 
+897654321 ,Realme,Realme C67,8GB,108 MP,Snapdragon 685,220, 798654321 ,POCO,POCO X6 pro,12GB,64 MP,MediaTek Dimensity 8300-Ultra,330, 

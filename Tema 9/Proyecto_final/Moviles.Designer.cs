@@ -111,6 +111,7 @@
             this.btn_Buscar_Codigo_Movil.TabIndex = 39;
             this.btn_Buscar_Codigo_Movil.Text = "Buscar por codigo";
             this.btn_Buscar_Codigo_Movil.UseVisualStyleBackColor = true;
+            this.btn_Buscar_Codigo_Movil.Click += new System.EventHandler(this.btn_Buscar_Codigo_Movil_Click);
             // 
             // txtBox_Buscar_Por_Codigo_Movil
             // 
@@ -140,6 +141,7 @@
             this.comboBox_Procesadores_Movil.Name = "comboBox_Procesadores_Movil";
             this.comboBox_Procesadores_Movil.Size = new System.Drawing.Size(95, 21);
             this.comboBox_Procesadores_Movil.TabIndex = 0;
+            this.comboBox_Procesadores_Movil.SelectedIndexChanged += new System.EventHandler(this.comboBox_Procesadores_Movil_SelectedIndexChanged);
             // 
             // groupBox2
             // 

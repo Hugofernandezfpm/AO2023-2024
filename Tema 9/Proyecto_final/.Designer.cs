@@ -121,9 +121,9 @@
             this.precio_ordenador.AutoSize = true;
             this.precio_ordenador.Location = new System.Drawing.Point(431, 188);
             this.precio_ordenador.Name = "precio_ordenador";
-            this.precio_ordenador.Size = new System.Drawing.Size(31, 13);
+            this.precio_ordenador.Size = new System.Drawing.Size(25, 13);
             this.precio_ordenador.TabIndex = 50;
-            this.precio_ordenador.Text = "700€";
+            this.precio_ordenador.Text = "700";
             // 
             // label15
             // 
