@@ -34,16 +34,29 @@ namespace Proyecto_final
             txtBoxProcesadorOrdenador.Text = listaProductos[5];
             txtBoxPrecioOrdenador.Text = listaProductos[6];
 
+            StreamReader registroProductos_Moviles = new StreamReader(Directory.GetCurrentDirectory() + "\\registroProductosMoviles.txt", true);
+            string item2 = registroProductos_Moviles.ReadLine();
+            registroProductos_Moviles.Close();
+            string[] listaProductos2 = item2.Split(',');
+
+            txtBoxCodigoMovil.Text = listaProductos2[0];
+            txtBoxMarcaMovil.Text = listaProductos2[1];
+            txtBoxModeloMovil.Text = listaProductos2[2];
+            txtBoxRAMMovil.Text = listaProductos2[3];
+            txtBoxCamaraMovil.Text = listaProductos2[4];
+            txtBoxProcesadorMovil.Text = listaProductos2[5];
+            txtBoxPrecioMovil.Text = listaProductos2[6];
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Siguiente_Ordenadores_Click(object sender, EventArgs e)
         {
             StreamReader registroProductos = new StreamReader(Directory.GetCurrentDirectory() + "\\registroProductos.txt", true);
             string item = registroProductos.ReadLine();
             registroProductos.Close();
             string[] listaProductos = item.Split(',');
 
-           
+
 
             if (contador == 0)
             {
@@ -90,15 +103,10 @@ namespace Proyecto_final
                 txtBoxPrecioOrdenador.Text = listaProductos[6];
                 contador = 0;
             }
-
-
-
-
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_Anterior_Ordenadores_Click(object sender, EventArgs e)
         {
-
             StreamReader registroProductos = new StreamReader(Directory.GetCurrentDirectory() + "\\registroProductos.txt", true);
             string item = registroProductos.ReadLine();
             registroProductos.Close();
@@ -114,7 +122,7 @@ namespace Proyecto_final
                 txtBoxSSDoHDDOrdenador.Text = listaProductos[4];
                 txtBoxProcesadorOrdenador.Text = listaProductos[5];
                 txtBoxPrecioOrdenador.Text = listaProductos[6];
-                 
+
 
                 contador = 2;
             }
@@ -150,6 +158,125 @@ namespace Proyecto_final
                 txtBoxSSDoHDDOrdenador.Text = listaProductos[25];
                 txtBoxProcesadorOrdenador.Text = listaProductos[26];
                 txtBoxPrecioOrdenador.Text = listaProductos[27];
+                contador = 3;
+            }
+        }
+
+        private void btn_Siguiente_Moviles_Click(object sender, EventArgs e)
+        {
+            StreamReader registroProductos_Moviles = new StreamReader(Directory.GetCurrentDirectory() + "\\registroProductosMoviles.txt", true);
+            string item2 = registroProductos_Moviles.ReadLine();
+            registroProductos_Moviles.Close();
+            string[] listaProductos2 = item2.Split(',');
+
+            if (contador == 0)
+            {
+                txtBoxCodigoMovil.Text = listaProductos2[7];
+                txtBoxMarcaMovil.Text = listaProductos2[8];
+                txtBoxModeloMovil.Text = listaProductos2[9];
+                txtBoxRAMMovil.Text = listaProductos2[10];
+                txtBoxCamaraMovil.Text = listaProductos2[11];
+                txtBoxProcesadorMovil.Text = listaProductos2[12];
+                txtBoxPrecioMovil.Text = listaProductos2[13];
+
+                contador = 1;
+            }
+            else if (contador == 1)
+            {
+
+                txtBoxCodigoMovil.Text = listaProductos2[14];
+                txtBoxMarcaMovil.Text = listaProductos2[15];
+                txtBoxModeloMovil.Text = listaProductos2[16];
+                txtBoxRAMMovil.Text = listaProductos2[17];
+                txtBoxCamaraMovil.Text = listaProductos2[18];
+                txtBoxProcesadorMovil.Text = listaProductos2[19];
+                txtBoxPrecioMovil.Text = listaProductos2[20];
+
+                contador = 2;
+            }
+            else if (contador == 2)
+            {
+
+                txtBoxCodigoMovil.Text = listaProductos2[21];
+                txtBoxMarcaMovil.Text = listaProductos2[22];
+                txtBoxModeloMovil.Text = listaProductos2[23];
+                txtBoxRAMMovil.Text = listaProductos2[24];
+                txtBoxCamaraMovil.Text = listaProductos2[25];
+                txtBoxProcesadorMovil.Text = listaProductos2[26];
+                txtBoxPrecioMovil.Text = listaProductos2[27];
+
+                contador = 3;
+            }
+            else
+            {
+                txtBoxCodigoMovil.Text = listaProductos2[0];
+                txtBoxMarcaMovil.Text = listaProductos2[1];
+                txtBoxModeloMovil.Text = listaProductos2[2];
+                txtBoxRAMMovil.Text = listaProductos2[3];
+                txtBoxCamaraMovil.Text = listaProductos2[4];
+                txtBoxProcesadorMovil.Text = listaProductos2[5];
+                txtBoxPrecioMovil.Text = listaProductos2[6];
+
+                contador = 0;
+            }
+
+        }
+
+        private void btn_Anterior_Moviles_Click(object sender, EventArgs e)
+        {
+            StreamReader registroProductos_Moviles = new StreamReader(Directory.GetCurrentDirectory() + "\\registroProductosMoviles.txt", true);
+            string item2 = registroProductos_Moviles.ReadLine();
+            registroProductos_Moviles.Close();
+            string[] listaProductos2 = item2.Split(',');
+            
+            if (contador == 1)
+            {
+                txtBoxCodigoMovil.Text = listaProductos2[0];
+                txtBoxMarcaMovil.Text = listaProductos2[1];
+                txtBoxModeloMovil.Text = listaProductos2[2];
+                txtBoxRAMMovil.Text = listaProductos2[3];
+                txtBoxCamaraMovil.Text = listaProductos2[4];
+                txtBoxProcesadorMovil.Text = listaProductos2[5];
+                txtBoxPrecioMovil.Text = listaProductos2[6];
+
+                contador = 2;
+            }
+            else if (contador == 2)
+            {
+
+                txtBoxCodigoMovil.Text = listaProductos2[7];
+                txtBoxMarcaMovil.Text = listaProductos2[8];
+                txtBoxModeloMovil.Text = listaProductos2[9];
+                txtBoxRAMMovil.Text = listaProductos2[10];
+                txtBoxCamaraMovil.Text = listaProductos2[11];
+                txtBoxProcesadorMovil.Text = listaProductos2[12];
+                txtBoxPrecioMovil.Text = listaProductos2[13];
+
+                contador = 3;
+            }
+            else if (contador == 3)
+            {
+
+                txtBoxCodigoMovil.Text = listaProductos2[14];
+                txtBoxMarcaMovil.Text = listaProductos2[15];
+                txtBoxModeloMovil.Text = listaProductos2[16];
+                txtBoxRAMMovil.Text = listaProductos2[17];
+                txtBoxCamaraMovil.Text = listaProductos2[18];
+                txtBoxProcesadorMovil.Text = listaProductos2[19];
+                txtBoxPrecioMovil.Text = listaProductos2[20];
+
+                contador = 4;
+            }
+            else
+            {
+                txtBoxCodigoMovil.Text = listaProductos2[21];
+                txtBoxMarcaMovil.Text = listaProductos2[22];
+                txtBoxModeloMovil.Text = listaProductos2[23];
+                txtBoxRAMMovil.Text = listaProductos2[24];
+                txtBoxCamaraMovil.Text = listaProductos2[25];
+                txtBoxProcesadorMovil.Text = listaProductos2[26];
+                txtBoxPrecioMovil.Text = listaProductos2[27];
+
                 contador = 3;
             }
         }

@@ -16,5 +16,96 @@ namespace Proyecto_final
         {
             InitializeComponent();
         }
+
+        private void pictureBox_Movil_1_Click(object sender, EventArgs e)
+        {
+            Info_Producto5_Movil info_Producto5_Movil = new Info_Producto5_Movil();
+            info_Producto5_Movil.Show();
+        }
+
+        private void pictureBox_Movil_2_Click(object sender, EventArgs e)
+        {
+            Info_Producto6_Movil info_Producto6_Movil = new Info_Producto6_Movil();
+            info_Producto6_Movil.Show();
+        }
+
+        private void pictureBox_Movil_3_Click(object sender, EventArgs e)
+        {
+            Info_Producto7_Movil info_Producto7_Movil = new Info_Producto7_Movil();
+            info_Producto7_Movil.Show();
+        }
+
+        private void pictureBox_Movil_4_Click(object sender, EventArgs e)
+        {
+            Info_Producto8_Movil info_Producto8_Movil = new Info_Producto8_Movil();
+            info_Producto8_Movil.Show();
+        }
+
+        private void Moviles_Load(object sender, EventArgs e)
+        {
+            pictureBox_Movil_1.Visible = true;
+            pictureBox_Movil_2.Visible = true;
+            pictureBox_Movil_3.Visible = true;
+            pictureBox_Movil_4.Visible = true;
+        }
+
+        private void radioBtn_Camara_Todos_Moviles_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox_Movil_1.Visible = true;
+            pictureBox_Movil_2.Visible = true;
+            pictureBox_Movil_3.Visible = true;
+            pictureBox_Movil_4.Visible = true;
+        }
+
+        private void radioBtn_Camara_0a100_Moviles_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox_Movil_1.Visible = false;
+            pictureBox_Movil_2.Visible = true;
+            pictureBox_Movil_3.Visible = true;
+            pictureBox_Movil_4.Visible = true;
+        }
+
+        private void radioBtn_Camara_100a200_Moviles_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox_Movil_1.Visible = true;
+            pictureBox_Movil_2.Visible = false;
+            pictureBox_Movil_3.Visible = false;
+            pictureBox_Movil_4.Visible = false;
+        }
+
+        private void comboBoxRango_De_Precios_Movil_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(radioBtn_Camara_Todos_Moviles.Checked)
+            {
+                if (comboBoxRango_De_Precios_Movil.Text == "Todos")
+                {
+                    pictureBox_Movil_1.Visible = true;
+                    pictureBox_Movil_2.Visible = true;
+                    pictureBox_Movil_3.Visible = true;
+                    pictureBox_Movil_4.Visible = true;
+                }
+                else if (comboBoxRango_De_Precios_Movil.Text == "0-200")
+                {
+                    pictureBox_Movil_1.Visible = false;
+                    pictureBox_Movil_2.Visible = false;
+                    pictureBox_Movil_3.Visible = true;
+                    pictureBox_Movil_4.Visible = false;
+                }
+                else if (comboBoxRango_De_Precios_Movil.Text == "200-300")
+                {
+                    pictureBox_Movil_1.Visible = true;
+                    pictureBox_Movil_2.Visible = false;
+                    pictureBox_Movil_3.Visible = false;
+                    pictureBox_Movil_4.Visible = true;
+                }
+                else if (comboBoxRango_De_Precios_Movil.Text == "300-400")
+                {
+                    pictureBox_Movil_1.Visible = false;
+                    pictureBox_Movil_2.Visible = true;
+                    pictureBox_Movil_3.Visible = false;
+                    pictureBox_Movil_4.Visible = false;
+                }
+            }
+        }
     }
 }

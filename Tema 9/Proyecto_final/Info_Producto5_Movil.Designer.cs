@@ -43,6 +43,7 @@
             this.label_Camara_Movil = new System.Windows.Forms.Label();
             this.label_Procesador_Movil = new System.Windows.Forms.Label();
             this.label_Precio_Movil = new System.Windows.Forms.Label();
+            this.btnAñadir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_foto_producto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,7 +127,7 @@
             this.label_Codigo_Movil.Name = "label_Codigo_Movil";
             this.label_Codigo_Movil.Size = new System.Drawing.Size(61, 13);
             this.label_Codigo_Movil.TabIndex = 87;
-            this.label_Codigo_Movil.Text = "987654321";
+            this.label_Codigo_Movil.Text = "897654321";
             // 
             // label_Marca_Movil
             // 
@@ -160,33 +161,44 @@
             this.label_Camara_Movil.AutoSize = true;
             this.label_Camara_Movil.Location = new System.Drawing.Point(431, 126);
             this.label_Camara_Movil.Name = "label_Camara_Movil";
-            this.label_Camara_Movil.Size = new System.Drawing.Size(35, 13);
+            this.label_Camara_Movil.Size = new System.Drawing.Size(44, 13);
             this.label_Camara_Movil.TabIndex = 91;
-            this.label_Camara_Movil.Text = "label5";
+            this.label_Camara_Movil.Text = "108 MP";
             // 
             // label_Procesador_Movil
             // 
             this.label_Procesador_Movil.AutoSize = true;
             this.label_Procesador_Movil.Location = new System.Drawing.Point(431, 152);
             this.label_Procesador_Movil.Name = "label_Procesador_Movil";
-            this.label_Procesador_Movil.Size = new System.Drawing.Size(35, 13);
+            this.label_Procesador_Movil.Size = new System.Drawing.Size(86, 13);
             this.label_Procesador_Movil.TabIndex = 92;
-            this.label_Procesador_Movil.Text = "label7";
+            this.label_Procesador_Movil.Text = "Snapdragon 685";
             // 
             // label_Precio_Movil
             // 
             this.label_Precio_Movil.AutoSize = true;
             this.label_Precio_Movil.Location = new System.Drawing.Point(431, 183);
             this.label_Precio_Movil.Name = "label_Precio_Movil";
-            this.label_Precio_Movil.Size = new System.Drawing.Size(35, 13);
+            this.label_Precio_Movil.Size = new System.Drawing.Size(25, 13);
             this.label_Precio_Movil.TabIndex = 93;
-            this.label_Precio_Movil.Text = "label8";
+            this.label_Precio_Movil.Text = "220";
+            // 
+            // btnAñadir
+            // 
+            this.btnAñadir.Location = new System.Drawing.Point(597, 242);
+            this.btnAñadir.Name = "btnAñadir";
+            this.btnAñadir.Size = new System.Drawing.Size(191, 46);
+            this.btnAñadir.TabIndex = 94;
+            this.btnAñadir.Text = "Añadir";
+            this.btnAñadir.UseVisualStyleBackColor = true;
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
             // Info_Producto5_Movil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAñadir);
             this.Controls.Add(this.label_Precio_Movil);
             this.Controls.Add(this.label_Procesador_Movil);
             this.Controls.Add(this.label_Camara_Movil);
@@ -227,5 +239,6 @@
         private System.Windows.Forms.Label label_Camara_Movil;
         private System.Windows.Forms.Label label_Procesador_Movil;
         private System.Windows.Forms.Label label_Precio_Movil;
+        private System.Windows.Forms.Button btnAñadir;
     }
 }

@@ -37,8 +37,8 @@
             this.label16 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtBoxPrecioMovil = new System.Windows.Forms.TextBox();
-            this.txtBoxProcesador = new System.Windows.Forms.TextBox();
-            this.txtBoxSSDMovil = new System.Windows.Forms.TextBox();
+            this.txtBoxProcesadorMovil = new System.Windows.Forms.TextBox();
+            this.txtBoxCamaraMovil = new System.Windows.Forms.TextBox();
             this.txtBoxRAMMovil = new System.Windows.Forms.TextBox();
             this.txtBoxModeloMovil = new System.Windows.Forms.TextBox();
             this.txtBoxMarcaMovil = new System.Windows.Forms.TextBox();
@@ -60,8 +60,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtBoxCodigoOrdenador = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_Siguiente_Ordenadores = new System.Windows.Forms.Button();
+            this.btn_Anterior_Ordenadores = new System.Windows.Forms.Button();
+            this.btn_Anterior_Moviles = new System.Windows.Forms.Button();
+            this.btn_Siguiente_Moviles = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -131,7 +133,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(587, 83);
+            this.pictureBox2.Location = new System.Drawing.Point(587, 57);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(211, 217);
             this.pictureBox2.TabIndex = 71;
@@ -144,19 +146,19 @@
             this.txtBoxPrecioMovil.Size = new System.Drawing.Size(100, 20);
             this.txtBoxPrecioMovil.TabIndex = 70;
             // 
-            // txtBoxProcesador
+            // txtBoxProcesadorMovil
             // 
-            this.txtBoxProcesador.Location = new System.Drawing.Point(481, 220);
-            this.txtBoxProcesador.Name = "txtBoxProcesador";
-            this.txtBoxProcesador.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxProcesador.TabIndex = 69;
+            this.txtBoxProcesadorMovil.Location = new System.Drawing.Point(481, 220);
+            this.txtBoxProcesadorMovil.Name = "txtBoxProcesadorMovil";
+            this.txtBoxProcesadorMovil.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxProcesadorMovil.TabIndex = 69;
             // 
-            // txtBoxSSDMovil
+            // txtBoxCamaraMovil
             // 
-            this.txtBoxSSDMovil.Location = new System.Drawing.Point(481, 194);
-            this.txtBoxSSDMovil.Name = "txtBoxSSDMovil";
-            this.txtBoxSSDMovil.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxSSDMovil.TabIndex = 67;
+            this.txtBoxCamaraMovil.Location = new System.Drawing.Point(481, 194);
+            this.txtBoxCamaraMovil.Name = "txtBoxCamaraMovil";
+            this.txtBoxCamaraMovil.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxCamaraMovil.TabIndex = 67;
             // 
             // txtBoxRAMMovil
             // 
@@ -324,33 +326,55 @@
             this.txtBoxCodigoOrdenador.Size = new System.Drawing.Size(100, 20);
             this.txtBoxCodigoOrdenador.TabIndex = 44;
             // 
-            // button1
+            // btn_Siguiente_Ordenadores
             // 
-            this.button1.Location = new System.Drawing.Point(109, 288);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 40);
-            this.button1.TabIndex = 80;
-            this.button1.Text = "Siguiente";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Siguiente_Ordenadores.Location = new System.Drawing.Point(124, 280);
+            this.btn_Siguiente_Ordenadores.Name = "btn_Siguiente_Ordenadores";
+            this.btn_Siguiente_Ordenadores.Size = new System.Drawing.Size(75, 40);
+            this.btn_Siguiente_Ordenadores.TabIndex = 80;
+            this.btn_Siguiente_Ordenadores.Text = "Siguiente";
+            this.btn_Siguiente_Ordenadores.UseVisualStyleBackColor = true;
+            this.btn_Siguiente_Ordenadores.Click += new System.EventHandler(this.btn_Siguiente_Ordenadores_Click);
             // 
-            // button2
+            // btn_Anterior_Ordenadores
             // 
-            this.button2.Location = new System.Drawing.Point(24, 288);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 40);
-            this.button2.TabIndex = 81;
-            this.button2.Text = "Anterior";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_Anterior_Ordenadores.Location = new System.Drawing.Point(28, 280);
+            this.btn_Anterior_Ordenadores.Name = "btn_Anterior_Ordenadores";
+            this.btn_Anterior_Ordenadores.Size = new System.Drawing.Size(79, 40);
+            this.btn_Anterior_Ordenadores.TabIndex = 81;
+            this.btn_Anterior_Ordenadores.Text = "Anterior";
+            this.btn_Anterior_Ordenadores.UseVisualStyleBackColor = true;
+            this.btn_Anterior_Ordenadores.Click += new System.EventHandler(this.btn_Anterior_Ordenadores_Click);
+            // 
+            // btn_Anterior_Moviles
+            // 
+            this.btn_Anterior_Moviles.Location = new System.Drawing.Point(445, 277);
+            this.btn_Anterior_Moviles.Name = "btn_Anterior_Moviles";
+            this.btn_Anterior_Moviles.Size = new System.Drawing.Size(79, 40);
+            this.btn_Anterior_Moviles.TabIndex = 82;
+            this.btn_Anterior_Moviles.Text = "Anterior";
+            this.btn_Anterior_Moviles.UseVisualStyleBackColor = true;
+            this.btn_Anterior_Moviles.Click += new System.EventHandler(this.btn_Anterior_Moviles_Click);
+            // 
+            // btn_Siguiente_Moviles
+            // 
+            this.btn_Siguiente_Moviles.Location = new System.Drawing.Point(539, 277);
+            this.btn_Siguiente_Moviles.Name = "btn_Siguiente_Moviles";
+            this.btn_Siguiente_Moviles.Size = new System.Drawing.Size(75, 40);
+            this.btn_Siguiente_Moviles.TabIndex = 83;
+            this.btn_Siguiente_Moviles.Text = "Siguiente";
+            this.btn_Siguiente_Moviles.UseVisualStyleBackColor = true;
+            this.btn_Siguiente_Moviles.Click += new System.EventHandler(this.btn_Siguiente_Moviles_Click);
             // 
             // Cesta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Siguiente_Moviles);
+            this.Controls.Add(this.btn_Anterior_Moviles);
+            this.Controls.Add(this.btn_Anterior_Ordenadores);
+            this.Controls.Add(this.btn_Siguiente_Ordenadores);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label12);
@@ -360,8 +384,8 @@
             this.Controls.Add(this.label16);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.txtBoxPrecioMovil);
-            this.Controls.Add(this.txtBoxProcesador);
-            this.Controls.Add(this.txtBoxSSDMovil);
+            this.Controls.Add(this.txtBoxProcesadorMovil);
+            this.Controls.Add(this.txtBoxCamaraMovil);
             this.Controls.Add(this.txtBoxRAMMovil);
             this.Controls.Add(this.txtBoxModeloMovil);
             this.Controls.Add(this.txtBoxMarcaMovil);
@@ -404,8 +428,8 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtBoxPrecioMovil;
-        private System.Windows.Forms.TextBox txtBoxProcesador;
-        private System.Windows.Forms.TextBox txtBoxSSDMovil;
+        private System.Windows.Forms.TextBox txtBoxProcesadorMovil;
+        private System.Windows.Forms.TextBox txtBoxCamaraMovil;
         private System.Windows.Forms.TextBox txtBoxRAMMovil;
         private System.Windows.Forms.TextBox txtBoxModeloMovil;
         private System.Windows.Forms.TextBox txtBoxMarcaMovil;
@@ -427,7 +451,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtBoxCodigoOrdenador;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_Siguiente_Ordenadores;
+        private System.Windows.Forms.Button btn_Anterior_Ordenadores;
+        private System.Windows.Forms.Button btn_Anterior_Moviles;
+        private System.Windows.Forms.Button btn_Siguiente_Moviles;
     }
 }
