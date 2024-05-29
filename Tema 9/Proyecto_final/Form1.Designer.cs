@@ -31,6 +31,7 @@
             this.btnOrdenadores = new System.Windows.Forms.Button();
             this.btnMoviles = new System.Windows.Forms.Button();
             this.btnCesta = new System.Windows.Forms.Button();
+            this.btnEleminar_Todos_Los_Productos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOrdenadores
@@ -39,7 +40,7 @@
             this.btnOrdenadores.Name = "btnOrdenadores";
             this.btnOrdenadores.Size = new System.Drawing.Size(238, 94);
             this.btnOrdenadores.TabIndex = 0;
-            this.btnOrdenadores.Text = "Ordenadores";
+            this.btnOrdenadores.Text = "Añadir Ordenadores";
             this.btnOrdenadores.UseVisualStyleBackColor = true;
             this.btnOrdenadores.Click += new System.EventHandler(this.btnOrdenadores_Click);
             // 
@@ -49,7 +50,7 @@
             this.btnMoviles.Name = "btnMoviles";
             this.btnMoviles.Size = new System.Drawing.Size(238, 94);
             this.btnMoviles.TabIndex = 1;
-            this.btnMoviles.Text = "Moviles";
+            this.btnMoviles.Text = "Añadir Moviles";
             this.btnMoviles.UseVisualStyleBackColor = true;
             this.btnMoviles.Click += new System.EventHandler(this.btnMoviles_Click);
             // 
@@ -63,11 +64,22 @@
             this.btnCesta.UseVisualStyleBackColor = true;
             this.btnCesta.Click += new System.EventHandler(this.btnCesta_Click);
             // 
+            // btnEleminar_Todos_Los_Productos
+            // 
+            this.btnEleminar_Todos_Los_Productos.Location = new System.Drawing.Point(830, 84);
+            this.btnEleminar_Todos_Los_Productos.Name = "btnEleminar_Todos_Los_Productos";
+            this.btnEleminar_Todos_Los_Productos.Size = new System.Drawing.Size(238, 94);
+            this.btnEleminar_Todos_Los_Productos.TabIndex = 3;
+            this.btnEleminar_Todos_Los_Productos.Text = "Eliminar todos los productos";
+            this.btnEleminar_Todos_Los_Productos.UseVisualStyleBackColor = true;
+            this.btnEleminar_Todos_Los_Productos.Click += new System.EventHandler(this.btnEleminar_Todos_Los_Productos_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 563);
+            this.Controls.Add(this.btnEleminar_Todos_Los_Productos);
             this.Controls.Add(this.btnCesta);
             this.Controls.Add(this.btnMoviles);
             this.Controls.Add(this.btnOrdenadores);
@@ -82,6 +94,7 @@
         private System.Windows.Forms.Button btnOrdenadores;
         private System.Windows.Forms.Button btnMoviles;
         private System.Windows.Forms.Button btnCesta;
+        private System.Windows.Forms.Button btnEleminar_Todos_Los_Productos;
     }
 }
 

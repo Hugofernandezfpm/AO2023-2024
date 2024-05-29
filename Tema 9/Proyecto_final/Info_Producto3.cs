@@ -23,7 +23,7 @@ namespace Proyecto_final
             StreamWriter registroProductos = new StreamWriter(Directory.GetCurrentDirectory() + "\\registroProductos.txt", true);
             List<string> productos = new List<string>();
 
-            productos.Add(codigo_ordenador.Text.ToString() + " ,");
+            productos.Add(codigo_ordenador.Text.ToString() + ",");
             productos.Add(marca_ordenador.Text.ToString() + ",");
             productos.Add(modelo_ordenador.Text.ToString() + ",");
             productos.Add(ram_ordenador.Text.ToString() + ",");

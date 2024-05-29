@@ -1287,7 +1287,7 @@ namespace Proyecto_final
             {
                 if (txtBox_Buscar_Por_Codigo_Movil.Text == "")
                 {
-                    MessageBox.Show("Debes escribir un cidigo");
+                    MessageBox.Show("Debes escribir un codigo");
                 }
                 else
                 {

@@ -23,7 +23,7 @@ namespace Proyecto_final
             StreamWriter registroProductos_Moviles = new StreamWriter(Directory.GetCurrentDirectory() + "\\registroProductosMoviles.txt", true);
             List<string> productos2 = new List<string>();
 
-            productos2.Add(label_Codigo_Movil.Text.ToString() + " ,");
+            productos2.Add(label_Codigo_Movil.Text.ToString() + ",");
             productos2.Add(label_Marca_Movil.Text.ToString() + ",");
             productos2.Add(label_Modelo_Movil.Text.ToString() + ",");
             productos2.Add(label_Ram_Movil.Text.ToString() + ",");

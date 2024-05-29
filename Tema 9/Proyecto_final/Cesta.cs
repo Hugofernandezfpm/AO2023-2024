@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -23,69 +24,118 @@ namespace Proyecto_final
             StreamReader registroProductos = new StreamReader(Directory.GetCurrentDirectory() + "\\registroProductos.txt", true);
             string item = registroProductos.ReadLine();
             registroProductos.Close();
-            string[] listaProductos = item.Split(',');
+            
 
-
-            txtBoxCodigoOrdenador.Text = listaProductos[0];
-            txtBoxMarcaOrdenador.Text = listaProductos[1];
-            txtBoxModeloOrdenador.Text = listaProductos[2];
-            txtBoxRAMOrdenador.Text = listaProductos[3];
-            txtBoxSSDoHDDOrdenador.Text = listaProductos[4];
-            txtBoxProcesadorOrdenador.Text = listaProductos[5];
-            txtBoxPrecioOrdenador.Text = listaProductos[6];
+            if (item != null)
+            {
+                string[] listaProductos = item.Split(',');
+                txtBoxCodigoOrdenador.Text = listaProductos[0];
+                txtBoxMarcaOrdenador.Text = listaProductos[1];
+                txtBoxModeloOrdenador.Text = listaProductos[2];
+                txtBoxRAMOrdenador.Text = listaProductos[3];
+                txtBoxSSDoHDDOrdenador.Text = listaProductos[4];
+                txtBoxProcesadorOrdenador.Text = listaProductos[5];
+                txtBoxPrecioOrdenador.Text = listaProductos[6];
+            }
+            else
+            {
+                MessageBox.Show("La lista de ordenadores esta vacia");
+            }
 
             StreamReader registroProductos_Moviles = new StreamReader(Directory.GetCurrentDirectory() + "\\registroProductosMoviles.txt", true);
             string item2 = registroProductos_Moviles.ReadLine();
             registroProductos_Moviles.Close();
-            string[] listaProductos2 = item2.Split(',');
-
-            txtBoxCodigoMovil.Text = listaProductos2[0];
-            txtBoxMarcaMovil.Text = listaProductos2[1];
-            txtBoxModeloMovil.Text = listaProductos2[2];
-            txtBoxRAMMovil.Text = listaProductos2[3];
-            txtBoxCamaraMovil.Text = listaProductos2[4];
-            txtBoxProcesadorMovil.Text = listaProductos2[5];
-            txtBoxPrecioMovil.Text = listaProductos2[6];
-
-            string producto1 = listaProductos2[6];
-            string producto2 = listaProductos2[13];
-            //string producto3 = listaProductos2[20];
-            //string producto4 = listaProductos2[27];
-            //string producto5 = listaProductos[6];
-            //string producto6 = listaProductos[13];
-            //string producto7 = listaProductos[20];
-            //string producto8 = listaProductos[27];
-
-            //int producto9 = Convert.ToInt32(producto1);
-            //int producto10 = Convert.ToInt32(producto2);
-            //int producto11 = Convert.ToInt32(producto3);
-            //int producto12 = Convert.ToInt32(producto4);
-            //int producto13 = Convert.ToInt32(producto5);
-            //int producto14 = Convert.ToInt32(producto6);
-            //int producto15 = Convert.ToInt32(producto7);
-            //int producto16 = Convert.ToInt32(producto8);
-
-
-
-            if (producto1 != "")
+            
+            
+            if (item2 != null)
             {
-                producto1 = listaProductos2[6];
+                string[] listaProductos2 = item2.Split(',');
+                txtBoxCodigoMovil.Text = listaProductos2[0];
+                txtBoxMarcaMovil.Text = listaProductos2[1];
+                txtBoxModeloMovil.Text = listaProductos2[2];
+                txtBoxRAMMovil.Text = listaProductos2[3];
+                txtBoxCamaraMovil.Text = listaProductos2[4];
+                txtBoxProcesadorMovil.Text = listaProductos2[5];
+                txtBoxPrecioMovil.Text = listaProductos2[6];
             }
             else
             {
-                producto1 += 0;
+                MessageBox.Show("La lista de moviles esta vacia");
             }
 
-            if (producto2 != "")
+            if (txtBoxModeloOrdenador.Text == "i5-12400F/GTX1650")
             {
-                producto2 = listaProductos2[13];
+                pictureBoxVoltier.Visible = true;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "e7-31460G/GTX1650")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = true;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "e4-12330F/GTX1340")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = true;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "i5-55400F/GTX14330")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = true;
             }
             else
             {
-                producto2 += 0;
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
             }
 
-            txtBox_Total_Ordenadores.Text = producto1 + producto2;
+            if (txtBoxModeloMovil.Text == "Realme C67")
+            {
+                pictureBoxRealmeC67.Visible = true;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else if (txtBoxModeloMovil.Text == "POCO X6 pro")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = true;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else if (txtBoxModeloMovil.Text == "Realme 6i")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = true;
+            }
+            else if (txtBoxModeloMovil.Text == "POCO X6")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = true;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+
+           
 
         }
 
@@ -96,19 +146,64 @@ namespace Proyecto_final
             registroProductos.Close();
             string[] listaProductos = item.Split(',');
 
+            if (txtBoxModeloOrdenador.Text == "i5-12400F/GTX1650")
+            {
+                pictureBoxVoltier.Visible = true;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "e7-31460G/GTX1650")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = true;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "e4-12330F/GTX1340")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = true;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "i5-55400F/GTX14330")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = true;
+            }
+            else
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
+            }
+
+            
+
 
 
             if (contador == 0)
             {
-                txtBoxCodigoOrdenador.Text = listaProductos[7];
-                txtBoxMarcaOrdenador.Text = listaProductos[8];
-                txtBoxModeloOrdenador.Text = listaProductos[9];
-                txtBoxRAMOrdenador.Text = listaProductos[10];
-                txtBoxSSDoHDDOrdenador.Text = listaProductos[11];
-                txtBoxProcesadorOrdenador.Text = listaProductos[12];
-                txtBoxPrecioOrdenador.Text = listaProductos[13];
+                if (listaProductos.Count() < 8 || listaProductos[7] == " ")
+                {
+                    MessageBox.Show("no hay mas productos en la lista");
+                }
+                else
+                {
+                    txtBoxCodigoOrdenador.Text = listaProductos[7];
+                    txtBoxMarcaOrdenador.Text = listaProductos[8];
+                    txtBoxModeloOrdenador.Text = listaProductos[9];
+                    txtBoxRAMOrdenador.Text = listaProductos[10];
+                    txtBoxSSDoHDDOrdenador.Text = listaProductos[11];
+                    txtBoxProcesadorOrdenador.Text = listaProductos[12];
+                    txtBoxPrecioOrdenador.Text = listaProductos[13];
 
-                contador = 1;
+                    contador = 1;
+                }
             }
             else if (contador == 1)
             {
@@ -152,6 +247,42 @@ namespace Proyecto_final
             registroProductos.Close();
             string[] listaProductos = item.Split(',');
 
+            if (txtBoxModeloOrdenador.Text == "i5-12400F/GTX1650")
+            {
+                pictureBoxVoltier.Visible = true;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "e7-31460G/GTX1650")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = true;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "e4-12330F/GTX1340")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = true;
+                pictureBoxDELL7010.Visible = false;
+            }
+            else if (txtBoxModeloOrdenador.Text == "i5-55400F/GTX14330")
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = true;
+            }
+            else
+            {
+                pictureBoxVoltier.Visible = false;
+                pictureBoxPCCOM.Visible = false;
+                pictureBoxHPDESKTOP.Visible = false;
+                pictureBoxDELL7010.Visible = false;
+            }
+
 
             if (contador == 1)
             {
@@ -191,14 +322,22 @@ namespace Proyecto_final
             }
             else
             {
-                txtBoxCodigoOrdenador.Text = listaProductos[21];
-                txtBoxMarcaOrdenador.Text = listaProductos[22];
-                txtBoxModeloOrdenador.Text = listaProductos[23];
-                txtBoxRAMOrdenador.Text = listaProductos[24];
-                txtBoxSSDoHDDOrdenador.Text = listaProductos[25];
-                txtBoxProcesadorOrdenador.Text = listaProductos[26];
-                txtBoxPrecioOrdenador.Text = listaProductos[27];
-                contador = 3;
+
+                if (listaProductos.Count() < 8 || listaProductos[7] == " ")
+                {
+                    MessageBox.Show("no hay mas productos en la lista");
+                }
+                else
+                {
+                    txtBoxCodigoOrdenador.Text = listaProductos[21];
+                    txtBoxMarcaOrdenador.Text = listaProductos[22];
+                    txtBoxModeloOrdenador.Text = listaProductos[23];
+                    txtBoxRAMOrdenador.Text = listaProductos[24];
+                    txtBoxSSDoHDDOrdenador.Text = listaProductos[25];
+                    txtBoxProcesadorOrdenador.Text = listaProductos[26];
+                    txtBoxPrecioOrdenador.Text = listaProductos[27];
+                    contador = 3;
+                }
             }
         }
 
@@ -209,17 +348,63 @@ namespace Proyecto_final
             registroProductos_Moviles.Close();
             string[] listaProductos2 = item2.Split(',');
 
+            if (txtBoxModeloMovil.Text == "Realme C67")
+            {
+                pictureBoxRealmeC67.Visible = true;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else if (txtBoxModeloMovil.Text == "POCO X6 pro")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = true;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else if (txtBoxModeloMovil.Text == "Realme 6i")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = true;
+            }
+            else if (txtBoxModeloMovil.Text == "POCO X6")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = true;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+
             if (contador == 0)
             {
-                txtBoxCodigoMovil.Text = listaProductos2[7];
-                txtBoxMarcaMovil.Text = listaProductos2[8];
-                txtBoxModeloMovil.Text = listaProductos2[9];
-                txtBoxRAMMovil.Text = listaProductos2[10];
-                txtBoxCamaraMovil.Text = listaProductos2[11];
-                txtBoxProcesadorMovil.Text = listaProductos2[12];
-                txtBoxPrecioMovil.Text = listaProductos2[13];
+                if (listaProductos2.Count() < 8 || listaProductos2[7] == " ") 
+                {
+                    MessageBox.Show("no hay mas productos en la lista");
+                }
+                else
+                {
+                    txtBoxCodigoMovil.Text = listaProductos2[7];
+                    txtBoxMarcaMovil.Text = listaProductos2[8];
+                    txtBoxModeloMovil.Text = listaProductos2[9];
+                    txtBoxRAMMovil.Text = listaProductos2[10];
+                    txtBoxCamaraMovil.Text = listaProductos2[11];
+                    txtBoxProcesadorMovil.Text = listaProductos2[12];
+                    txtBoxPrecioMovil.Text = listaProductos2[13];
 
-                contador = 1;
+                    contador = 1;
+                }
+                
+                
+                
             }
             else if (contador == 1)
             {
@@ -268,7 +453,43 @@ namespace Proyecto_final
             string item2 = registroProductos_Moviles.ReadLine();
             registroProductos_Moviles.Close();
             string[] listaProductos2 = item2.Split(',');
-            
+
+            if (txtBoxModeloMovil.Text == "Realme C67")
+            {
+                pictureBoxRealmeC67.Visible = true;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else if (txtBoxModeloMovil.Text == "POCO X6 pro")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = true;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else if (txtBoxModeloMovil.Text == "Realme 6i")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = true;
+            }
+            else if (txtBoxModeloMovil.Text == "POCO X6")
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = true;
+                pictureBoxRealme6i.Visible = false;
+            }
+            else
+            {
+                pictureBoxRealmeC67.Visible = false;
+                pictureBoxPocox6pro.Visible = false;
+                pictureBoxPocoX6.Visible = false;
+                pictureBoxRealme6i.Visible = false;
+            }
+
             if (contador == 1)
             {
                 txtBoxCodigoMovil.Text = listaProductos2[0];
@@ -309,15 +530,23 @@ namespace Proyecto_final
             }
             else
             {
-                txtBoxCodigoMovil.Text = listaProductos2[21];
-                txtBoxMarcaMovil.Text = listaProductos2[22];
-                txtBoxModeloMovil.Text = listaProductos2[23];
-                txtBoxRAMMovil.Text = listaProductos2[24];
-                txtBoxCamaraMovil.Text = listaProductos2[25];
-                txtBoxProcesadorMovil.Text = listaProductos2[26];
-                txtBoxPrecioMovil.Text = listaProductos2[27];
+                if (listaProductos2.Count() < 22 || listaProductos2[21] == " ")
+                {
+                    MessageBox.Show("no hay mas productos en la lista");
+                }
+                else
+                {
+                    txtBoxCodigoMovil.Text = listaProductos2[21];
+                    txtBoxMarcaMovil.Text = listaProductos2[22];
+                    txtBoxModeloMovil.Text = listaProductos2[23];
+                    txtBoxRAMMovil.Text = listaProductos2[24];
+                    txtBoxCamaraMovil.Text = listaProductos2[25];
+                    txtBoxProcesadorMovil.Text = listaProductos2[26];
+                    txtBoxPrecioMovil.Text = listaProductos2[27];
 
-                contador = 3;
+                    contador = 3;
+                }
+               
             }
         }
     }

@@ -1109,7 +1109,7 @@ namespace Proyecto_final
             {
                 if (txtBox_Buscar_Por_Codigo_Ordenador.Text == "")
                 {
-                    MessageBox.Show("Debes escribir un cidigo");
+                    MessageBox.Show("Debes escribir un codigo");
                 }
                 else
                 {

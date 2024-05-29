@@ -35,7 +35,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxHPDESKTOP = new System.Windows.Forms.PictureBox();
             this.txtBoxPrecioMovil = new System.Windows.Forms.TextBox();
             this.txtBoxProcesadorMovil = new System.Windows.Forms.TextBox();
             this.txtBoxCamaraMovil = new System.Windows.Forms.TextBox();
@@ -44,7 +44,7 @@
             this.txtBoxMarcaMovil = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.txtBoxCodigoMovil = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRealme6i = new System.Windows.Forms.PictureBox();
             this.Precio = new System.Windows.Forms.Label();
             this.txtBoxPrecioOrdenador = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -64,12 +64,20 @@
             this.btn_Anterior_Ordenadores = new System.Windows.Forms.Button();
             this.btn_Anterior_Moviles = new System.Windows.Forms.Button();
             this.btn_Siguiente_Moviles = new System.Windows.Forms.Button();
-            this.txtBox_Total_Ordenadores = new System.Windows.Forms.TextBox();
-            this.txtBox_Total_Moviles = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBoxPocox6pro = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPocoX6 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRealmeC67 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDELL7010 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxVoltier = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPCCOM = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPDESKTOP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRealme6i)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPocox6pro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPocoX6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRealmeC67)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDELL7010)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVoltier)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPCCOM)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -135,13 +143,16 @@
             this.label16.TabIndex = 72;
             this.label16.Text = "Código";
             // 
-            // pictureBox2
+            // pictureBoxHPDESKTOP
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(587, 57);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(211, 217);
-            this.pictureBox2.TabIndex = 71;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxHPDESKTOP.Image = global::Proyecto_final.Properties.Resources.HP_Desktop_M01_F2052ns;
+            this.pictureBoxHPDESKTOP.Location = new System.Drawing.Point(181, 57);
+            this.pictureBoxHPDESKTOP.Name = "pictureBoxHPDESKTOP";
+            this.pictureBoxHPDESKTOP.Size = new System.Drawing.Size(211, 217);
+            this.pictureBoxHPDESKTOP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxHPDESKTOP.TabIndex = 71;
+            this.pictureBoxHPDESKTOP.TabStop = false;
+            this.pictureBoxHPDESKTOP.Visible = false;
             // 
             // txtBoxPrecioMovil
             // 
@@ -201,13 +212,15 @@
             this.txtBoxCodigoMovil.Size = new System.Drawing.Size(100, 20);
             this.txtBoxCodigoMovil.TabIndex = 62;
             // 
-            // pictureBox1
+            // pictureBoxRealme6i
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(181, 57);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(211, 217);
-            this.pictureBox1.TabIndex = 61;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxRealme6i.Image = global::Proyecto_final.Properties.Resources.realme_6i;
+            this.pictureBoxRealme6i.Location = new System.Drawing.Point(587, 57);
+            this.pictureBoxRealme6i.Name = "pictureBoxRealme6i";
+            this.pictureBoxRealme6i.Size = new System.Drawing.Size(211, 217);
+            this.pictureBoxRealme6i.TabIndex = 61;
+            this.pictureBoxRealme6i.TabStop = false;
+            this.pictureBoxRealme6i.Visible = false;
             // 
             // Precio
             // 
@@ -370,47 +383,83 @@
             this.btn_Siguiente_Moviles.UseVisualStyleBackColor = true;
             this.btn_Siguiente_Moviles.Click += new System.EventHandler(this.btn_Siguiente_Moviles_Click);
             // 
-            // txtBox_Total_Ordenadores
+            // pictureBoxPocox6pro
             // 
-            this.txtBox_Total_Ordenadores.Location = new System.Drawing.Point(302, 291);
-            this.txtBox_Total_Ordenadores.Name = "txtBox_Total_Ordenadores";
-            this.txtBox_Total_Ordenadores.Size = new System.Drawing.Size(100, 20);
-            this.txtBox_Total_Ordenadores.TabIndex = 84;
+            this.pictureBoxPocox6pro.Image = global::Proyecto_final.Properties.Resources.pocco_x6_pro;
+            this.pictureBoxPocox6pro.Location = new System.Drawing.Point(587, 57);
+            this.pictureBoxPocox6pro.Name = "pictureBoxPocox6pro";
+            this.pictureBoxPocox6pro.Size = new System.Drawing.Size(211, 217);
+            this.pictureBoxPocox6pro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxPocox6pro.TabIndex = 88;
+            this.pictureBoxPocox6pro.TabStop = false;
+            this.pictureBoxPocox6pro.Visible = false;
             // 
-            // txtBox_Total_Moviles
+            // pictureBoxPocoX6
             // 
-            this.txtBox_Total_Moviles.Location = new System.Drawing.Point(698, 288);
-            this.txtBox_Total_Moviles.Name = "txtBox_Total_Moviles";
-            this.txtBox_Total_Moviles.Size = new System.Drawing.Size(100, 20);
-            this.txtBox_Total_Moviles.TabIndex = 85;
+            this.pictureBoxPocoX6.Image = global::Proyecto_final.Properties.Resources.Pocco_x6;
+            this.pictureBoxPocoX6.Location = new System.Drawing.Point(587, 57);
+            this.pictureBoxPocoX6.Name = "pictureBoxPocoX6";
+            this.pictureBoxPocoX6.Size = new System.Drawing.Size(211, 217);
+            this.pictureBoxPocoX6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxPocoX6.TabIndex = 89;
+            this.pictureBoxPocoX6.TabStop = false;
+            this.pictureBoxPocoX6.Visible = false;
             // 
-            // label8
+            // pictureBoxRealmeC67
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(205, 295);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(95, 13);
-            this.label8.TabIndex = 86;
-            this.label8.Text = "Total Ordenadores";
+            this.pictureBoxRealmeC67.Image = global::Proyecto_final.Properties.Resources.realme_C67;
+            this.pictureBoxRealmeC67.Location = new System.Drawing.Point(587, 57);
+            this.pictureBoxRealmeC67.Name = "pictureBoxRealmeC67";
+            this.pictureBoxRealmeC67.Size = new System.Drawing.Size(211, 217);
+            this.pictureBoxRealmeC67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxRealmeC67.TabIndex = 90;
+            this.pictureBoxRealmeC67.TabStop = false;
+            this.pictureBoxRealmeC67.Visible = false;
             // 
-            // label11
+            // pictureBoxDELL7010
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(622, 291);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(70, 13);
-            this.label11.TabIndex = 87;
-            this.label11.Text = "Total Moviles";
+            this.pictureBoxDELL7010.Image = global::Proyecto_final.Properties.Resources.DELL_7010_3;
+            this.pictureBoxDELL7010.Location = new System.Drawing.Point(181, 57);
+            this.pictureBoxDELL7010.Name = "pictureBoxDELL7010";
+            this.pictureBoxDELL7010.Size = new System.Drawing.Size(211, 217);
+            this.pictureBoxDELL7010.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDELL7010.TabIndex = 91;
+            this.pictureBoxDELL7010.TabStop = false;
+            this.pictureBoxDELL7010.Visible = false;
+            // 
+            // pictureBoxVoltier
+            // 
+            this.pictureBoxVoltier.Image = global::Proyecto_final.Properties.Resources.volttier;
+            this.pictureBoxVoltier.Location = new System.Drawing.Point(181, 57);
+            this.pictureBoxVoltier.Name = "pictureBoxVoltier";
+            this.pictureBoxVoltier.Size = new System.Drawing.Size(211, 217);
+            this.pictureBoxVoltier.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxVoltier.TabIndex = 92;
+            this.pictureBoxVoltier.TabStop = false;
+            this.pictureBoxVoltier.Visible = false;
+            // 
+            // pictureBoxPCCOM
+            // 
+            this.pictureBoxPCCOM.Image = global::Proyecto_final.Properties.Resources.PcCom_Custom_Ryzen_9;
+            this.pictureBoxPCCOM.Location = new System.Drawing.Point(181, 57);
+            this.pictureBoxPCCOM.Name = "pictureBoxPCCOM";
+            this.pictureBoxPCCOM.Size = new System.Drawing.Size(211, 217);
+            this.pictureBoxPCCOM.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxPCCOM.TabIndex = 93;
+            this.pictureBoxPCCOM.TabStop = false;
+            this.pictureBoxPCCOM.Visible = false;
             // 
             // Cesta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(958, 450);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtBox_Total_Moviles);
-            this.Controls.Add(this.txtBox_Total_Ordenadores);
+            this.Controls.Add(this.pictureBoxPCCOM);
+            this.Controls.Add(this.pictureBoxVoltier);
+            this.Controls.Add(this.pictureBoxDELL7010);
+            this.Controls.Add(this.pictureBoxRealmeC67);
+            this.Controls.Add(this.pictureBoxPocoX6);
+            this.Controls.Add(this.pictureBoxPocox6pro);
             this.Controls.Add(this.btn_Siguiente_Moviles);
             this.Controls.Add(this.btn_Anterior_Moviles);
             this.Controls.Add(this.btn_Anterior_Ordenadores);
@@ -422,7 +471,7 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBoxHPDESKTOP);
             this.Controls.Add(this.txtBoxPrecioMovil);
             this.Controls.Add(this.txtBoxProcesadorMovil);
             this.Controls.Add(this.txtBoxCamaraMovil);
@@ -431,7 +480,7 @@
             this.Controls.Add(this.txtBoxMarcaMovil);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.txtBoxCodigoMovil);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxRealme6i);
             this.Controls.Add(this.Precio);
             this.Controls.Add(this.txtBoxPrecioOrdenador);
             this.Controls.Add(this.label7);
@@ -450,8 +499,14 @@
             this.Name = "Cesta";
             this.Text = "Cesta";
             this.Load += new System.EventHandler(this.Cesta_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPDESKTOP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRealme6i)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPocox6pro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPocoX6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRealmeC67)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDELL7010)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVoltier)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPCCOM)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -466,7 +521,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBoxHPDESKTOP;
         private System.Windows.Forms.TextBox txtBoxPrecioMovil;
         private System.Windows.Forms.TextBox txtBoxProcesadorMovil;
         private System.Windows.Forms.TextBox txtBoxCamaraMovil;
@@ -475,7 +530,7 @@
         private System.Windows.Forms.TextBox txtBoxMarcaMovil;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox txtBoxCodigoMovil;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxRealme6i;
         private System.Windows.Forms.Label Precio;
         private System.Windows.Forms.TextBox txtBoxPrecioOrdenador;
         private System.Windows.Forms.Label label7;
@@ -495,9 +550,11 @@
         private System.Windows.Forms.Button btn_Anterior_Ordenadores;
         private System.Windows.Forms.Button btn_Anterior_Moviles;
         private System.Windows.Forms.Button btn_Siguiente_Moviles;
-        private System.Windows.Forms.TextBox txtBox_Total_Ordenadores;
-        private System.Windows.Forms.TextBox txtBox_Total_Moviles;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.PictureBox pictureBoxPocox6pro;
+        private System.Windows.Forms.PictureBox pictureBoxPocoX6;
+        private System.Windows.Forms.PictureBox pictureBoxRealmeC67;
+        private System.Windows.Forms.PictureBox pictureBoxDELL7010;
+        private System.Windows.Forms.PictureBox pictureBoxVoltier;
+        private System.Windows.Forms.PictureBox pictureBoxPCCOM;
     }
 }
