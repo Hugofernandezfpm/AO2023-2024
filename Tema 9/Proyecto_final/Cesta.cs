@@ -134,8 +134,8 @@ namespace Proyecto_final
                 pictureBoxPocoX6.Visible = false;
                 pictureBoxRealme6i.Visible = false;
             }
-
-           
+          
+            
 
         }
 

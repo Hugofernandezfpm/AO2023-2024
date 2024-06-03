@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1080, 563);
+            this.ClientSize = new System.Drawing.Size(1370, 563);
             this.Controls.Add(this.btnEleminar_Todos_Los_Productos);
             this.Controls.Add(this.btnCesta);
             this.Controls.Add(this.btnMoviles);
