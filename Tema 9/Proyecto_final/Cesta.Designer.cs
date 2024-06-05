@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -76,6 +74,10 @@
             this.Codigo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Marca = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Modelo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.RAM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.SDDoHDD = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Procesador = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Valor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btn_Añadir_Nuevo_Ordenador = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.txtBox_Precio_Ordenador_Nuevo = new System.Windows.Forms.TextBox();
@@ -90,12 +92,8 @@
             this.label21 = new System.Windows.Forms.Label();
             this.txtBox_Marca_Ordenador_Nuevo = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.txtBox_Codigo_Ordenador_Añadir = new System.Windows.Forms.TextBox();
-            this.RAM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.SDDoHDD = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Procesador = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Valor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.txtBox_Codigo_Ordenador_Nuevo = new System.Windows.Forms.TextBox();
+            this.listViewProducto_Movil_Nuevo = new System.Windows.Forms.ListView();
             this.Codigo_Moviles = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Marca_Moviles = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Modelo_Moviles = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -110,14 +108,16 @@
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtBox_Precio_Movil_Nuevo = new System.Windows.Forms.TextBox();
+            this.txtBox_Procesador_Movil_Nuevo = new System.Windows.Forms.TextBox();
+            this.txtBox_Camara_Movil_Nuevo = new System.Windows.Forms.TextBox();
+            this.txtBox_Ram_Movil_Nuevo = new System.Windows.Forms.TextBox();
+            this.txtBox_Modelo_Movil_Nuevo = new System.Windows.Forms.TextBox();
+            this.txtBox_Marca_Movil_Nuevo = new System.Windows.Forms.TextBox();
+            this.txtBox_Codigo_Movil_Nuevo = new System.Windows.Forms.TextBox();
             this.btn_Añadir_Nuevo_Movil = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPDESKTOP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRealme6i)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPocox6pro)).BeginInit();
@@ -508,14 +508,13 @@
             this.Procesador,
             this.Valor});
             this.listViewProducto_Ordenador_Nuevo.HideSelection = false;
-            this.listViewProducto_Ordenador_Nuevo.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
             this.listViewProducto_Ordenador_Nuevo.Location = new System.Drawing.Point(205, 356);
             this.listViewProducto_Ordenador_Nuevo.Name = "listViewProducto_Ordenador_Nuevo";
             this.listViewProducto_Ordenador_Nuevo.Size = new System.Drawing.Size(227, 217);
             this.listViewProducto_Ordenador_Nuevo.TabIndex = 94;
             this.listViewProducto_Ordenador_Nuevo.UseCompatibleStateImageBehavior = false;
             this.listViewProducto_Ordenador_Nuevo.View = System.Windows.Forms.View.Details;
+            this.listViewProducto_Ordenador_Nuevo.SelectedIndexChanged += new System.EventHandler(this.listViewProducto_Ordenador_Nuevo_SelectedIndexChanged);
             // 
             // Codigo
             // 
@@ -532,14 +531,34 @@
             this.Modelo.Text = "Modelo";
             this.Modelo.Width = 77;
             // 
+            // RAM
+            // 
+            this.RAM.Text = "RAM";
+            this.RAM.Width = 70;
+            // 
+            // SDDoHDD
+            // 
+            this.SDDoHDD.Text = "SDDoHDD";
+            this.SDDoHDD.Width = 88;
+            // 
+            // Procesador
+            // 
+            this.Procesador.Text = "Procesador";
+            this.Procesador.Width = 90;
+            // 
+            // Valor
+            // 
+            this.Valor.Text = "Valor";
+            // 
             // btn_Añadir_Nuevo_Ordenador
             // 
-            this.btn_Añadir_Nuevo_Ordenador.Location = new System.Drawing.Point(75, 584);
+            this.btn_Añadir_Nuevo_Ordenador.Location = new System.Drawing.Point(15, 584);
             this.btn_Añadir_Nuevo_Ordenador.Name = "btn_Añadir_Nuevo_Ordenador";
             this.btn_Añadir_Nuevo_Ordenador.Size = new System.Drawing.Size(100, 40);
             this.btn_Añadir_Nuevo_Ordenador.TabIndex = 110;
             this.btn_Añadir_Nuevo_Ordenador.Text = "Añadir nuevo ordenador";
             this.btn_Añadir_Nuevo_Ordenador.UseVisualStyleBackColor = true;
+            this.btn_Añadir_Nuevo_Ordenador.Click += new System.EventHandler(this.btn_Añadir_Nuevo_Ordenador_Click);
             // 
             // label8
             // 
@@ -646,35 +665,16 @@
             this.label22.TabIndex = 96;
             this.label22.Text = "Código";
             // 
-            // txtBox_Codigo_Ordenador_Añadir
+            // txtBox_Codigo_Ordenador_Nuevo
             // 
-            this.txtBox_Codigo_Ordenador_Añadir.Location = new System.Drawing.Point(77, 367);
-            this.txtBox_Codigo_Ordenador_Añadir.Name = "txtBox_Codigo_Ordenador_Añadir";
-            this.txtBox_Codigo_Ordenador_Añadir.Size = new System.Drawing.Size(100, 20);
-            this.txtBox_Codigo_Ordenador_Añadir.TabIndex = 95;
+            this.txtBox_Codigo_Ordenador_Nuevo.Location = new System.Drawing.Point(77, 367);
+            this.txtBox_Codigo_Ordenador_Nuevo.Name = "txtBox_Codigo_Ordenador_Nuevo";
+            this.txtBox_Codigo_Ordenador_Nuevo.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Codigo_Ordenador_Nuevo.TabIndex = 95;
             // 
-            // RAM
+            // listViewProducto_Movil_Nuevo
             // 
-            this.RAM.Text = "RAM";
-            this.RAM.Width = 70;
-            // 
-            // SDDoHDD
-            // 
-            this.SDDoHDD.Text = "SDDoHDD";
-            this.SDDoHDD.Width = 88;
-            // 
-            // Procesador
-            // 
-            this.Procesador.Text = "Procesador";
-            this.Procesador.Width = 90;
-            // 
-            // Valor
-            // 
-            this.Valor.Text = "Valor";
-            // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listViewProducto_Movil_Nuevo.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Codigo_Moviles,
             this.Marca_Moviles,
             this.Modelo_Moviles,
@@ -682,15 +682,13 @@
             this.Camara_Moviles,
             this.Procesador_Moviles,
             this.Valor_Moviles});
-            this.listView1.HideSelection = false;
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
-            this.listView1.Location = new System.Drawing.Point(705, 356);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(227, 217);
-            this.listView1.TabIndex = 111;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listViewProducto_Movil_Nuevo.HideSelection = false;
+            this.listViewProducto_Movil_Nuevo.Location = new System.Drawing.Point(705, 356);
+            this.listViewProducto_Movil_Nuevo.Name = "listViewProducto_Movil_Nuevo";
+            this.listViewProducto_Movil_Nuevo.Size = new System.Drawing.Size(227, 217);
+            this.listViewProducto_Movil_Nuevo.TabIndex = 111;
+            this.listViewProducto_Movil_Nuevo.UseCompatibleStateImageBehavior = false;
+            this.listViewProducto_Movil_Nuevo.View = System.Windows.Forms.View.Details;
             // 
             // Codigo_Moviles
             // 
@@ -789,69 +787,91 @@
             this.label29.TabIndex = 119;
             this.label29.Text = "Código";
             // 
-            // textBox1
+            // txtBox_Precio_Movil_Nuevo
             // 
-            this.textBox1.Location = new System.Drawing.Point(539, 541);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 118;
+            this.txtBox_Precio_Movil_Nuevo.Location = new System.Drawing.Point(539, 541);
+            this.txtBox_Precio_Movil_Nuevo.Name = "txtBox_Precio_Movil_Nuevo";
+            this.txtBox_Precio_Movil_Nuevo.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Precio_Movil_Nuevo.TabIndex = 118;
             // 
-            // textBox2
+            // txtBox_Procesador_Movil_Nuevo
             // 
-            this.textBox2.Location = new System.Drawing.Point(539, 510);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 117;
+            this.txtBox_Procesador_Movil_Nuevo.Location = new System.Drawing.Point(539, 510);
+            this.txtBox_Procesador_Movil_Nuevo.Name = "txtBox_Procesador_Movil_Nuevo";
+            this.txtBox_Procesador_Movil_Nuevo.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Procesador_Movil_Nuevo.TabIndex = 117;
             // 
-            // textBox3
+            // txtBox_Camara_Movil_Nuevo
             // 
-            this.textBox3.Location = new System.Drawing.Point(539, 484);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 116;
+            this.txtBox_Camara_Movil_Nuevo.Location = new System.Drawing.Point(539, 484);
+            this.txtBox_Camara_Movil_Nuevo.Name = "txtBox_Camara_Movil_Nuevo";
+            this.txtBox_Camara_Movil_Nuevo.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Camara_Movil_Nuevo.TabIndex = 116;
             // 
-            // textBox4
+            // txtBox_Ram_Movil_Nuevo
             // 
-            this.textBox4.Location = new System.Drawing.Point(539, 458);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 115;
+            this.txtBox_Ram_Movil_Nuevo.Location = new System.Drawing.Point(539, 458);
+            this.txtBox_Ram_Movil_Nuevo.Name = "txtBox_Ram_Movil_Nuevo";
+            this.txtBox_Ram_Movil_Nuevo.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Ram_Movil_Nuevo.TabIndex = 115;
             // 
-            // textBox5
+            // txtBox_Modelo_Movil_Nuevo
             // 
-            this.textBox5.Location = new System.Drawing.Point(539, 427);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 114;
+            this.txtBox_Modelo_Movil_Nuevo.Location = new System.Drawing.Point(539, 427);
+            this.txtBox_Modelo_Movil_Nuevo.Name = "txtBox_Modelo_Movil_Nuevo";
+            this.txtBox_Modelo_Movil_Nuevo.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Modelo_Movil_Nuevo.TabIndex = 114;
             // 
-            // textBox6
+            // txtBox_Marca_Movil_Nuevo
             // 
-            this.textBox6.Location = new System.Drawing.Point(539, 401);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 113;
+            this.txtBox_Marca_Movil_Nuevo.Location = new System.Drawing.Point(539, 401);
+            this.txtBox_Marca_Movil_Nuevo.Name = "txtBox_Marca_Movil_Nuevo";
+            this.txtBox_Marca_Movil_Nuevo.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Marca_Movil_Nuevo.TabIndex = 113;
             // 
-            // textBox7
+            // txtBox_Codigo_Movil_Nuevo
             // 
-            this.textBox7.Location = new System.Drawing.Point(539, 370);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 112;
+            this.txtBox_Codigo_Movil_Nuevo.Location = new System.Drawing.Point(539, 370);
+            this.txtBox_Codigo_Movil_Nuevo.Name = "txtBox_Codigo_Movil_Nuevo";
+            this.txtBox_Codigo_Movil_Nuevo.Size = new System.Drawing.Size(100, 20);
+            this.txtBox_Codigo_Movil_Nuevo.TabIndex = 112;
             // 
             // btn_Añadir_Nuevo_Movil
             // 
-            this.btn_Añadir_Nuevo_Movil.Location = new System.Drawing.Point(539, 584);
+            this.btn_Añadir_Nuevo_Movil.Location = new System.Drawing.Point(471, 584);
             this.btn_Añadir_Nuevo_Movil.Name = "btn_Añadir_Nuevo_Movil";
             this.btn_Añadir_Nuevo_Movil.Size = new System.Drawing.Size(100, 40);
             this.btn_Añadir_Nuevo_Movil.TabIndex = 126;
             this.btn_Añadir_Nuevo_Movil.Text = "Añadir nuevo movil";
             this.btn_Añadir_Nuevo_Movil.UseVisualStyleBackColor = true;
+            this.btn_Añadir_Nuevo_Movil.Click += new System.EventHandler(this.btn_Añadir_Nuevo_Movil_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(121, 584);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 40);
+            this.button1.TabIndex = 127;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(577, 584);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 40);
+            this.button2.TabIndex = 128;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Cesta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1218, 729);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Añadir_Nuevo_Movil);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
@@ -860,14 +880,14 @@
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.label29);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.txtBox_Precio_Movil_Nuevo);
+            this.Controls.Add(this.txtBox_Procesador_Movil_Nuevo);
+            this.Controls.Add(this.txtBox_Camara_Movil_Nuevo);
+            this.Controls.Add(this.txtBox_Ram_Movil_Nuevo);
+            this.Controls.Add(this.txtBox_Modelo_Movil_Nuevo);
+            this.Controls.Add(this.txtBox_Marca_Movil_Nuevo);
+            this.Controls.Add(this.txtBox_Codigo_Movil_Nuevo);
+            this.Controls.Add(this.listViewProducto_Movil_Nuevo);
             this.Controls.Add(this.btn_Añadir_Nuevo_Ordenador);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtBox_Precio_Ordenador_Nuevo);
@@ -882,7 +902,7 @@
             this.Controls.Add(this.label21);
             this.Controls.Add(this.txtBox_Marca_Ordenador_Nuevo);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.txtBox_Codigo_Ordenador_Añadir);
+            this.Controls.Add(this.txtBox_Codigo_Ordenador_Nuevo);
             this.Controls.Add(this.listViewProducto_Ordenador_Nuevo);
             this.Controls.Add(this.pictureBoxPCCOM);
             this.Controls.Add(this.pictureBoxVoltier);
@@ -1004,12 +1024,12 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox txtBox_Marca_Ordenador_Nuevo;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox txtBox_Codigo_Ordenador_Añadir;
+        private System.Windows.Forms.TextBox txtBox_Codigo_Ordenador_Nuevo;
         private System.Windows.Forms.ColumnHeader RAM;
         private System.Windows.Forms.ColumnHeader SDDoHDD;
         private System.Windows.Forms.ColumnHeader Procesador;
         private System.Windows.Forms.ColumnHeader Valor;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView listViewProducto_Movil_Nuevo;
         private System.Windows.Forms.ColumnHeader Codigo_Moviles;
         private System.Windows.Forms.ColumnHeader Marca_Moviles;
         private System.Windows.Forms.ColumnHeader Modelo_Moviles;
@@ -1024,13 +1044,15 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtBox_Precio_Movil_Nuevo;
+        private System.Windows.Forms.TextBox txtBox_Procesador_Movil_Nuevo;
+        private System.Windows.Forms.TextBox txtBox_Camara_Movil_Nuevo;
+        private System.Windows.Forms.TextBox txtBox_Ram_Movil_Nuevo;
+        private System.Windows.Forms.TextBox txtBox_Modelo_Movil_Nuevo;
+        private System.Windows.Forms.TextBox txtBox_Marca_Movil_Nuevo;
+        private System.Windows.Forms.TextBox txtBox_Codigo_Movil_Nuevo;
         private System.Windows.Forms.Button btn_Añadir_Nuevo_Movil;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

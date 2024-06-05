@@ -14,6 +14,7 @@ namespace Proyecto_final
 {
     public partial class Cesta : Form
     {
+        int i = 0;
         public Cesta()
         {
             InitializeComponent();
@@ -548,6 +549,84 @@ namespace Proyecto_final
                 }
                
             }
+        }
+
+        private void btn_Añadir_Nuevo_Ordenador_Click(object sender, EventArgs e)
+        {
+            if (txtBox_Codigo_Ordenador_Nuevo.Text != "" && txtBox_Marca_Ordenador_Nuevo.Text != "" && txtBox_Modelo_Ordenador_Nuevo.Text != "" && txtBox_Ram_Ordenador_Nuevo.Text != "" && txtBox_SDDoHDD_Ordenador_Nuevo.Text != "" && txtBox_Procesador_Ordenador_Nuevo.Text != "" && txtBox_Precio_Ordenador_Nuevo.Text != "" ) 
+            {
+                listViewProducto_Ordenador_Nuevo.Items.Add(txtBox_Codigo_Ordenador_Nuevo.Text);
+                listViewProducto_Ordenador_Nuevo.Items[i].SubItems.Add(txtBox_Marca_Ordenador_Nuevo.Text);
+                listViewProducto_Ordenador_Nuevo.Items[i].SubItems.Add(txtBox_Modelo_Ordenador_Nuevo.Text);
+                listViewProducto_Ordenador_Nuevo.Items[i].SubItems.Add(txtBox_Ram_Ordenador_Nuevo.Text);
+                listViewProducto_Ordenador_Nuevo.Items[i].SubItems.Add(txtBox_SDDoHDD_Ordenador_Nuevo.Text);
+                listViewProducto_Ordenador_Nuevo.Items[i].SubItems.Add(txtBox_Procesador_Ordenador_Nuevo.Text);
+                listViewProducto_Ordenador_Nuevo.Items[i].SubItems.Add(txtBox_Precio_Ordenador_Nuevo.Text);
+
+                txtBox_Codigo_Ordenador_Nuevo.Clear();
+                txtBox_Marca_Ordenador_Nuevo.Clear();
+                txtBox_Modelo_Ordenador_Nuevo.Clear();
+                txtBox_Ram_Ordenador_Nuevo.Clear();
+                txtBox_SDDoHDD_Ordenador_Nuevo.Clear();
+                txtBox_Procesador_Ordenador_Nuevo.Clear();
+                txtBox_Precio_Ordenador_Nuevo.Clear();
+
+            }
+
+            else
+            {
+                MessageBox.Show("Debes rellenar todos los campos");
+            }
+        }
+
+        private void btn_Añadir_Nuevo_Movil_Click(object sender, EventArgs e)
+        {
+            if (txtBox_Codigo_Movil_Nuevo.Text != "" && txtBox_Marca_Movil_Nuevo.Text != "" && txtBox_Modelo_Movil_Nuevo.Text != "" && txtBox_Ram_Movil_Nuevo.Text != "" && txtBox_Camara_Movil_Nuevo.Text != "" && txtBox_Procesador_Movil_Nuevo.Text != "" && txtBox_Precio_Movil_Nuevo.Text != "")
+            {
+
+                listViewProducto_Movil_Nuevo.Items.Add(txtBox_Codigo_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Marca_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Modelo_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Ram_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Camara_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Procesador_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Precio_Movil_Nuevo.Text);
+
+                txtBox_Codigo_Movil_Nuevo.Clear();
+                txtBox_Marca_Movil_Nuevo.Clear();
+                txtBox_Modelo_Movil_Nuevo.Clear();
+                txtBox_Ram_Movil_Nuevo.Clear();
+                txtBox_Camara_Movil_Nuevo.Clear();
+                txtBox_Procesador_Movil_Nuevo.Clear();
+                txtBox_Precio_Movil_Nuevo.Clear();
+
+                i += +1;
+
+            }
+            else
+            {
+                MessageBox.Show("Debes rellenar todos los campos");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //listViewProducto_Ordenador_Nuevo.SelectedItems.Clear();
+        }
+        //String codigoEliminar;
+        private void listViewProducto_Ordenador_Nuevo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        //    if (listViewProducto_Ordenador_Nuevo.SelectedItems.Count != 0)
+        //    {
+        //        codigoEliminar = listViewProducto_Ordenador_Nuevo.SelectedItems[0].SubItems[0].Text;
+        //        //int indice = listViewProducto_Ordenador_Nuevo.CheckedItems[0].Index;
+        //        DialogResult respuesta = MessageBox.Show("Desea eliminar","Cuidado",MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+        //        if(respuesta == DialogResult.OK)
+        //        {
+                    
+
+        //        }
+        //    }
         }
     }
 }
