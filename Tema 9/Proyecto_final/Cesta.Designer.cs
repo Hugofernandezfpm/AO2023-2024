@@ -116,8 +116,6 @@
             this.txtBox_Marca_Movil_Nuevo = new System.Windows.Forms.TextBox();
             this.txtBox_Codigo_Movil_Nuevo = new System.Windows.Forms.TextBox();
             this.btn_Añadir_Nuevo_Movil = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPDESKTOP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRealme6i)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPocox6pro)).BeginInit();
@@ -554,7 +552,7 @@
             // 
             this.btn_Añadir_Nuevo_Ordenador.Location = new System.Drawing.Point(15, 584);
             this.btn_Añadir_Nuevo_Ordenador.Name = "btn_Añadir_Nuevo_Ordenador";
-            this.btn_Añadir_Nuevo_Ordenador.Size = new System.Drawing.Size(100, 40);
+            this.btn_Añadir_Nuevo_Ordenador.Size = new System.Drawing.Size(162, 40);
             this.btn_Añadir_Nuevo_Ordenador.TabIndex = 110;
             this.btn_Añadir_Nuevo_Ordenador.Text = "Añadir nuevo ordenador";
             this.btn_Añadir_Nuevo_Ordenador.UseVisualStyleBackColor = true;
@@ -689,6 +687,7 @@
             this.listViewProducto_Movil_Nuevo.TabIndex = 111;
             this.listViewProducto_Movil_Nuevo.UseCompatibleStateImageBehavior = false;
             this.listViewProducto_Movil_Nuevo.View = System.Windows.Forms.View.Details;
+            this.listViewProducto_Movil_Nuevo.SelectedIndexChanged += new System.EventHandler(this.listViewProducto_Movil_Nuevo_SelectedIndexChanged);
             // 
             // Codigo_Moviles
             // 
@@ -840,38 +839,17 @@
             // 
             this.btn_Añadir_Nuevo_Movil.Location = new System.Drawing.Point(471, 584);
             this.btn_Añadir_Nuevo_Movil.Name = "btn_Añadir_Nuevo_Movil";
-            this.btn_Añadir_Nuevo_Movil.Size = new System.Drawing.Size(100, 40);
+            this.btn_Añadir_Nuevo_Movil.Size = new System.Drawing.Size(179, 40);
             this.btn_Añadir_Nuevo_Movil.TabIndex = 126;
             this.btn_Añadir_Nuevo_Movil.Text = "Añadir nuevo movil";
             this.btn_Añadir_Nuevo_Movil.UseVisualStyleBackColor = true;
             this.btn_Añadir_Nuevo_Movil.Click += new System.EventHandler(this.btn_Añadir_Nuevo_Movil_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(121, 584);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 40);
-            this.button1.TabIndex = 127;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(577, 584);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 40);
-            this.button2.TabIndex = 128;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // Cesta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1218, 729);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Añadir_Nuevo_Movil);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
@@ -1052,7 +1030,5 @@
         private System.Windows.Forms.TextBox txtBox_Marca_Movil_Nuevo;
         private System.Windows.Forms.TextBox txtBox_Codigo_Movil_Nuevo;
         private System.Windows.Forms.Button btn_Añadir_Nuevo_Movil;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
     }
 }

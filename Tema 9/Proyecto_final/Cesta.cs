@@ -15,6 +15,7 @@ namespace Proyecto_final
     public partial class Cesta : Form
     {
         int i = 0;
+        int r = 0;
         public Cesta()
         {
             InitializeComponent();
@@ -553,6 +554,7 @@ namespace Proyecto_final
 
         private void btn_Añadir_Nuevo_Ordenador_Click(object sender, EventArgs e)
         {
+            
             if (txtBox_Codigo_Ordenador_Nuevo.Text != "" && txtBox_Marca_Ordenador_Nuevo.Text != "" && txtBox_Modelo_Ordenador_Nuevo.Text != "" && txtBox_Ram_Ordenador_Nuevo.Text != "" && txtBox_SDDoHDD_Ordenador_Nuevo.Text != "" && txtBox_Procesador_Ordenador_Nuevo.Text != "" && txtBox_Precio_Ordenador_Nuevo.Text != "" ) 
             {
                 listViewProducto_Ordenador_Nuevo.Items.Add(txtBox_Codigo_Ordenador_Nuevo.Text);
@@ -571,6 +573,8 @@ namespace Proyecto_final
                 txtBox_Procesador_Ordenador_Nuevo.Clear();
                 txtBox_Precio_Ordenador_Nuevo.Clear();
 
+                i += 1;
+
             }
 
             else
@@ -585,12 +589,12 @@ namespace Proyecto_final
             {
 
                 listViewProducto_Movil_Nuevo.Items.Add(txtBox_Codigo_Movil_Nuevo.Text);
-                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Marca_Movil_Nuevo.Text);
-                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Modelo_Movil_Nuevo.Text);
-                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Ram_Movil_Nuevo.Text);
-                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Camara_Movil_Nuevo.Text);
-                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Procesador_Movil_Nuevo.Text);
-                listViewProducto_Movil_Nuevo.Items[i].SubItems.Add(txtBox_Precio_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[r].SubItems.Add(txtBox_Marca_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[r].SubItems.Add(txtBox_Modelo_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[r].SubItems.Add(txtBox_Ram_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[r].SubItems.Add(txtBox_Camara_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[r].SubItems.Add(txtBox_Procesador_Movil_Nuevo.Text);
+                listViewProducto_Movil_Nuevo.Items[r].SubItems.Add(txtBox_Precio_Movil_Nuevo.Text);
 
                 txtBox_Codigo_Movil_Nuevo.Clear();
                 txtBox_Marca_Movil_Nuevo.Clear();
@@ -600,7 +604,7 @@ namespace Proyecto_final
                 txtBox_Procesador_Movil_Nuevo.Clear();
                 txtBox_Precio_Movil_Nuevo.Clear();
 
-                i += +1;
+                r += 1;
 
             }
             else
@@ -609,24 +613,31 @@ namespace Proyecto_final
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //listViewProducto_Ordenador_Nuevo.SelectedItems.Clear();
-        }
-        //String codigoEliminar;
+        String codigoEliminar;
         private void listViewProducto_Ordenador_Nuevo_SelectedIndexChanged(object sender, EventArgs e)
         {
-        //    if (listViewProducto_Ordenador_Nuevo.SelectedItems.Count != 0)
-        //    {
-        //        codigoEliminar = listViewProducto_Ordenador_Nuevo.SelectedItems[0].SubItems[0].Text;
-        //        //int indice = listViewProducto_Ordenador_Nuevo.CheckedItems[0].Index;
-        //        DialogResult respuesta = MessageBox.Show("Desea eliminar","Cuidado",MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-        //        if(respuesta == DialogResult.OK)
-        //        {
-                    
+            if (listViewProducto_Ordenador_Nuevo.SelectedItems.Count != 0)
+            {
+                codigoEliminar = listViewProducto_Ordenador_Nuevo.SelectedItems[0].SubItems[0].Text;
+                DialogResult respuesta = MessageBox.Show("Desea eliminar", "Cuidado", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (respuesta == DialogResult.OK)
+                {
+                    listViewProducto_Ordenador_Nuevo.Items.Remove(listViewProducto_Ordenador_Nuevo.SelectedItems[0]);
+                }
+            }
+        }
 
-        //        }
-        //    }
+        private void listViewProducto_Movil_Nuevo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listViewProducto_Movil_Nuevo.SelectedItems.Count != 0)
+            {
+                codigoEliminar = listViewProducto_Movil_Nuevo.SelectedItems[0].SubItems[0].Text;
+                DialogResult respuesta = MessageBox.Show("Desea eliminar", "Cuidado", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (respuesta == DialogResult.OK)
+                {
+                    listViewProducto_Movil_Nuevo.Items.Remove(listViewProducto_Movil_Nuevo.SelectedItems[0]);
+                }
+            }
         }
     }
 }

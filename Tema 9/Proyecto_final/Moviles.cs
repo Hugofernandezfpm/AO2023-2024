@@ -1296,7 +1296,8 @@ namespace Proyecto_final
             }
 
             txtBox_Buscar_Por_Codigo_Movil.Clear();
-        
+
+        }    
     }
-        }
+        
 }
